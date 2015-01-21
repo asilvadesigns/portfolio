@@ -1,0 +1,155 @@
+body {
+    color: black;
+    font-size: $base-font-size;
+    line-height: $base-line-unit;    
+    font-family: 'MarkWeb', sans-serif;
+
+    /* setup OpenType features */
+    font-feature-settings: "kern" 1, "ss01" 1, "pnum" 1, "onum" 1;
+    text-transform: none;
+
+    /* vendor prefixes */
+    -webkit-font-feature-settings: "kern" 1, "ss01" 1, "pnum" 1, "onum" 1;
+    -moz-font-feature-settings: "kern" 1, "ss01" 1, "pnum" 1, "onum" 1;
+    -moz-font-feature-settings: "kern=1, ss01=1, pnum=1, onum=1";
+    -ms-font-feature-settings: "kern" 1, "ss01" 1, "pnum" 1, "onum" 1;
+    -o-font-feature-settings: "kern" 1, "ss01" 1, "pnum" 1, "onum" 1;     
+}
+
+h1, .alpha { 
+    @include adjust-font-size-to($h1 * $base-font-size);
+}
+h2, .beta { 
+    @include adjust-font-size-to($h2 * $base-font-size);
+}
+h3, .gamma, .versal { 
+    @include adjust-font-size-to($h3 * $base-font-size);
+}
+h4, .delta { 
+    @include adjust-font-size-to($h4 * $base-font-size);
+}
+h5, .epsilon { 
+    @include adjust-font-size-to($h5 * $base-font-size);
+}
+h6, small, .zeta { 
+    @include adjust-font-size-to($h6 * $base-font-size);
+}
+
+p, .headline, .post { 
+    @include margin-leader(1);
+}
+
+strong, em, b, .versal {
+    font-family: 'MarkWeb-Bold', sans-serif;
+}
+
+// http://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/
+// blockquote {    
+//     quotes: "\201C""\201D""\2018""\2019";
+//     &:before {
+//         content: open-quote;
+//     }
+//     p {
+//         display: inline;
+//     }
+// }
+
+.nav--primary {
+    @include rhythm-margins(2,.8);
+    display: none;
+}
+
+.nav__link {    
+    color: $nav__link--color;
+    &:hover, &:active, &:focus {
+        color: $nav__link--color--hover;
+    }
+    &:not(:last-child) {
+        margin: 0 rhythm(.5) 0 0;
+    }
+}
+
+.title, .versal {
+    line-height: 1;
+}
+
+.title--primary {
+    font-family: 'MarkWeb-Bold', sans-serif;
+    color: $title--primary--color;
+}
+
+.title--secondary {
+    /* setup OpenType features */
+    font-feature-settings: "smcp" 1;
+    text-transform: lowercase;
+
+    /* vendor prefixes */
+    -webkit-font-feature-settings: "smcp" 1;
+    -moz-font-feature-settings: "smcp" 1;
+    -moz-font-feature-settings: "smcp=1";
+    -ms-font-feature-settings: "smcp" 1;
+    -o-font-feature-settings: "smcp" 1;
+
+    letter-spacing: .12em;
+    color: $title--secondary--color;
+}
+
+img, .image {
+    max-width: 100%;
+}
+
+.image--feature {
+
+}
+
+.logo {
+    @include rhythm-margins(2,2);
+}
+
+.logo__icon {
+    display: inline-block;
+    @include margin-trailer(1);
+    svg {
+        height: 2.25em;
+    }
+    svg path {
+        fill: $title--primary--color;
+    }
+}
+
+.list--posts {
+    list-style-type: none;
+}
+
+.post {
+
+}
+
+.post--portfolio {
+
+}
+
+.colophon {
+    @include padding-trailer(4);
+}
+
+.btn {
+
+}
+
+.btn--cta {
+    border: 0.15em solid;
+    display: block;
+    margin: 1em auto;
+    padding: 1em;
+    text-align: center;
+}
+
+.btn--disabled {
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.25);
+    margin: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}

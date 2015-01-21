@@ -1,0 +1,38 @@
+@mixin media($type) {
+    @if $type == large {
+        @media screen and (max-width: 60em) {
+            @content;
+        }
+    }
+    @else if $type == medium {
+        @media screen and (max-width: 50em) {
+            @content;
+        }
+    }
+    @else if $type == small {
+        @media screen and (max-width: 40em) {
+            @content;
+            // 61.8%
+        }
+    }    
+}
+
+// 
+// @include divider(2, $body__font--color);
+// 
+@mixin divider($top, $bottom, $color) {
+    content: "";
+    display: block;
+    margin: rhythm($top, $base-font-size) auto rhythm($bottom, $base-font-size);
+    height: 1px;
+    width: 4em;
+    background-color: $color;
+}
+
+
+// 
+// https://github.com/sass/sass/issues/533
+// 
+@function strip-units($number) {
+    @return $number / ($number * 0 + 1);
+}

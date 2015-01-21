@@ -1,0 +1,79 @@
+////////////////////////////////////////////
+//
+// Typography
+//
+$base-font-size: 24px;
+$base-line-unit: 1.250;
+$base-line-height: $base-font-size * $base-line-unit;
+
+$rhythm-unit: "em";
+$round-to-nearest-half-line: true;
+
+$grid__gutter: 1em;
+
+// Major Third 1.250
+$h1: 2.441;
+$h2: 1.953;
+$h3: 1.563;
+$h4: 1.25;
+$h5: 1;
+$h6: .8;
+
+// Perfect Forth 1.333
+// $h1: 3.157;
+// $h2: 2.369;
+// $h3: 1.777;
+// $h4: 1.333;
+// $h5: 1;
+// $h6: .707;
+
+// Augmented Forth 1.414
+// $h1: 3.998;
+// $h2: 2.827;
+// $h3: 1.999;
+// $h4: 1.414;
+// $h5: 1;
+// $h6: .707;
+
+// Perfect Fifth 1.5
+// $h1: 5.063;
+// $h2: 3.375;
+// $h3: 2.25;
+// $h4: 1.5;
+// $h5: 1;
+// $h6: .667;
+
+// Golden Section 1.618
+// $h1: 6.854;
+// $h2: 4.236;
+// $h3: 2.618;
+// $h4: 1.618;
+// $h5: 1;
+// $h6: .618;
+
+////////////////////////////////////////////
+//
+// Color Palette
+// http://www.colourlovers.com/palette/177020/Amsterdam_Acid
+//
+$blue: #0069FF;
+$blue--actual: #406ab3;
+
+
+$red: #dc4129;
+$grey: #3a4344;
+$grey--light: #89a0a4;
+
+
+$primary__color: $blue--actual;
+$neutral__color: $grey;
+$neutral__color--light: $grey--light;
+
+
+$body--border--color: $primary__color;
+
+$title--primary--color: $primary__color;
+$title--secondary--color: $neutral__color--light;
+
+$nav__link--color: $neutral__color;
+$nav__link--color--hover: $neutral__color--light;

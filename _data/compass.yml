@@ -1,7 +1,7 @@
 ---
 require:
 - jekyll-compass
-project_path: C:/Users/ASilva/Documents/GitHub/blog
+project_path: C:/Users/Alberto/Documents/GitHub/blog
 http_path: /
 css_dir: ../css
 sass_dir: _compass

@@ -6,3 +6,12 @@
     font-family: 'MarkWeb';
     src: url('MarkWeb.woff') format('woff');
 }
+
+@font-face {
+    font-family: 'MarkScWeb-Bold';
+    src: url('MarkScWeb-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'MarkScWeb';
+    src: url('MarkScWeb.woff') format('woff');
+}

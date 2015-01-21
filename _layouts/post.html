@@ -22,14 +22,14 @@ layout: default
             {% if post.title == page.title %}
                 {% unless forloop.last %}
                     {% assign next = catg_posts[forloop.index] %}
-                    <a href="{{ site.baseurl }}{{ next.url }}">
-                        <small>Prev</small>
+                    <a class="[ nav__link nav__link--prev ] [ btn btn--secondary ]" href="{{ site.baseurl }}{{ next.url }}">
+                        <strong>Prev</strong>
                         <!-- <small>{{ next.title }}</small> -->
                     </a>
                 {% endunless %}
                 {% unless forloop.first %}
-                    <a href="{{ site.baseurl }}{{ prev.url }}">
-                        <small>Next</small>
+                    <a class="[ nav__link nav__link--next ] [ btn btn--secondary ]" href="{{ site.baseurl }}{{ prev.url }}">
+                        <strong>Next</strong>
                         <!-- <small>{{ prev.title }}</small> -->
                     </a>
                 {% endunless %}

@@ -66,6 +66,7 @@ $grey--light: #89a0a4;
 
 
 $primary__color: $blue--actual;
+$secondary__color: $red;
 $neutral__color: $grey;
 $neutral__color--light: $grey--light;
 
@@ -77,3 +78,6 @@ $title--secondary--color: $neutral__color--light;
 
 $nav__link--color: $neutral__color;
 $nav__link--color--hover: $neutral__color--light;
+
+$btn--secondary--color: $secondary__color;
+$btn--secondary--border--color: $secondary__color;

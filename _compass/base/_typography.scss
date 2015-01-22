@@ -1,10 +1,7 @@
 body {
-    @include media(small) {
-        font-size: $base-font-size;
-        line-height: $base-line-unit;
-    }
     color: black;  
     font-size: $small-font-size;
+    line-height: $base-line-unit;
     font-family: "MarkWeb", sans-serif;
 
     /* setup OpenType features */
@@ -16,8 +13,10 @@ body {
     -moz-font-feature-settings: "kern" 1, "ss01" 1, "pnum" 1, "onum" 1;
     -moz-font-feature-settings: "kern=1, ss01=1, pnum=1, onum=1";
     -ms-font-feature-settings: "kern" 1, "ss01" 1, "pnum" 1, "onum" 1;
-    -o-font-feature-settings: "kern" 1, "ss01" 1, "pnum" 1, "onum" 1;   
-    
+    -o-font-feature-settings: "kern" 1, "ss01" 1, "pnum" 1, "onum" 1;    
+    @include media(small) {
+        font-size: $base-font-size;
+    }    
 }
 h1, .alpha { 
     @include adjust-font-size-to($h1 * $base-font-size);
@@ -39,6 +38,9 @@ h6, small, .zeta {
 }
 p, .headline, .post { 
     @include margin-leader(1);
+}
+p {
+    @include hyphens;
 }
 strong, em, b, .versal {
     font-family: "MarkWeb-Bold", sans-serif;

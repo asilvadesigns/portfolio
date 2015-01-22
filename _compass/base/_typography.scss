@@ -1,7 +1,10 @@
 body {
-    color: black;
-    font-size: $base-font-size;
-    line-height: $base-line-unit;    
+    @include media(small) {
+        font-size: $base-font-size;
+        line-height: $base-line-unit;
+    }
+    color: black;  
+    font-size: $small-font-size;
     font-family: "MarkWeb", sans-serif;
 
     /* setup OpenType features */
@@ -13,7 +16,8 @@ body {
     -moz-font-feature-settings: "kern" 1, "ss01" 1, "pnum" 1, "onum" 1;
     -moz-font-feature-settings: "kern=1, ss01=1, pnum=1, onum=1";
     -ms-font-feature-settings: "kern" 1, "ss01" 1, "pnum" 1, "onum" 1;
-    -o-font-feature-settings: "kern" 1, "ss01" 1, "pnum" 1, "onum" 1;     
+    -o-font-feature-settings: "kern" 1, "ss01" 1, "pnum" 1, "onum" 1;   
+    
 }
 h1, .alpha { 
     @include adjust-font-size-to($h1 * $base-font-size);
@@ -53,6 +57,17 @@ strong, em, b, .versal {
 
 ////////////////////////////////////////////
 //
+// Links
+//
+.link {
+
+}
+.link--image {
+    display: block;
+}
+
+////////////////////////////////////////////
+//
 // Nav
 //
 
@@ -63,11 +78,9 @@ strong, em, b, .versal {
     @include rhythm-margins(2,.8);
     display: none;
 }
-
 .nav--secondary {
     @include margin-leader(2);
 }
-
 .nav__link--prev {
     float: left;
 }
@@ -90,17 +103,7 @@ strong, em, b, .versal {
 }
 .title--secondary {
     font-family: "MarkScWeb", sans-serif;
-    // /* setup OpenType features */
-    // font-feature-settings: "smcp" 1;
     text-transform: lowercase;
-
-    // /* vendor prefixes */
-    // -webkit-font-feature-settings: "smcp" 1;
-    // -moz-font-feature-settings: "smcp" 1;
-    // -moz-font-feature-settings: "smcp=1";
-    // -ms-font-feature-settings: "smcp" 1;
-    // -o-font-feature-settings: "smcp" 1;
-
     letter-spacing: .12em;
     color: $title--secondary--color;
 }
@@ -149,6 +152,12 @@ img, .image {
 
 }
 .post--portfolio {
+
+}
+.post__link {
+
+}
+.post__image {
 
 }
 

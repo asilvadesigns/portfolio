@@ -13,13 +13,13 @@ class: home
         <h5 class="headline">
             <strong>Recent Works</strong>
         </h5>
-        <ul class="list list--posts">
+        <ul class="grid [ list list--posts ]">
             {% for post in site.posts %}
             {% if post.categories contains 'portfolio' %}
-            <li class="list__item [ post post--portfolio ]">
-                <a href="{{ post.url | prepend: site.baseurl }}">
+            <li class="col--2 list__item [ post post--portfolio ]">
+                <a class="post__link [ link link--image ]" href="{{ post.url | prepend: site.baseurl }}">
                     <!-- <h4>{{ post.title }}</h4> -->
-                    <img class="image image--feature" src="{{ post.feature | prepend: site.baseurl }}" alt="{{ post.title }}">
+                    <img class="post__image [ image image--feature ]" src="{{ post.feature | prepend: site.baseurl }}" alt="{{ post.title }}">
                 </a>
             </li>
             <!-- 

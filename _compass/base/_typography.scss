@@ -2,7 +2,9 @@ body {
     color: black;  
     font-size: $small-font-size;
     line-height: $base-line-unit;
-    font-family: "MarkWeb", sans-serif;
+
+    font-family: "callunaregular", serif;
+    // font-family: "MarkWeb", sans-serif;
 
     /* setup OpenType features */
     font-feature-settings: "kern" 1, "ss01" 1, "pnum" 1, "onum" 1;
@@ -36,13 +38,10 @@ h5, .epsilon {
 h6, small, .zeta { 
     @include adjust-font-size-to($h6 * $base-font-size);
 }
-p, .headline, .post { 
+p, ul, .headline, .post { 
     @include margin-leader(1);
 }
-p {
-    @include hyphens;
-}
-strong, em, b, .versal {
+strong, em, .versal {
     font-family: "MarkWeb-Bold", sans-serif;
 }
 
@@ -66,6 +65,17 @@ strong, em, b, .versal {
 }
 .link--image {
     display: block;
+}
+
+////////////////////////////////////////////
+//
+// List
+//
+.list {
+
+}
+.list--nostyle {
+    list-style: none;
 }
 
 ////////////////////////////////////////////
@@ -109,6 +119,9 @@ strong, em, b, .versal {
     letter-spacing: .12em;
     color: $title--secondary--color;
 }
+.ff {
+    font-family: "MarkScWeb", sans-serif;
+}
 
 ////////////////////////////////////////////
 //
@@ -129,13 +142,13 @@ img, .image {
 //
 
 .logo {
-    @include rhythm-margins(2,2);
+    @include rhythm-margins(2,1);
 }
 .logo__icon {
     display: inline-block;
-    @include margin-trailer(1);
     svg {
-        height: 2.25em;
+        // height: 2.25em;
+        height: 2.953em;
     }
     svg path {
         fill: $title--primary--color;
@@ -165,11 +178,11 @@ img, .image {
 
 ////////////////////////////////////////////
 //
-// Colophon
+// Intro
 //
 
-.colophon {
-    @include padding-trailer(4);
+.intro {
+    
 }
 
 ////////////////////////////////////////////
@@ -180,22 +193,35 @@ img, .image {
 .btn {
     display: block;
     text-align: center;
-}
-.btn--primary {
-    border: 0.15em solid;
-    margin: rhythm(1) auto;
-    padding: rhythm(1);
+    border: 0.2em solid;
 }
 .btn--secondary {
     color: $btn--secondary--color;
-    border: 0.208em solid $btn--secondary--border--color;
+    border-color: $btn--secondary--border--color;
     padding: rhythm(.5) rhythm(1);
 }
 .btn--disabled {
     box-sizing: border-box;
-    color: rgba(0, 0, 0, 0.25);
-    margin: 0;
-    position: absolute;
-    top: 0;
+    // color: rgba(0, 0, 0, 0.25);
+    color: rgba(190, 192, 53, 0.5);
+    // color: rgba(220, 65, 41, 0.5);    
     width: 100%;
+}
+.btn--large {
+    padding: rhythm(1);
+}
+
+////////////////////////////////////////////
+//
+// Footer
+//
+.site__footer {
+    @include margin-leader(1);
+    @include padding-trailer(4);
+    color: $site__footer--color;
+    background-color: $site__footer--bg--color;
+    .btn {
+        color: $site__footer--color;
+        border-color: $site__footer--color;
+    }
 }

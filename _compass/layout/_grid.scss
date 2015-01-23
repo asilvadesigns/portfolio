@@ -7,7 +7,7 @@
 
 .grid {
 	margin: 0 $grid__gutter *-1;
-	& + & {
+	& + & > [class*="col--"] {
 		margin-top: $grid__gutter *2
 	}
 }

@@ -7,9 +7,6 @@
 
 .grid {
 	margin: 0 $grid__gutter *-1;
-	& + & > [class*="col--"] {
-		margin-top: $grid__gutter *2
-	}
 }
 
 .container, .grid {
@@ -19,6 +16,7 @@
 [class*="col--"] {
 	box-sizing: border-box;
 	padding: 0 $grid__gutter;
+	margin-top: $grid__gutter *2;
 }
 
 .col--2 {

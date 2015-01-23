@@ -76,8 +76,12 @@ $neutral__color--light: $grey--light;
 
 $body--border--color: $primary__color;
 
-$title--primary--color: $primary__color;
-$title--secondary--color: $neutral__color--light;
+// $title--primary--color: $primary__color;
+// $title--secondary--color: $neutral__color--light;
+$title--primary--color: white;
+$title--secondary--color: white;
+
+$headline--primary--color: $primary__color;
 
 $nav__link--color: $neutral__color;
 $nav__link--color--hover: $neutral__color--light;

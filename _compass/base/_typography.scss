@@ -3,10 +3,11 @@ body {
     font-size: $small-font-size;
     line-height: $base-line-unit;
 
-    font-family: "callunaregular", serif;
+    // font-family: "callunaregular", serif;
+    // font-family: "merriweatherregular", serif;    
     // font-family: "charterregular", serif;
     // font-family: "MarkWeb", sans-serif, serif;
-    // font-family: "AlegreyaRegular", serif;    
+    font-family: "AlegreyaRegular", serif;    
 
     /* setup OpenType features */
     font-feature-settings: "kern" 1, "ss01" 1, "pnum" 1, "onum" 1;
@@ -125,6 +126,10 @@ strong, em, .versal {
     font-family: "MarkScWeb", sans-serif;
 }
 
+.headline--primary {
+    color: $headline--primary--color;
+}
+
 ////////////////////////////////////////////
 //
 // Image
@@ -186,6 +191,9 @@ img, .image {
 .intro {
     
 }
+.sub .intro__hello {
+    display: none;   
+}
 
 ////////////////////////////////////////////
 //
@@ -211,6 +219,12 @@ img, .image {
 }
 .btn--large {
     padding: rhythm(1);
+}
+
+.site__header {
+    color: $site__footer--color;
+    background-color: $site__footer--bg--color;
+    @include padding-trailer(1);
 }
 
 ////////////////////////////////////////////

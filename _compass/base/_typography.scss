@@ -1,5 +1,4 @@
 body {
-    color: black;  
     font-size: $small-font-size;
     line-height: $base-line-unit;
 
@@ -29,7 +28,7 @@ h1, .alpha {
 h2, .beta { 
     @include adjust-font-size-to($h2 * $base-font-size);
 }
-h3, .gamma, .versal { 
+h3, .gamma { 
     @include adjust-font-size-to($h3 * $base-font-size);
 }
 h4, .delta { 
@@ -41,11 +40,14 @@ h5, .epsilon {
 h6, small, .zeta { 
     @include adjust-font-size-to($h6 * $base-font-size);
 }
-p, ul, .headline, .post { 
+ul, p, p + .grid, .headline + .grid, .post { 
     @include margin-leader(1);
 }
-strong, em, .versal {
-    font-family: "MarkWeb-Bold", sans-serif;
+strong {
+    font-family: "AlegreyaBold", serif;
+}
+em {
+    font-family: "AlegreyaItalic";
 }
 
 // http://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/
@@ -106,28 +108,28 @@ strong, em, .versal {
 
 ////////////////////////////////////////////
 //
-// Title
+// Headings
 //
 
-.title, .versal {
-    line-height: 1;
+.title {
+
 }
-.title--primary {
+.title--primary, .headline--primary {
     font-family: "MarkWeb-Bold", sans-serif;
-    color: $title--primary--color;
 }
 .title--secondary {
     font-family: "MarkScWeb", sans-serif;
     text-transform: lowercase;
     letter-spacing: .12em;
-    color: $title--secondary--color;
 }
-.ff {
-    font-family: "MarkScWeb", sans-serif;
-}
+.headline {
 
+}
 .headline--primary {
-    color: $headline--primary--color;
+
+}
+.headline--secondary {
+    // font-family: "AlegreyaBold", serif;
 }
 
 ////////////////////////////////////////////
@@ -149,16 +151,12 @@ img, .image {
 //
 
 .logo {
-    @include rhythm-margins(2,1);
+    @include margin-trailer(1);
 }
 .logo__icon {
     display: inline-block;
     svg {
-        height: 2.25em;
-        // height: 2.953em;
-    }
-    svg path {
-        fill: $title--primary--color;
+        height: rhythm(2);
     }
 }
 
@@ -210,30 +208,27 @@ img, .image {
     border-color: $btn--secondary--border--color;
     padding: rhythm(.5) rhythm(1);
 }
-.btn--disabled {
-    box-sizing: border-box;
-    // color: rgba(0, 0, 0, 0.25);
-    color: rgba(190, 192, 53, 0.5);
-    // color: rgba(220, 65, 41, 0.5);    
-    width: 100%;
-}
 .btn--large {
     padding: rhythm(1);
 }
 
-.site__header {
-    color: $site__footer--color;
-    background-color: $site__footer--bg--color;
-    @include padding-trailer(1);
-}
+
 
 ////////////////////////////////////////////
 //
-// Footer
+// Site
 //
+[class*="site__"] {
+    @include rhythm-padding(2,2);
+}
+.site__header {
+    color: $site__header--color;
+    background-color: $site__header--bg--color;
+}
+.site__main {
+    color: $site__main--color;
+}
 .site__footer {
-    @include margin-leader(1);
-    @include padding-trailer(4);
     color: $site__footer--color;
     background-color: $site__footer--bg--color;
     .btn {

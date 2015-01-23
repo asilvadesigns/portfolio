@@ -61,33 +61,27 @@ $h6: .8;
 //
 $blue: #0069FF;
 $blue--actual: #406ab3;
-
-
 $red: #dc4129;
 $grey: #3a4344;
 $grey--light: #89a0a4;
-
 
 $primary__color: $blue--actual;
 $secondary__color: $red;
 $neutral__color: $grey;
 $neutral__color--light: $grey--light;
 
+// $body--border--color: $primary__color;
 
-$body--border--color: $primary__color;
-
-// $title--primary--color: $primary__color;
-// $title--secondary--color: $neutral__color--light;
-$title--primary--color: white;
-$title--secondary--color: white;
-
-$headline--primary--color: $primary__color;
-
-$nav__link--color: $neutral__color;
-$nav__link--color--hover: $neutral__color--light;
+// $nav__link--color: $neutral__color;
+// $nav__link--color--hover: $neutral__color--light;
 
 $btn--secondary--color: $neutral__color--light;
 $btn--secondary--border--color: $neutral__color--light;
+
+$site__header--color: white;
+$site__header--bg--color: $primary__color;
+
+$site__main--color: $primary__color;
 
 $site__footer--color: white;
 $site__footer--bg--color: $primary__color;

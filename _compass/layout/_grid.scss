@@ -7,6 +7,9 @@
 
 .grid {
 	margin: 0 $grid__gutter *-1;
+	& + & {
+		margin-top: $grid__gutter *2
+	}
 }
 
 .container, .grid {

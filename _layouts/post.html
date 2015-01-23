@@ -3,17 +3,16 @@ layout: default
 class: sub
 ---
 
-<main>
+<main class="site__main">
     <article class="container">
-        <h5 class="headline">
-            <strong>{{ post.title }}</strong>
-        </h5>
-        <p>{{ post.custom_title }}</p>
+        <h3 class="gamma [ headline headline--primary ]">{{ page.title }}</h3>
+        <h4 class="epsilon [ headline headline--secondary ]">
+            {{ page.summary }}&nbsp;<em>for</em>&nbsp;{{ page.client }}
+        </h4>
 
         {{ content }}
 
         <nav class="nav nav--secondary">
-
         <!-- COMPLEX -->
         {% for category in site.categories %}
         {% assign catg_name = category.first %}
@@ -39,7 +38,6 @@ class: sub
             {% endif %}
             {% assign prev = post %}
         {% endfor %}
-
         <!-- SIMPLE -->
         <!-- {% if page.previous.url %} 
         <a class="[ nav__link nav__link--prev ] [ btn btn--secondary ]" href="{{ page.previous.url | prepend: site.baseurl }}">{{page.previous.title}}</a> 
@@ -47,8 +45,6 @@ class: sub
         {% if page.next.url %} 
         <a class="[ nav__link nav__link--next ] [ btn btn--secondary ]" href="{{ page.next.url | prepend: site.baseurl }}">{{page.next.title}}</a> 
         {% endif %} -->
-
-
         </nav>
     </article>
 </main>

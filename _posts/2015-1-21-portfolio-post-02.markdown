@@ -11,11 +11,8 @@ tags:
   - logo
 ---
 
-<div class="grid">
-    <div class="col--2"><img src="{{ "/img/Cupcakes-02.jpg" | prepend: site.baseurl }}"></div>
-    <div class="col--2"><img src="{{ "/img/Cupcakes-01.jpg" | prepend: site.baseurl }}"></div>
-</div>
+<img src="{{ "/img/Cupcakes-02.jpg" | prepend: site.baseurl }}">
 
-<div class="grid">
-    <div class="col--2"><img src="{{ "/img/Cupcakes-03.jpg" | prepend: site.baseurl }}"></div>
-</div>
+<img src="{{ "/img/Cupcakes-01.jpg" | prepend: site.baseurl }}">
+
+<img src="{{ "/img/Cupcakes-03.jpg" | prepend: site.baseurl }}">

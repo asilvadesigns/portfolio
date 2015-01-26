@@ -10,28 +10,8 @@
         }
     }
     @else if $type == small {
-        @media screen and (min-width: 32em) {
+        @media screen and (min-width: 38em) {
             @content;
         }
     }    
-}
-
-// 
-// @include divider(2, $body__font--color);
-// 
-@mixin divider($top, $bottom, $color) {
-    content: "";
-    display: block;
-    margin: rhythm($top, $base-font-size) auto rhythm($bottom, $base-font-size);
-    height: 1px;
-    width: 4em;
-    background-color: $color;
-}
-
-
-// 
-// https://github.com/sass/sass/issues/533
-// 
-@function strip-units($number) {
-    @return $number / ($number * 0 + 1);
 }

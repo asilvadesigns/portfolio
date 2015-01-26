@@ -20,14 +20,6 @@ body {
     -o-font-feature-settings: "kern" 1, "ss01" 1, "pnum" 1, "onum" 1;    
     @include media(small) {
         font-size: $base-font-size;
-    }    
-    &:before {
-       content: "";
-       display: block;
-       height: 100%;
-       width: 100%;
-       position: absolute;
-       background: url("../img/bg-repeat-01.png") repeat scroll 0% 0% transparent;
     }
 }
 h1, .alpha { 
@@ -48,7 +40,7 @@ h5, .epsilon {
 h6, small, .zeta { 
     @include adjust-font-size-to($h6 * $base-font-size);
 }
-ul, p, p + .grid, .headline + .grid, .post { 
+ul, p, li + li { 
     @include margin-leader(1);
 }
 strong {
@@ -79,8 +71,14 @@ a {
 .list {
 
 }
-.list--nostyle {
-    list-style: none;
+.list--posts {
+    list-style-type: none;
+}
+.list__item {
+    
+}
+.list__item--post {
+
 }
 
 ////////////////////////////////////////////
@@ -171,27 +169,6 @@ img, .image {
 
 ////////////////////////////////////////////
 //
-// Post
-//
-
-.list--posts {
-    list-style-type: none;
-}
-.post {
-
-}
-.post--portfolio {
-
-}
-.post__link {
-
-}
-.post__image {
-
-}
-
-////////////////////////////////////////////
-//
 // Intro
 //
 
@@ -227,17 +204,27 @@ img, .image {
 //
 // Site
 //
-[class^="site__"]:not(.site__nav) {
-    @include rhythm-padding(2,2);
+[class^="site__"] {
+    background-image: url("../img/bg-repeat-01.png");
+    background-repeat: repeat;
+    background-attachment: scroll;
+    &:not(.site__nav) {
+        @include rhythm-padding(2,2);
+    }
 }
 .site__header {
     color: $site__header--color;
-    background-color: $site__header--bg--color;
+    background-color: $site__header--bg--color;    
+
 }
 .site__main {
     color: $site__main--color;
+    background-position: 200px 150px;
+    background-size: 600px;
 }
 .site__footer {
     color: $site__footer--color;
     background-color: $site__footer--bg--color;
+    background-position:400px 25px;
+    background-size: 600px;
 }

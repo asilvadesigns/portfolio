@@ -1,6 +1,10 @@
+.container, .grid {
+	overflow: hidden;
+}
+
 .container {
     margin: 0 auto;
-    max-width: 28em;
+    max-width: 38em;
 	padding: 0 $grid__gutter;
 	position: relative;
 }
@@ -9,19 +13,22 @@
 	margin: 0 $grid__gutter *-1;
 }
 
-.container, .grid {
-	overflow: hidden;
-}
-
 [class*="col--"] {
 	box-sizing: border-box;
 	padding: 0 $grid__gutter;
-	margin-top: $grid__gutter *2;
+	@include media(small) {
+		float: left;
+	}
+}
+
+.col--1 {
+	@include media(small) {
+		width: 40%;
+	}
 }
 
 .col--2 {
 	@include media(small) {
-		float: left;
-		width: 50%;
+		width: 60%;
 	}
 }

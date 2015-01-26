@@ -1,6 +1,15 @@
-<header class="site__header">
-    <div class="container">
-        <div class="intro">
+<header>
+    <nav class="site__nav [ nav nav--primary ]">
+        <div class="container">
+            {% for page in site.pages %}
+            {% if page.title %}
+            <a class="[ nav__link nav__link--small ] [ title title--secondary ] {{ page.status }}" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </nav>
+    <div class="site__header">
+        <div class="container container--intro">
             <div class="logo">
                 <a class="logo__icon" href="{{ site.baseurl }}/">
                     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -18,14 +27,5 @@
             <h2 class="epsilon [ title title--secondary ]">{{ site.my_skill }}</h2>            
             <p class="intro__hello">Hello, I'm a web designer based out of Germantown, Maryland. I love Jesus, my wife, our newborn son, and ff Mark. When I'm away from my computer I can be found preaching, hiking, or trying to dunk a basketball.</p>
         </div>
-    </div>
-    <div class="container">
-        <nav class="nav nav--primary">
-            {% for page in site.pages %}
-            {% if page.title %}
-            <a class="nav__link {{ page.status }}" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-            {% endif %}
-            {% endfor %}
-        </nav>
     </div>
 </header>

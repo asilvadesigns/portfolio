@@ -21,6 +21,14 @@ body {
     @include media(small) {
         font-size: $base-font-size;
     }    
+    &:before {
+       content: "";
+       display: block;
+       height: 100%;
+       width: 100%;
+       position: absolute;
+       background: url("../img/bg-repeat-01.png") repeat scroll 0% 0% transparent;
+    }
 }
 h1, .alpha { 
     @include adjust-font-size-to($h1 * $base-font-size);
@@ -49,17 +57,9 @@ strong {
 em {
     font-family: "AlegreyaItalic";
 }
-
-// http://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/
-// blockquote {    
-//     quotes: "\201C""\201D""\2018""\2019";
-//     &:before {
-//         content: open-quote;
-//     }
-//     p {
-//         display: inline;
-//     }
-// }
+a {
+    color: inherit;
+}
 
 ////////////////////////////////////////////
 //
@@ -92,11 +92,20 @@ em {
     overflow: hidden;
 }
 .nav--primary {
-    @include rhythm-margins(2,.8);
-    display: none;
+    color: $nav--primary--color;
+    background-color: $nav--primary--bg--color;
 }
 .nav--secondary {
-    @include margin-leader(2);
+    color: $nav--secondary--color;
+    background-color: $nav--secondary--bg--color;
+}
+.nav__link {
+    display: inline-block;
+}
+.nav__link--small {
+    font-size: .8em;
+    line-height: 1;
+    padding: rhythm(.5) rhythm(.5) rhythm(.5) 0;
 }
 .nav__link--prev {
     float: left;
@@ -186,7 +195,7 @@ img, .image {
 // Intro
 //
 
-.intro {
+.container--intro {
     
 }
 .sub .intro__hello {
@@ -218,7 +227,7 @@ img, .image {
 //
 // Site
 //
-[class*="site__"] {
+[class^="site__"]:not(.site__nav) {
     @include rhythm-padding(2,2);
 }
 .site__header {
@@ -231,8 +240,4 @@ img, .image {
 .site__footer {
     color: $site__footer--color;
     background-color: $site__footer--bg--color;
-    .btn {
-        color: $site__footer--color;
-        border-color: $site__footer--color;
-    }
 }

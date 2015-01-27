@@ -39,7 +39,7 @@
 	@include media(small) {
 		width: percentage(3/6);
 		&:nth-child(n+2) {
-			@include margin-leader(0);
+			margin-top: 0;
 		}
 		&:nth-child(n+3) {
 			@include margin-leader(1);
@@ -48,7 +48,7 @@
 	@include media(medium) {
 		width: percentage(2/6);
 		&:nth-child(n+3) {
-			@include margin-leader(0);
+			margin-top: 0;
 		}
 	}
 }
@@ -60,7 +60,7 @@
 	@include media(medium) {
 		width: percentage(3/6);
 		& + & {
-			@include margin-leader(0);
+			margin-top: 0;
 		}
 	}
 }

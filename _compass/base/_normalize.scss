@@ -95,7 +95,8 @@ a {
  */
 
 a:active,
-a:hover {
+a:hover,
+a:focus {
   outline: 0;
 }
 
@@ -114,10 +115,10 @@ a:hover {
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
 
-b,
-strong {
-  font-weight: bold;
-}
+// b,
+// strong {
+//   font-weight: bold;
+// }
 
 /**
  * Address styling not present in Safari and Chrome.
@@ -150,9 +151,9 @@ strong {
  * Address inconsistent and variable font size in all browsers.
  */
 
-small {
-  font-size: 80%;
-}
+// small {
+//   font-size: 80%;
+// }
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.

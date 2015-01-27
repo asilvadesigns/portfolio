@@ -4,9 +4,7 @@ email: asilvadesigns@gmail.com
 my_name: Alberto Silva
 my_skill: Web Designer
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I'm a web designer based out of Germantown, Maryland. I love Jesus, my wife, our newborn son, and ff Mark. When I'm away from my computer I can be found preaching, hiking, or trying to dunk a basketball.
 baseurl: "/portfolio/" # the subpath of your site, e.g. /blog/
 url: "http://asilvadesigns.com"
 # twitter_username: jekyllrb

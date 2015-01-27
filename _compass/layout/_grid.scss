@@ -4,7 +4,7 @@
 
 .container {
     margin: 0 auto;
-    max-width: 38em;
+    max-width: 48em;
 	padding: 0 $grid__gutter;
 	position: relative;
 }
@@ -22,19 +22,44 @@
 }
 
 .col--1 {
-	@include media(small) {
-		width: 40%;
+	@include media(medium) {
+		width: percentage(1/6);
 	}
 }
 
 .col--2 {
+	&:nth-child(n+3) {
+		@include margin-leader(1);
+	}
 	@include media(small) {
-		width: 50%;
+		width: percentage(3/6);
+	}
+	@include media(medium) {
+		width: percentage(2/6);
+		@include margin-leader(0);
 	}
 }
 
 .col--3 {
-	@include media(small) {
-		width: 50%;
+	& + & {
+		@include margin-leader(1);
+	}
+	@include media(medium) {
+		width: percentage(3/6);
+		& + & {
+			@include margin-leader(0);
+		}
+	}
+}
+
+.col--4 {
+	@include media(medium) {
+		width: percentage(4/6);
+	}
+}
+
+.col--5 {
+	@include media(medium) {
+		width: percentage(5/6);
 	}
 }

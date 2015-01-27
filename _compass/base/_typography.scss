@@ -19,6 +19,9 @@ body {
     -ms-font-feature-settings: "kern" 1, "ss01" 1, "pnum" 1, "onum" 1;
     -o-font-feature-settings: "kern" 1, "ss01" 1, "pnum" 1, "onum" 1;    
     @include media(small) {
+        font-size: $medium-font-size;
+    }
+    @include media(medium) {
         font-size: $base-font-size;
     }
 }
@@ -40,7 +43,7 @@ h5, .epsilon {
 h6, small, .zeta { 
     @include adjust-font-size-to($h6 * $base-font-size);
 }
-p + p{ 
+p + p, section + nav { 
     @include margin-leader(1);
 }
 strong {
@@ -62,6 +65,10 @@ a {
 }
 .link--image {
     display: block;
+    &:hover img {
+        opacity: 0.7;
+
+    }
 }
 
 ////////////////////////////////////////////
@@ -102,10 +109,16 @@ a {
 }
 .nav__link--small {
     font-size: .8em;
-    padding: rhythm(1) rhythm(.5);
+    padding: rhythm(.5) rhythm(.5) rhythm(.5) 0;
+    @include media(small) {
+        padding: rhythm(1) rhythm(.5) rhythm(1) 0;
+    }
 }
 .nav__link--logo {
-    padding: rhythm(.5) 0;
+    padding: rhythm(.5) 0 0;
+    @include media(medium) {
+        padding: rhythm(.5) 0;
+    }
 }
 .nav__link--prev {
     float: left;
@@ -139,6 +152,9 @@ a {
 .headline--secondary {
     // font-family: "AlegreyaBold", serif;
 }
+.headline--group {
+    @include margin-trailer(1);
+}
 
 ////////////////////////////////////////////
 //
@@ -150,6 +166,9 @@ img, .image {
 }
 .image--feature {
 
+}
+.image--rollover {
+    @include single-transition( opacity, .25s, ease-in-out );
 }
 
 

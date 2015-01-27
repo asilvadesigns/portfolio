@@ -109,16 +109,10 @@ a {
 }
 .nav__link--small {
     font-size: .8em;
-    padding: rhythm(.5) rhythm(.5) rhythm(.5) 0;
-    @include media(small) {
-        padding: rhythm(1) rhythm(.5) rhythm(1) 0;
-    }
+    padding: rhythm(1) rhythm(.5) rhythm(1) 0;
 }
 .nav__link--logo {
-    padding: rhythm(.5) 0 0;
-    @include media(medium) {
-        padding: rhythm(.5) 0;
-    }
+    padding: rhythm(.5) 0;
 }
 .nav__link--prev {
     float: left;

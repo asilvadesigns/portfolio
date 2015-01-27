@@ -2,13 +2,13 @@
     <nav class="site__nav [ nav nav--primary ]">
         <div class="container">
             <div class="grid">
-                <aside class="col--2">
+                <aside class="col--nav">
                     <a class="nav__link nav__link--logo" href="{{ site.baseurl }}">
                         <h1 class="delta [ title title--primary ]">{{ site.my_name }}</h1>
                         <!-- <h2 class="zeta [ title title--secondary ]">{{ site.my_skill }}</h2> -->
                     </a>
                 </aside>
-                <section class="col--4">
+                <section class="col--nav">
                     <a class="[ nav__link nav__link--small ] [ title title--secondary ]x" href="{{ site.baseurl }}">Portfolio</a>
                     {% for page in site.pages %}
                     {% if page.title %}

@@ -21,22 +21,35 @@
 	}
 }
 
+.col--nav {
+	float:left;
+	width: auto;	
+}
+
 .col--1 {
 	@include media(medium) {
-		width: percentage(1/6);
+		width: percentage(2/6);
 	}
 }
 
 .col--2 {
-	&:nth-child(n+3) {
+	&:nth-child(n+2) {
 		@include margin-leader(1);
 	}
 	@include media(small) {
 		width: percentage(3/6);
+		&:nth-child(n+2) {
+			@include margin-leader(0);
+		}
+		&:nth-child(n+3) {
+			@include margin-leader(1);
+		}
 	}
 	@include media(medium) {
 		width: percentage(2/6);
-		@include margin-leader(0);
+		&:nth-child(n+3) {
+			@include margin-leader(0);
+		}
 	}
 }
 

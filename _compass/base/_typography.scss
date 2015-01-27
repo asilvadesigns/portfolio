@@ -40,7 +40,7 @@ h5, .epsilon {
 h6, small, .zeta { 
     @include adjust-font-size-to($h6 * $base-font-size);
 }
-ul, p, li + li { 
+p + p{ 
     @include margin-leader(1);
 }
 strong {
@@ -102,8 +102,10 @@ a {
 }
 .nav__link--small {
     font-size: .8em;
-    line-height: 1;
-    padding: rhythm(.5) rhythm(.5) rhythm(.5) 0;
+    padding: rhythm(1) rhythm(.5);
+}
+.nav__link--logo {
+    padding: rhythm(.5) 0;
 }
 .nav__link--prev {
     float: left;
@@ -119,7 +121,6 @@ a {
 //
 
 .title {
-
 }
 .title--primary, .headline--primary {
     font-family: "MarkWeb-Bold", sans-serif;
@@ -165,18 +166,6 @@ img, .image {
     svg {
         height: rhythm(2);
     }
-}
-
-////////////////////////////////////////////
-//
-// Intro
-//
-
-.container--intro {
-    
-}
-.sub .intro__hello {
-    display: none;   
 }
 
 ////////////////////////////////////////////

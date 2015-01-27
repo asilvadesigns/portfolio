@@ -75,7 +75,7 @@ $btn--secondary--color: $neutral__color--light;
 $btn--secondary--border--color: $neutral__color--light;
 
 $nav--primary--color: white;
-$nav--primary--bg--color: darken($primary__color, 15%);
+$nav--primary--bg--color: $primary__color;
 
 $nav--secondary--color: $neutral__color--ultra--light;
 $nav--secondary--bg--color: $neutral__color--light;

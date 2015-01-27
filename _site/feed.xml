@@ -4,23 +4,48 @@
     <title>Alberto Silva Portfolio</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://asilvadesigns.com/portfolio/</link>
-    <atom:link href="http://asilvadesigns.com/portfolio/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Jan 2015 17:45:06 -0500</pubDate>
-    <lastBuildDate>Mon, 26 Jan 2015 17:45:06 -0500</lastBuildDate>
+    <link>http://asilvadesigns.com/portfolio//</link>
+    <atom:link href="http://asilvadesigns.com/portfolio//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 27 Jan 2015 10:27:26 -0500</pubDate>
+    <lastBuildDate>Tue, 27 Jan 2015 10:27:26 -0500</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
+        <title>Rockville Rams</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/portfolio//img/Rockville-01.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/portfolio//img/Rockville-02.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/portfolio//img/Rockville-03.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/portfolio//img/Rockville-04.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/portfolio//img/Rockville-05.jpg&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 27 Jan 2015 05:22:02 -0500</pubDate>
+        <link>http://asilvadesigns.com/portfolio//portfolio/2015/01/27/portfolio-post-03.html</link>
+        <guid isPermaLink="true">http://asilvadesigns.com/portfolio//portfolio/2015/01/27/portfolio-post-03.html</guid>
+        
+        <category>portfolio</category>
+        
+        <category>logo</category>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+      <item>
         <title>Cupcakes</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/portfolio/img/Cupcakes-02.jpg&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/portfolio//img/Cupcakes-02.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/portfolio/img/Cupcakes-01.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/portfolio//img/Cupcakes-01.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/portfolio/img/Cupcakes-03.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/portfolio//img/Cupcakes-03.jpg&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 21 Jan 2015 10:36:02 -0500</pubDate>
-        <link>http://asilvadesigns.com/portfolio/portfolio/2015/01/21/portfolio-post-02.html</link>
-        <guid isPermaLink="true">http://asilvadesigns.com/portfolio/portfolio/2015/01/21/portfolio-post-02.html</guid>
+        <link>http://asilvadesigns.com/portfolio//portfolio/2015/01/21/portfolio-post-02.html</link>
+        <guid isPermaLink="true">http://asilvadesigns.com/portfolio//portfolio/2015/01/21/portfolio-post-02.html</guid>
         
         <category>portfolio</category>
         
@@ -33,23 +58,23 @@
     
       <item>
         <title>Eleven 11</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/portfolio/img/Eleven-Eleven-01.jpg&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/portfolio//img/Eleven-Eleven-01.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/portfolio/img/Eleven-Eleven-02.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/portfolio//img/Eleven-Eleven-02.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/portfolio/img/Eleven-Eleven-03.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/portfolio//img/Eleven-Eleven-03.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/portfolio/img/Eleven-Eleven-04.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/portfolio//img/Eleven-Eleven-04.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/portfolio/img/Eleven-Eleven-05.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/portfolio//img/Eleven-Eleven-05.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/portfolio/img/Eleven-Eleven-06.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/portfolio//img/Eleven-Eleven-06.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/portfolio/img/Eleven-Eleven-07.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/portfolio//img/Eleven-Eleven-07.jpg&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 20 Jan 2015 13:20:27 -0500</pubDate>
-        <link>http://asilvadesigns.com/portfolio/portfolio/2015/01/20/portfolio-post-01.html</link>
-        <guid isPermaLink="true">http://asilvadesigns.com/portfolio/portfolio/2015/01/20/portfolio-post-01.html</guid>
+        <link>http://asilvadesigns.com/portfolio//portfolio/2015/01/20/portfolio-post-01.html</link>
+        <guid isPermaLink="true">http://asilvadesigns.com/portfolio//portfolio/2015/01/20/portfolio-post-01.html</guid>
         
         <category>portfolio</category>
         

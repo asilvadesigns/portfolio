@@ -10,6 +10,13 @@ class: sub
             <h4 class="epsilon [ headline headline--secondary ]">
                 {{ page.summary }}&nbsp;<em>for</em>&nbsp;{{ page.client }}
             </h4>
+            {% if page.link %}
+            <p>
+                <a href="{{ page.link }}" target="blank">
+                    <em>View Site</em>
+                </a>
+            </p>
+            {% endif %}
         </header>            
         <section>
             {{ content }}

@@ -43,7 +43,7 @@ h5, .epsilon {
 h6, small, .zeta { 
     @include adjust-font-size-to($h6 * $base-font-size);
 }
-p + p, section + nav { 
+p + p, .headline + p, section + nav { 
     @include margin-leader(1);
 }
 strong {

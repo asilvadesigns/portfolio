@@ -1,5 +1,9 @@
 .container, .grid {
-	overflow: hidden;
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
 }
 
 .container {
@@ -14,8 +18,8 @@
 }
 
 [class*="col--"] {
-	box-sizing: border-box;
 	padding: 0 $grid__gutter;
+	@include box-sizing(border-box);
 	@include media(small) {
 		float: left;
 	}
@@ -49,6 +53,9 @@
 		width: percentage(2/6);
 		&:nth-child(n+3) {
 			margin-top: 0;
+		}
+		&:nth-child(n+4) {			
+			@include margin-leader(1);
 		}
 	}
 }

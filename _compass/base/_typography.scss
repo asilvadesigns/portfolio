@@ -46,6 +46,9 @@ h6, small, .zeta {
 p + p, .headline + p, section + nav { 
     @include margin-leader(1);
 }
+section + section {
+    @include margin-leader(2);
+}
 strong {
     font-family: "AlegreyaBold", serif;
 }

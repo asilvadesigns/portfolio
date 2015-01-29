@@ -6,10 +6,10 @@ class: sub
 <main class="site__main">
     <article class="container">        
         <header class="headline--group">
-            <h3 class="epsilon [ headline headline--primary ]">{{ page.title }}</h3>
+            <!-- <h3 class="epsilon [ headline headline--primary ]">{{ page.title }}</h3>
             <h4 class="epsilon [ headline headline--secondary ]">
                 {{ page.summary }}&nbsp;for&nbsp;{{ page.client }}
-            </h4>
+            </h4> -->
             {% if page.link %}
             <p>
                 <a href="{{ page.link }}" target="blank">
@@ -21,8 +21,20 @@ class: sub
         <section>
             {{ content }}
         </section>
-
-        <nav class="nav nav--posts">
+        <section>
+            <ul class="grid [ list list--posts ]">
+                {% for post in site.posts %}
+                {% if post.categories contains 'portfolio' %}
+                <li class="col--2 [ list__item list__item--post ]">
+                    <a class="link link--image" href="{{ post.url | prepend: site.baseurl }}">
+                        <img class="image image--feature image--rollover" src="{{ post.feature | prepend: site.baseurl }}" alt="{{ post.title }}">
+                    </a>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </section>
+        <!-- <nav class="nav nav--posts">
         {% for category in site.categories %}
         {% assign catg_name = category.first %}
             {% if catg_name == page.categories.first | downcase %}
@@ -35,18 +47,18 @@ class: sub
                     {% assign next = catg_posts[forloop.index] %}
                     <a class="[ nav__link nav__link--prev ] [ btn btn--secondary ]" href="{{ site.baseurl }}{{ next.url }}">
                         <strong>Prev</strong>
-                        <!-- <small>{{ next.title }}</small> -->
+                        <small>{{ next.title }}</small>
                     </a>
                 {% endunless %}
                 {% unless forloop.first %}
                     <a class="[ nav__link nav__link--next ] [ btn btn--secondary ]" href="{{ site.baseurl }}{{ prev.url }}">
                         <strong>Next</strong>
-                        <!-- <small>{{ prev.title }}</small> -->
+                        <small>{{ prev.title }}</small>
                     </a>
                 {% endunless %}
             {% endif %}
             {% assign prev = post %}
         {% endfor %}
-        </nav>
+        </nav> -->
     </article>
 </main>

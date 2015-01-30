@@ -39,9 +39,13 @@ $neutral__color: $grey;
 $neutral__color--light: $grey--light;
 $neutral__color--ultra--light: $grey--ultra--light;
 
+////////////////////////////////////////////
+//
+// Color Usage
+//
+$site--color: $neutral__color--light;
+
 $btn--secondary--color: $neutral__color--light;
 $btn--secondary--border--color: $neutral__color--light;
 
-$site__header--color: $neutral__color--light;
-
-$site__footer--color: $neutral__color--light;
+$title--primary--color: $secondary__color;

@@ -83,3 +83,22 @@
 		width: percentage(5/6);
 	}
 }
+
+.col--nav {
+	width: percentage(3/6);
+	&:nth-child(n+2) {
+		@include margin-leader(0);
+	}
+	&:nth-child(n+3) {
+		@include margin-leader(1);
+	}
+	@include media(medium) {
+		width: percentage(2/6);
+		&:nth-child(n+3) {
+			margin-top: 0;
+		}
+		&:nth-child(n+4) {			
+			@include margin-leader(1);
+		}
+	}
+}

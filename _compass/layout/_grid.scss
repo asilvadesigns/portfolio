@@ -83,15 +83,3 @@
 		width: percentage(5/6);
 	}
 }
-
-.col--nav--logo {
-	@include media(medium) {
-		width: percentage(2/6);
-	}
-}
-
-.col--nav--menu {
-	@include media(medium) {
-		width: percentage(4/6);
-	}
-}

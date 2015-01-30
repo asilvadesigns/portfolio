@@ -70,28 +70,16 @@ a {
 
 ////////////////////////////////////////////
 //
-// Nav
+// Image
 //
 
-.nav {
-    overflow: hidden;
+img {
+    max-width: 100%;
 }
-.nav--primary {
-
+.image--rollover {
+    // @include transform(scale3d(1.04,1.04,1.04));
+    // @include single-transition( all, 1s, ease-in-out );
 }
-.nav--secondary {
-    @include margin-leader(2);
-}
-.nav__link {
-}
-.nav__link--small { 
-    padding: 0 rhythm(.5) 0 0;
-}
-.nav__link--logo {
-    padding: 0 rhythm(2) 0 0;
-    background-color: white;
-}
-
 
 ////////////////////////////////////////////
 //
@@ -109,61 +97,4 @@ a {
     font-family: "MarkScWeb-Bold", sans-serif;
     text-transform: lowercase;
     letter-spacing: .15em;
-}
-
-////////////////////////////////////////////
-//
-// Image
-//
-
-img {
-    max-width: 100%;
-}
-.image--rollover {
-    // @include transform(scale3d(1.04,1.04,1.04));
-    // @include single-transition( all, 1s, ease-in-out );
-}
-
-
-////////////////////////////////////////////
-//
-// Button
-//
-
-.btn {
-    display: block;
-    text-align: center;
-    border: 0.2em solid;
-}
-.btn--secondary {
-    color: $btn--secondary--color;
-    border-color: $btn--secondary--border--color;
-    padding: rhythm(.5) rhythm(1);
-}
-
-
-////////////////////////////////////////////
-//
-// Site
-//
-.site__header, .site__main, .site__footer {
-    background-image: url("../img/bg-repeat-01.png");
-    background-repeat: repeat;
-    background-attachment: scroll;
-}
-
-.site__header {
-    background-position: 0 150px;
-    background-size: 400px; 
-    @include rhythm-padding(2,1);
-}
-.site__main {
-    background-position: 200px 150px;
-    background-size: 500px;
-    @include rhythm-padding(1,2);
-}
-.site__footer {
-    background-position:400px 25px;
-    background-size: 600px;
-    @include rhythm-padding(2,2);
 }

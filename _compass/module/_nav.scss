@@ -1,0 +1,18 @@
+.nav {
+    overflow: hidden;
+}
+.nav--primary {
+
+}
+.nav--secondary {
+    @include margin-leader(2);
+}
+.nav__link {
+}
+.nav__link--small { 
+    padding: 0 rhythm(.5) 0 0;
+}
+.nav__link--logo {
+    padding: 0 rhythm(2) 0 0;
+    background-color: white;
+}

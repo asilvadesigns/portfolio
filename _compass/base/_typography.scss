@@ -2,10 +2,6 @@ body {
     font-size: $small-font-size;
     line-height: $base-line-unit;
 
-    // font-family: "callunaregular", serif;
-    // font-family: "merriweatherregular", serif;    
-    // font-family: "charterregular", serif;
-    // font-family: "MarkWeb", sans-serif, serif;
     font-family: "AlegreyaRegular", serif;    
 
     /* setup OpenType features */
@@ -43,7 +39,7 @@ h5, .epsilon {
 h6, small, .zeta { 
     @include adjust-font-size-to($h6 * $base-font-size);
 }
-p + p, .headline + p, section + nav { 
+p + p, section + nav, .copyright { 
     @include margin-leader(1);
 }
 section + section {
@@ -101,22 +97,20 @@ a {
     overflow: hidden;
 }
 .nav--primary {
-    color: $nav--primary--color;
-    background-color: $nav--primary--bg--color;
+
 }
 .nav--secondary {
-    color: $nav--secondary--color;
-    background-color: $nav--secondary--bg--color;
+
 }
 .nav__link {
+    font-family: "MarkWeb", sans-serif;  
     display: inline-block;
 }
-.nav__link--small {
-    font-size: .8em;
-    padding: rhythm(1) rhythm(.5) rhythm(1) 0;
+.nav__link--small { 
+    padding: 0 rhythm(.5) 0 0;
 }
 .nav__link--logo {
-    padding: rhythm(.5) 0;
+    padding: 0 rhythm(2) 0 0;
 }
 .nav__link--prev {
     float: left;
@@ -132,6 +126,7 @@ a {
 //
 
 .title {
+
 }
 .title--primary, .headline--primary {
     font-family: "MarkWeb-Bold", sans-serif;
@@ -148,7 +143,7 @@ a {
 
 }
 .headline--secondary {
-    // font-family: "AlegreyaBold", serif;
+
 }
 .headline--group {
     @include margin-trailer(1);
@@ -211,27 +206,25 @@ img, .image {
 //
 // Site
 //
-[class^="site__"] {
+.site__header, .site__main, .site__footer {
     background-image: url("../img/bg-repeat-01.png");
     background-repeat: repeat;
     background-attachment: scroll;
-    &:not(.site__nav) {
-        @include rhythm-padding(2,2);
-    }
 }
-.site__header {
-    color: $site__header--color;
-    background-color: $site__header--bg--color;    
 
+.site__header {
+    color: $site__header--color; 
+    background-size: 400px; 
+    @include rhythm-padding(2,1);
 }
 .site__main {
-    color: $site__main--color;
     background-position: 200px 150px;
     background-size: 500px;
+    @include rhythm-padding(1,2);
 }
 .site__footer {
     color: $site__footer--color;
-    background-color: $site__footer--bg--color;
     background-position:400px 25px;
     background-size: 600px;
+    @include rhythm-padding(2,2);
 }

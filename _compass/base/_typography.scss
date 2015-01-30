@@ -40,11 +40,8 @@ h5, .epsilon {
 h6, small, .zeta { 
     @include adjust-font-size-to($h6 * $base-font-size);
 }
-p + p, section + nav, .copyright { 
+p + p, .grid + p, header + section { 
     @include margin-leader(1);
-}
-section + section {
-    @include margin-leader(2);
 }
 strong {
     font-family: "AlegreyaBold", serif;
@@ -64,29 +61,11 @@ a {
 
 }
 .link--image {
-    display: block;
     overflow: hidden;
     font-size: 0;    
     &:hover .image--rollover {
         // @include transform(scale3d(1,1,1));
     }
-}
-
-////////////////////////////////////////////
-//
-// List
-//
-.list {
-
-}
-.list--posts {
-    list-style-type: none;
-}
-.list__item {
-    
-}
-.list__item--post {
-
 }
 
 ////////////////////////////////////////////
@@ -101,22 +80,16 @@ a {
 
 }
 .nav--secondary {
-
+    @include margin-leader(2);
 }
 .nav__link {
-    display: inline-block;
 }
 .nav__link--small { 
     padding: 0 rhythm(.5) 0 0;
 }
 .nav__link--logo {
     padding: 0 rhythm(2) 0 0;
-}
-.nav__link--prev {
-    float: left;
-}
-.nav__link--next {
-    float: right;
+    background-color: white;
 }
 
 
@@ -128,7 +101,7 @@ a {
 .title {
     line-height: 1;
 }
-.title--primary, .headline--primary {
+.title--primary {
     color: $title--primary--color;
     font-family: "MarkWeb-Bold", sans-serif;
 }
@@ -137,47 +110,20 @@ a {
     text-transform: lowercase;
     letter-spacing: .15em;
 }
-.headline {
-}
-.headline--primary {
-}
-.headline--secondary {
-}
-.headline--group {
-    @include margin-trailer(1);
-}
 
 ////////////////////////////////////////////
 //
 // Image
 //
 
-img, .image {
+img {
     max-width: 100%;
-}
-.image--feature {
-
 }
 .image--rollover {
     // @include transform(scale3d(1.04,1.04,1.04));
     // @include single-transition( all, 1s, ease-in-out );
 }
 
-
-////////////////////////////////////////////
-//
-// Logo
-//
-
-.logo {
-    @include margin-trailer(1);
-}
-.logo__icon {
-    display: inline-block;
-    svg {
-        height: rhythm(2);
-    }
-}
 
 ////////////////////////////////////////////
 //
@@ -194,10 +140,6 @@ img, .image {
     border-color: $btn--secondary--border--color;
     padding: rhythm(.5) rhythm(1);
 }
-.btn--large {
-    padding: rhythm(1);
-}
-
 
 
 ////////////////////////////////////////////

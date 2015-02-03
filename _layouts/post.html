@@ -6,6 +6,20 @@ class: sub
 <main class="site__main">
     <div class="container">
         <h5 class="title title--secondary">la información</h5>
+        <article class="grid">
+            <section class="col--2">
+                <h5 class="title title--primary">Role</h5>
+                <p>{{ page.role }}</p>
+            </section>            
+            <section class="col--2">
+                <h5 class="title title--primary">Client</h5>
+                <p>{{ page.client }}</p>
+            </section>
+            <section class="col--2">
+                <h5 class="title title--primary">Project</h5>
+                <p>{{ page.project }}</p>
+            </section>
+        </article>
         {{ content }}
         <nav class="nav nav--secondary">
             <h5 class="title title--secondary">portafolio</h5>

@@ -25,14 +25,16 @@ $h6: .8;
 //
 // Color Palette
 //
+$red: #FF3838;
+$red--actual: #EF3F3E;
 $blue: #59D8E6;
-$blue--actual: #69CBDB;
-$grey: #2F3738;
+$blue--test: #105892;
+$grey: #52616D;
 $grey--medium: #737979;
 $grey--light: #D7DADB;
 
 //
-$primary__color: $blue;
+$primary__color: $red;
 $neutral__color: $grey;
 $neutral__color--medium: $grey--medium;
 $neutral__color--light: $grey--light;

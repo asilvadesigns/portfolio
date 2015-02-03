@@ -6,27 +6,13 @@
 </description>
     <link>http://asilvadesigns.com/portfolio//</link>
     <atom:link href="http://asilvadesigns.com/portfolio//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 03 Feb 2015 13:51:11 -0500</pubDate>
-    <lastBuildDate>Tue, 03 Feb 2015 13:51:11 -0500</lastBuildDate>
+    <pubDate>Tue, 03 Feb 2015 17:46:10 -0500</pubDate>
+    <lastBuildDate>Tue, 03 Feb 2015 17:46:10 -0500</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
         <title>X Games</title>
-        <description>&lt;article class=&quot;grid&quot;&gt;
-    &lt;section class=&quot;col--2&quot;&gt;
-        &lt;h5 class=&quot;title title--primary&quot;&gt;Role&lt;/h5&gt;
-        &lt;p&gt;3d Artist&lt;/p&gt;
-    &lt;/section&gt;            
-    &lt;section class=&quot;col--2&quot;&gt;
-        &lt;h5 class=&quot;title title--primary&quot;&gt;Client&lt;/h5&gt;
-        &lt;p&gt;ESPN Sports Lab&lt;/p&gt;
-    &lt;/section&gt;
-    &lt;section class=&quot;col--2&quot;&gt;
-        &lt;h5 class=&quot;title title--primary&quot;&gt;Project&lt;/h5&gt;
-        &lt;p&gt;Created 3d model of spaceship and texture for XGames 17.&lt;/p&gt;
-    &lt;/section&gt;
-&lt;/article&gt;
-&lt;article&gt;
+        <description>&lt;article&gt;
     &lt;p&gt;&lt;img src=&quot;/portfolio//img/xgames-01.jpg&quot;&gt;&lt;/p&gt;
     &lt;p&gt;&lt;img src=&quot;/portfolio//img/xgames-02.jpg&quot;&gt;&lt;/p&gt;
     &lt;p&gt;&lt;img src=&quot;/portfolio//img/xgames-03.jpg&quot;&gt;&lt;/p&gt;
@@ -54,21 +40,7 @@
     
       <item>
         <title>Alberto &amp; Bethany</title>
-        <description>&lt;article class=&quot;grid&quot;&gt;
-    &lt;section class=&quot;col--2&quot;&gt;
-        &lt;h5 class=&quot;title title--primary&quot;&gt;Role&lt;/h5&gt;
-        &lt;p&gt;Husband&lt;/p&gt;
-    &lt;/section&gt;            
-    &lt;section class=&quot;col--2&quot;&gt;
-        &lt;h5 class=&quot;title title--primary&quot;&gt;Client&lt;/h5&gt;
-        &lt;p&gt;Alberto and Bethany Silva&lt;/p&gt;
-    &lt;/section&gt;
-    &lt;section class=&quot;col--2&quot;&gt;
-        &lt;h5 class=&quot;title title--primary&quot;&gt;Project&lt;/h5&gt;
-        &lt;p&gt;An absolute joy and privilege to design our wedding invitations.&lt;/p&gt;
-    &lt;/section&gt;
-&lt;/article&gt;
-&lt;article&gt;
+        <description>&lt;article&gt;
     &lt;p&gt;&lt;img src=&quot;/portfolio//img/AlbertoBethany-01.jpg&quot;&gt;&lt;/p&gt;
     &lt;p&gt;&lt;img src=&quot;/portfolio//img/AlbertoBethany-03.jpg&quot;&gt;&lt;/p&gt;
     &lt;p&gt;&lt;img src=&quot;/portfolio//img/AlbertoBethany-02.jpg&quot;&gt;&lt;/p&gt;
@@ -89,21 +61,7 @@
     
       <item>
         <title>Toby &amp; Natalie</title>
-        <description>&lt;article class=&quot;grid&quot;&gt;
-    &lt;section class=&quot;col--2&quot;&gt;
-        &lt;h5 class=&quot;title title--primary&quot;&gt;Role&lt;/h5&gt;
-        &lt;p&gt;Graphic Designer&lt;/p&gt;
-    &lt;/section&gt;            
-    &lt;section class=&quot;col--2&quot;&gt;
-        &lt;h5 class=&quot;title title--primary&quot;&gt;Client&lt;/h5&gt;
-        &lt;p&gt;Toby and Natalie Mann&lt;/p&gt;
-    &lt;/section&gt;
-    &lt;section class=&quot;col--2&quot;&gt;
-        &lt;h5 class=&quot;title title--primary&quot;&gt;Project&lt;/h5&gt;
-        &lt;p&gt;Create an elegant design for wedding invitations.&lt;/p&gt;
-    &lt;/section&gt;
-&lt;/article&gt;
-&lt;article&gt;
+        <description>&lt;article&gt;
     &lt;p&gt;&lt;img src=&quot;/portfolio//img/TobyNatalie-01.jpg&quot;&gt;&lt;/p&gt;
     &lt;p&gt;&lt;img src=&quot;/portfolio//img/TobyNatalie-03.jpg&quot;&gt;&lt;/p&gt;
     &lt;p&gt;&lt;img src=&quot;/portfolio//img/TobyNatalie-02.jpg&quot;&gt;&lt;/p&gt;
@@ -124,21 +82,7 @@
     
       <item>
         <title>Brookdale Honda</title>
-        <description>&lt;article class=&quot;grid&quot;&gt;
-    &lt;section class=&quot;col--2&quot;&gt;
-        &lt;h5 class=&quot;title title--primary&quot;&gt;Role&lt;/h5&gt;
-        &lt;p&gt;Web Designer &amp; Developer&lt;/p&gt;
-    &lt;/section&gt;            
-    &lt;section class=&quot;col--2&quot;&gt;
-        &lt;h5 class=&quot;title title--primary&quot;&gt;Client&lt;/h5&gt;
-        &lt;p&gt;Brookdale Honda&lt;/p&gt;
-    &lt;/section&gt;
-    &lt;section class=&quot;col--2&quot;&gt;
-        &lt;h5 class=&quot;title title--primary&quot;&gt;Project&lt;/h5&gt;
-        &lt;p&gt;Developed site theme from PSD using SASS and Compass.&lt;/p&gt;
-    &lt;/section&gt;
-&lt;/article&gt;
-&lt;article&gt;
+        <description>&lt;article&gt;
     &lt;p&gt;&lt;img src=&quot;/portfolio//img/Luther-01.jpg&quot;&gt;&lt;/p&gt;
     &lt;p&gt;&lt;img src=&quot;/portfolio//img/Luther-02.jpg&quot;&gt;&lt;/p&gt;
     &lt;p&gt;&lt;img src=&quot;/portfolio//img/Luther-03.jpg&quot;&gt;&lt;/p&gt;
@@ -158,57 +102,8 @@
       </item>
     
       <item>
-        <title>Barrios Business Cards</title>
-        <description>&lt;article class=&quot;grid&quot;&gt;
-    &lt;section class=&quot;col--2&quot;&gt;
-        &lt;h5 class=&quot;title title--primary&quot;&gt;Role&lt;/h5&gt;
-        &lt;p&gt;Graphic Designer&lt;/p&gt;
-    &lt;/section&gt;            
-    &lt;section class=&quot;col--2&quot;&gt;
-        &lt;h5 class=&quot;title title--primary&quot;&gt;Client&lt;/h5&gt;
-        &lt;p&gt;Paul Barrios&lt;/p&gt;
-    &lt;/section&gt;
-    &lt;section class=&quot;col--2&quot;&gt;
-        &lt;h5 class=&quot;title title--primary&quot;&gt;Project&lt;/h5&gt;
-        &lt;p&gt;Design a Business Card with a modern feel for a local photographer.&lt;/p&gt;
-    &lt;/section&gt;
-&lt;/article&gt;
-&lt;article&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/Barrios-01.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/Barrios-02.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/Barrios-03.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/Barrios-04.jpg&quot;&gt;&lt;/p&gt;
-&lt;/article&gt;</description>
-        <pubDate>Wed, 28 Jan 2015 04:09:42 -0500</pubDate>
-        <link>http://asilvadesigns.com/portfolio//portfolio/2015/01/28/portfolio-post-04.html</link>
-        <guid isPermaLink="true">http://asilvadesigns.com/portfolio//portfolio/2015/01/28/portfolio-post-04.html</guid>
-        
-        <category>portfolio</category>
-        
-        <category>logo</category>
-        
-        
-        <category>portfolio</category>
-        
-      </item>
-    
-      <item>
         <title>Rockville Rams</title>
-        <description>&lt;article class=&quot;grid&quot;&gt;
-    &lt;section class=&quot;col--2&quot;&gt;
-        &lt;h5 class=&quot;title title--primary&quot;&gt;Role&lt;/h5&gt;
-        &lt;p&gt;Graphic Designer&lt;/p&gt;
-    &lt;/section&gt;            
-    &lt;section class=&quot;col--2&quot;&gt;
-        &lt;h5 class=&quot;title title--primary&quot;&gt;Client&lt;/h5&gt;
-        &lt;p&gt;Rockville High School&lt;/p&gt;
-    &lt;/section&gt;
-    &lt;section class=&quot;col--2&quot;&gt;
-        &lt;h5 class=&quot;title title--primary&quot;&gt;Project&lt;/h5&gt;
-        &lt;p&gt;Design a powerful logo for Rockville Rams HS Lacrosse team.&lt;/p&gt;
-    &lt;/section&gt;
-&lt;/article&gt;
-&lt;article&gt;
+        <description>&lt;article&gt;
     &lt;p&gt;&lt;img src=&quot;/portfolio//img/Rockville-01.jpg&quot;&gt;&lt;/p&gt;
     &lt;p&gt;&lt;img src=&quot;/portfolio//img/Rockville-02.jpg&quot;&gt;&lt;/p&gt;
     &lt;p&gt;&lt;img src=&quot;/portfolio//img/Rockville-03.jpg&quot;&gt;&lt;/p&gt;
@@ -230,21 +125,7 @@
     
       <item>
         <title>Cupcakes</title>
-        <description>&lt;article class=&quot;grid&quot;&gt;
-    &lt;section class=&quot;col--2&quot;&gt;
-        &lt;h5 class=&quot;title title--primary&quot;&gt;Role&lt;/h5&gt;
-        &lt;p&gt;Graphic Designer&lt;/p&gt;
-    &lt;/section&gt;            
-    &lt;section class=&quot;col--2&quot;&gt;
-        &lt;h5 class=&quot;title title--primary&quot;&gt;Client&lt;/h5&gt;
-        &lt;p&gt;Adina Kory&lt;/p&gt;
-    &lt;/section&gt;
-    &lt;section class=&quot;col--2&quot;&gt;
-        &lt;h5 class=&quot;title title--primary&quot;&gt;Project&lt;/h5&gt;
-        &lt;p&gt;Design a conceptual logo for presentation to investors for Jerusalem's first Cupcake only Shop.&lt;/p&gt;
-    &lt;/section&gt;
-&lt;/article&gt;
-&lt;article&gt;
+        <description>&lt;article&gt;
     &lt;p&gt;&lt;img src=&quot;/portfolio//img/Cupcakes-02.jpg&quot;&gt;&lt;/p&gt;
     &lt;p&gt;&lt;img src=&quot;/portfolio//img/Cupcakes-01.jpg&quot;&gt;&lt;/p&gt;
     &lt;p&gt;&lt;img src=&quot;/portfolio//img/Cupcakes-03.jpg&quot;&gt;&lt;/p&gt;
@@ -264,21 +145,7 @@
     
       <item>
         <title>Eleven 11</title>
-        <description>&lt;article class=&quot;grid&quot;&gt;
-    &lt;section class=&quot;col--2&quot;&gt;
-        &lt;h5 class=&quot;title title--primary&quot;&gt;Role&lt;/h5&gt;
-        &lt;p&gt;Graphic Designer&lt;/p&gt;
-    &lt;/section&gt;            
-    &lt;section class=&quot;col--2&quot;&gt;
-        &lt;h5 class=&quot;title title--primary&quot;&gt;Client&lt;/h5&gt;
-        &lt;p&gt;Chosen People Ministries&lt;/p&gt;
-    &lt;/section&gt;
-    &lt;section class=&quot;col--2&quot;&gt;
-        &lt;h5 class=&quot;title title--primary&quot;&gt;Project&lt;/h5&gt;
-        &lt;p&gt;Design a brochure for the Eleven 11 Conference that will appeal to young adults.&lt;/p&gt;
-    &lt;/section&gt;
-&lt;/article&gt;
-&lt;article&gt;
+        <description>&lt;article&gt;
     &lt;p&gt;&lt;img src=&quot;/portfolio//img/Eleven-Eleven-01.jpg&quot;&gt;&lt;/p&gt;
     &lt;p&gt;&lt;img src=&quot;/portfolio//img/Eleven-Eleven-02.jpg&quot;&gt;&lt;/p&gt;
     &lt;p&gt;&lt;img src=&quot;/portfolio//img/Eleven-Eleven-03.jpg&quot;&gt;&lt;/p&gt;

@@ -2,17 +2,35 @@
     overflow: hidden;
 }
 .nav--primary {
-
+    @include padding-leader(1);
 }
 .nav--secondary {
-    @include margin-leader(2);
 }
 .nav__link {
+    font-family: "MarkWeb", sans-serif;
+    &:not(:last-child) {
+        margin-right: rhythm(.5);
+    }
 }
-.nav__link--small { 
-    padding: 0 rhythm(.5) 0 0;
+
+.site__header, .site__main, .site__footer {
+    background-image: url("../img/bg-repeat-01.png");
+    background-repeat: repeat;
+    background-attachment: scroll;
 }
-.nav__link--logo {
-    padding: 0 rhythm(2) 0 0;
-    background-color: white;
+
+.site__header {
+    background-position: 0 150px;
+    background-size: 400px; 
+    @include padding-trailer(1);
+}
+.site__main {
+    background-position: 200px 150px;
+    background-size: 500px;
+    @include rhythm-padding(1,2);
+}
+.site__footer {
+    background-position:400px 25px;
+    background-size: 600px;
+    @include rhythm-padding(2,2);
 }

@@ -1,8 +1,21 @@
 <header class="site__header">
-    <div class="container">            
-        <a class="site__logo" href="{{ site.baseurl }}">
-            <h1 class="delta [ title title--primary ]">{{ site.my_name }}</h1>
-            <h2 class="epsilon">Web Designer</h2>
-        </a>
+    <div class="container">
+        <nav class="nav nav--primary">
+            <a class="nav__link [ btn btn--primary ]" href="{{ site.baseurl }}">Index</a>
+            {% for page in site.pages %}
+            {% if page.title %}
+            <a class="nav__link [ btn btn--primary ]" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            {% endif %}
+            {% endfor %}
+        </nav>
+    </div>
+    <div class="container">
+        <article class="grid">
+            <section class="col--3">                
+                <h1 class="delta intro">
+                    <a class="title title--primary" href="{{ site.baseurl }}">Alberto Silva&nbsp;</a>is an innovative graphics and web designer obsessed with complex pattern abstraction.
+                </h1>
+            </section>
+        </article>
     </div>
 </header>

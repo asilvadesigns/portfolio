@@ -1,0 +1,16 @@
+.btn {
+    display: inline-block;
+}
+.btn--primary {
+    color: $btn--primary--color;
+    border: rhythm(.075) solid;
+    padding: rhythm(.1) rhythm(.2);
+    @include border-radius(rhythm(.25));   
+    @include transition(color, .25s, ease-in-out);
+    &:hover, &:focus {
+        color: darken($btn--primary--color, 10%);
+    } 
+    &:active {
+        color: darken($btn--primary--color, 20%);  
+    }
+}

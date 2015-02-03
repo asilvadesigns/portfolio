@@ -1,23 +1,20 @@
 body {
     color: $site--color;
-    font-size: $small-font-size;
+    font-size: $medium-font-size;
     line-height: $base-line-unit;
 
-    font-family: "AlegreyaRegular", serif;    
+    font-family: "MarkWeb", serif;
 
     /* setup OpenType features */
-    font-feature-settings: "kern" 1, "ss01" 1, "pnum" 1, "onum" 1;
+    font-feature-settings: "kern" 1, "ss01" 1, "pnum" 1;
     text-transform: none;
 
     /* vendor prefixes */
-    -webkit-font-feature-settings: "kern" 1, "ss01" 1, "pnum" 1, "onum" 1;
-    -moz-font-feature-settings: "kern" 1, "ss01" 1, "pnum" 1, "onum" 1;
-    -moz-font-feature-settings: "kern=1, ss01=1, pnum=1, onum=1";
-    -ms-font-feature-settings: "kern" 1, "ss01" 1, "pnum" 1, "onum" 1;
-    -o-font-feature-settings: "kern" 1, "ss01" 1, "pnum" 1, "onum" 1;    
-    @include media(small) {
-        font-size: $medium-font-size;
-    }
+    -webkit-font-feature-settings: "kern" 1, "ss01" 1, "pnum" 1;
+    -moz-font-feature-settings: "kern" 1, "ss01" 1, "pnum" 1;
+    -moz-font-feature-settings: "kern=1, ss01=1, pnum=1";
+    -ms-font-feature-settings: "kern" 1, "ss01" 1, "pnum" 1;
+    -o-font-feature-settings: "kern" 1, "ss01" 1, "pnum" 1;    
     @include media(medium) {
         font-size: $base-font-size;
     }
@@ -40,14 +37,14 @@ h5, .epsilon {
 h6, small, .zeta { 
     @include adjust-font-size-to($h6 * $base-font-size);
 }
-p + p, .grid + p, header + section { 
+p + p, article + p { 
     @include margin-leader(1);
 }
-strong {
-    font-family: "AlegreyaBold", serif;
+article + article, article + nav, article + .title, .container + .container  { 
+    @include margin-leader(2);
 }
-em {
-    font-family: "AlegreyaItalic";
+strong, em {
+    font-family: "MarkWeb-Bold", serif;
 }
 a {
     color: inherit;
@@ -55,16 +52,26 @@ a {
 
 ////////////////////////////////////////////
 //
-// Links
+// Lists
 //
-.link {
-
+@include media(medium) {
+    .list--bulleted {
+        li {
+            position: relative;
+        }
+        li:before {
+            content: "\2022";
+            position: absolute;
+            left: rhythm(.5)*-1;
+        }
+    }
 }
-.link--image {
-    overflow: hidden;
-    font-size: 0;    
-    &:hover .image--rollover {
-        // @include transform(scale3d(1,1,1));
+
+.list--inline {
+    @include media(small) {
+        & > li {
+            display: inline-block;
+        }
     }
 }
 
@@ -87,14 +94,29 @@ img {
 //
 
 .title {
-    line-height: 1;
+    font-family: "MarkWeb-Bold", sans-serif;
 }
 .title--primary {
     color: $title--primary--color;
-    font-family: "MarkWeb-Bold", sans-serif;
 }
 .title--secondary {
-    font-family: "MarkScWeb-Bold", sans-serif;
+    font-family: "MarkScWeb", sans-serif;
     text-transform: lowercase;
-    letter-spacing: .15em;
+    letter-spacing: .12em;
+    color: $title--secondary--color;
+    @include margin-trailer(1);
+}
+.title--logo {
+    line-height: 1;
+}
+.intro {
+    color: $intro--color;
+}
+
+////////////////////////////////////////////
+//
+// Logo
+//
+.logo {
+    display: block;
 }

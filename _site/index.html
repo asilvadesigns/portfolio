@@ -10,28 +10,53 @@
     <meta name="description" content="I'm a web designer based out of Germantown, Maryland. I love Jesus, my wife, our newborn son, and ff Mark. When I'm away from my computer I can be found preaching, hiking, or trying to dunk a basketball.
 ">
 
-    <link rel="stylesheet" href="/portfolio//css/screen.css">
+    <link rel="stylesheet" href="/portfolio/css/screen.css">
 </head>
 
 <body class="home">
 
     <header class="site__header">
-    <div class="container">            
-        <a class="site__logo" href="/portfolio/">
-            <h1 class="delta [ title title--primary ]">Alberto Silva</h1>
-            <h2 class="epsilon">Web Designer</h2>
-        </a>
+    <div class="container">
+        <nav class="nav nav--primary">
+            <a class="nav__link [ btn btn--primary ]" href="/portfolio/">Index</a>
+            
+            
+            
+            
+            
+            
+            <a class="nav__link [ btn btn--primary ]" href="/portfolio//resume/">Resume</a>
+            
+            
+        </nav>
+    </div>
+    <div class="container">
+        <article class="grid">
+            <section class="col--3">                
+                <h1 class="delta intro">
+                    <a class="title title--primary" href="/portfolio/">Alberto Silva&nbsp;</a>is an innovative graphics and web designer obsessed with complex pattern abstraction.
+                </h1>
+            </section>
+        </article>
     </div>
 </header>
 
     <main class="site__main">
     <div class="container">
-        <nav class="nav nav--primary">
+        <h5 class="title title--secondary">la información</h5>
+        <article class="grid">
+            <section class="col--3">
+                <p>I'm the kid who's always drawn, learned to build computers, and eventually developed an affection for code.</p>
+                <p>I love Jesus, my wife, our newborn son, and ff Mark. When I'm away from my computer I can be found preaching, hiking, changing diapers, or trying to dunk a basketball.</p>
+            </section>
+        </article>
+        <h5 class="title title--secondary">portafolio</h5>
+        <nav class="nav nav--secondary">
             <ul class="grid">
                 
                 
                 <li class="col--2">
-                    <a class="nav__link [ link link--image ]" href="/portfolio//portfolio/2015/01/28/portfolio-post-08.html">
+                    <a href="/portfolio//portfolio/2015/01/28/portfolio-post-08.html">
                         <img class="image image--rollover" src="/portfolio//img/xgames-11.jpg" alt="X Games">
                     </a>
                 </li>
@@ -39,7 +64,7 @@
                 
                 
                 <li class="col--2">
-                    <a class="nav__link [ link link--image ]" href="/portfolio//portfolio/2015/01/28/portfolio-post-07.html">
+                    <a href="/portfolio//portfolio/2015/01/28/portfolio-post-07.html">
                         <img class="image image--rollover" src="/portfolio//img/AlbertoBethany-05.jpg" alt="Alberto & Bethany">
                     </a>
                 </li>
@@ -47,7 +72,7 @@
                 
                 
                 <li class="col--2">
-                    <a class="nav__link [ link link--image ]" href="/portfolio//portfolio/2015/01/28/portfolio-post-06.html">
+                    <a href="/portfolio//portfolio/2015/01/28/portfolio-post-06.html">
                         <img class="image image--rollover" src="/portfolio//img/TobyNatalie-03.jpg" alt="Toby & Natalie">
                     </a>
                 </li>
@@ -55,7 +80,7 @@
                 
                 
                 <li class="col--2">
-                    <a class="nav__link [ link link--image ]" href="/portfolio//portfolio/2015/01/28/portfolio-post-05.html">
+                    <a href="/portfolio//portfolio/2015/01/28/portfolio-post-05.html">
                         <img class="image image--rollover" src="/portfolio//img/Luther-01.jpg" alt="Brookdale Honda">
                     </a>
                 </li>
@@ -63,7 +88,7 @@
                 
                 
                 <li class="col--2">
-                    <a class="nav__link [ link link--image ]" href="/portfolio//portfolio/2015/01/28/portfolio-post-04.html">
+                    <a href="/portfolio//portfolio/2015/01/28/portfolio-post-04.html">
                         <img class="image image--rollover" src="/portfolio//img/Barrios-01.jpg" alt="Barrios Business Cards">
                     </a>
                 </li>
@@ -71,7 +96,7 @@
                 
                 
                 <li class="col--2">
-                    <a class="nav__link [ link link--image ]" href="/portfolio//portfolio/2015/01/27/portfolio-post-03.html">
+                    <a href="/portfolio//portfolio/2015/01/27/portfolio-post-03.html">
                         <img class="image image--rollover" src="/portfolio//img/Rockville-01.jpg" alt="Rockville Rams">
                     </a>
                 </li>
@@ -79,7 +104,7 @@
                 
                 
                 <li class="col--2">
-                    <a class="nav__link [ link link--image ]" href="/portfolio//portfolio/2015/01/21/portfolio-post-02.html">
+                    <a href="/portfolio//portfolio/2015/01/21/portfolio-post-02.html">
                         <img class="image image--rollover" src="/portfolio//img/Cupcakes-01.jpg" alt="Cupcakes">
                     </a>
                 </li>
@@ -87,7 +112,7 @@
                 
                 
                 <li class="col--2">
-                    <a class="nav__link [ link link--image ]" href="/portfolio//portfolio/2015/01/20/portfolio-post-01.html">
+                    <a href="/portfolio//portfolio/2015/01/20/portfolio-post-01.html">
                         <img class="image image--rollover" src="/portfolio//img/Eleven-Eleven-01.jpg" alt="Eleven 11">
                     </a>
                 </li>
@@ -100,17 +125,21 @@
 
     <footer class="site__footer">
     <div class="container">
+        <h5 class="title title--secondary">Eso es todo!</h5>
         <article class="grid">
             <section class="col--3">
-                <h5 class="[ title title--primary ]">About Me</h5>
-                <p>I'm a web designer based out of Germantown, Maryland. I love Jesus, my wife, our newborn son, and ff Mark. When I'm away from my computer I can be found preaching, hiking, or trying to dunk a basketball.</p>
+                <h5 class="[ title title--primary ]">Contact</h5>
+                <ul>
+                    <li>(301) 275-0678</li>
+                    <li><a href="mailto:asilvadesigns@gmail.com">asilvadesigns@gmail.com</a></li>
+                </ul>
             </section>
             <section class="col--3">
                 <h5 class="[ title title--primary ]">Colophon</h5>
                 <p>Designed, developed, and maintained by yours truly. Built on Jekyll, hosted on GitHub. Typeset in ff Mark and Alegreya. CSS is written in SASS and COMPASS. View the code <a href="https://github.com/asilvadesigns/portfolio" target="_blank"><em>here</em></a>.</p>
             </section>
         </article>
-        <p>&copy; 2014 Alberto Silva, all rights reserved.</p>
+        <p>&copy; 2014</p>
     </div>
 </footer>
 

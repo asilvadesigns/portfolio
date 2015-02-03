@@ -6,8 +6,7 @@ $base-font-size: 24px;
 $base-line-unit: 1.250;
 $base-line-height: $base-font-size * $base-line-unit;
 
-$medium-font-size: 22px;
-$small-font-size: 20px;
+$medium-font-size: 20px;
 
 $rhythm-unit: "em";
 $round-to-nearest-half-line: true;
@@ -26,26 +25,28 @@ $h6: .8;
 //
 // Color Palette
 //
-$blue: #0069FF;
-$blue--actual: #406AB3;
-$red: #DC4129;
-$grey: #3A4344;
-$grey--light: #89A0A4;
-$grey--ultra--light: #EBF3F4;
+$blue: #59D8E6;
+$blue--actual: #69CBDB;
+$grey: #2F3738;
+$grey--medium: #737979;
+$grey--light: #D7DADB;
 
-$primary__color: $blue--actual;
-$secondary__color: $red;
+//
+$primary__color: $blue;
 $neutral__color: $grey;
+$neutral__color--medium: $grey--medium;
 $neutral__color--light: $grey--light;
-$neutral__color--ultra--light: $grey--ultra--light;
 
 ////////////////////////////////////////////
 //
 // Color Usage
 //
-$site--color: $neutral__color--light;
+$site--color: $neutral__color--medium;
 
-$btn--secondary--color: $neutral__color--light;
-$btn--secondary--border--color: $neutral__color--light;
+$title--primary--color: $primary__color;
 
-$title--primary--color: $secondary__color;
+$title--secondary--color: $neutral__color--light;
+
+$btn--primary--color: $neutral__color--light;
+
+$intro--color: $neutral__color;

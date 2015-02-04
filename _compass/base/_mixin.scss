@@ -1,16 +1,16 @@
 @mixin media($type) {
     @if $type == large {
-        @media screen and (min-width: 60em) {
+        @media screen and (min-width: $screen--large) {
             @content;
         }
     }
     @else if $type == medium {
-        @media screen and (min-width: 48em) {
+        @media screen and (min-width: $screen--medium) {
             @content;
         }
     }
     @else if $type == small {
-        @media screen and (min-width: 38em) {
+        @media screen and (min-width: $screen--small) {
             @content;
         }
     }    

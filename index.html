@@ -6,7 +6,7 @@ class: home
     <div class="container">
         <h5 class="title title--secondary">la información</h5>
         <article class="grid">
-            <section class="col--3">
+            <section class="col--5">
                 <p>I'm the kid who's always drawn, learned to build computers, and eventually developed an affection for code.</p>
                 <p>I love Jesus, my wife, our newborn son, and ff Mark. When I'm away from my computer I can be found preaching, hiking, changing diapers, or trying to dunk a basketball.</p>
             </section>
@@ -16,7 +16,7 @@ class: home
             <ul class="grid">
                 {% for post in site.posts %}
                 {% if post.categories contains 'portfolio' %}
-                <li class="col--2">
+                <li class="col--nav">
                     <a href="{{ post.url | prepend: site.baseurl }}">
                         <img class="image image--rollover" src="{{ post.feature | prepend: site.baseurl }}" alt="{{ post.title }}">
                     </a>

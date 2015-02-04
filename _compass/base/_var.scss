@@ -2,11 +2,16 @@
 //
 // Typography
 //
-$base-font-size: 24px;
+$base-font-size: 28px;
 $base-line-unit: 1.250;
 $base-line-height: $base-font-size * $base-line-unit;
 
-$medium-font-size: 20px;
+$medium-font-size: 24px;
+$small-font-size: 20px;
+
+$screen--large: 42em;
+$screen--medium: 36em;
+$screen--small: 30em;
 
 $rhythm-unit: "em";
 $round-to-nearest-half-line: true;

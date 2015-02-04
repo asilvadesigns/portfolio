@@ -1,6 +1,6 @@
 body {
     color: $site--color;
-    font-size: $medium-font-size;
+    font-size: $small-font-size;
     line-height: $base-line-unit;
 
     font-family: "MarkWeb", serif;
@@ -16,6 +16,9 @@ body {
     -ms-font-feature-settings: "kern" 1, "ss01" 1, "pnum" 1;
     -o-font-feature-settings: "kern" 1, "ss01" 1, "pnum" 1;    
     @include media(medium) {
+        font-size: $medium-font-size;
+    }
+    @include media(large) {
         font-size: $base-font-size;
     }
 }

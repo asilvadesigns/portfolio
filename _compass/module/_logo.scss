@@ -1,0 +1,10 @@
+.logo {
+    svg {
+        height: 1.85em;
+    }
+    @include media(small) {
+        position: absolute;
+        top: .4em;
+        left: -1em;
+    }
+}

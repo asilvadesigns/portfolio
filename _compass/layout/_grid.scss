@@ -8,8 +8,8 @@
 
 .container {
     margin: 0 auto;
-    max-width: 48em;
-	padding: 0 $grid__gutter;
+    max-width: $screen--large;
+	padding: 0 $grid__gutter*2;
 	position: relative;
 }
 
@@ -83,13 +83,9 @@
 }
 
 .col--5 {
-	@include media(medium) {
-		width: percentage(5/6);
+	@include media(large) {
+		width: percentage(4.5/6);
 	}
-}
-
-.col--6 {
-	width: percentage(6/6);	
 }
 
 .col--3--nested {

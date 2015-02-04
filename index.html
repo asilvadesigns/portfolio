@@ -3,7 +3,7 @@ layout: default
 class: home
 ---
 <main class="site__main">
-    <div class="container">
+    <div class="container container--small">
         <h5 class="title title--secondary">la información</h5>
         <article class="grid">
             <section class="col--5">
@@ -11,7 +11,8 @@ class: home
                 <p>I love Jesus, my wife, our newborn son, and ff Mark. When I'm away from my computer I can be found preaching, hiking, changing diapers, or trying to dunk a basketball.</p>
             </section>
         </article>
-        <h5 class="title title--secondary">portafolio</h5>
+    </div>
+    <div class="container">
         <nav class="nav nav--secondary">
             <ul class="grid">
                 {% for post in site.posts %}

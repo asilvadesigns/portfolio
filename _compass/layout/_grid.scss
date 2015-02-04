@@ -13,6 +13,12 @@
 	position: relative;
 }
 
+.container--small {
+    @include media(large) {
+        max-width: $screen--medium;
+    }
+}
+
 .grid {
 	margin: 0 $grid__gutter *-1;
 	& + & {

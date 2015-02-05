@@ -74,12 +74,12 @@
 	& + & {
 		@include margin-leader(1);
 	}
-	@include media(large) {
-		width: percentage(3/6);
-		& + & {
-			margin-top: 0;
-		}
-	}
+	// @include media(large) {
+	// 	width: percentage(3/6);
+	// 	& + & {
+	// 		margin-top: 0;
+	// 	}
+	// }
 }
 
 .col--4 {

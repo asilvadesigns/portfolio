@@ -13,9 +13,11 @@
 }
 
 .site__header, .site__main, .site__footer {
-    background-image: url("../img/bg-repeat-01.png");
-    background-repeat: repeat;
-    background-attachment: scroll;
+    @include media(small) {
+        background-image: url("../img/bg-repeat-01.png");
+        background-repeat: repeat;
+        background-attachment: scroll;
+    }
 }
 
 .site__header {

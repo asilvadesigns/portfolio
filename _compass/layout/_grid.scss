@@ -15,7 +15,7 @@
 
 .container--small {
     @include media(large) {
-        max-width: $screen--medium;
+        max-width: $screen--small;
     }
 }
 

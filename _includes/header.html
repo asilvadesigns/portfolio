@@ -1,23 +1,25 @@
 <header class="site__header">
-    <div class="container container--small">
+    <article class="wrapper">
         <nav class="nav nav--primary">
-            <a class="nav__link [ title title--secondary ]" href="{{ site.baseurl }}">Index</a>
+            <a class="nav__link" href="{{ site.baseurl }}">Index</a>
             {% for page in site.pages %}
             {% if page.title %}
-            <a class="nav__link [ title title--secondary ]" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            <a class="nav__link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
             {% endif %}
             {% endfor %}
         </nav>
-    </div>
-    <div class="container container--small">
-        <a class="logo" href="{{ site.baseurl }}/">
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                 viewBox="0 0 427 787" enable-background="new 0 0 427 787" xml:space="preserve">
-                <path fill-rule="evenodd" clip-rule="evenodd" fill="#FF3838" d="M427,305.7l-33,82c-2.3,5.8-9.2,10.6-15.5,10.6h-58.9 c-6.3,0-9.6-4.7-7.3-10.6l33-82c2.3-5.8,9.2-10.6,15.5-10.6h58.9C426,295.1,429.2,299.8,427,305.7z M230.6,387.6 c-2.3,5.8-9.2,10.6-15.5,10.6h-58.9c-6.3,0-9.6-4.7-7.3-10.6l147.6-377C298.8,4.7,305.7,0,312,0h58.9c6.3,0,9.6,4.7,7.3,10.6 L230.6,387.6z M82.4,776.4c-2.3,5.8-9.2,10.6-15.5,10.6H8c-6.3,0-9.6-4.7-7.3-10.6l33-82c2.3-5.8,9.2-10.6,15.5-10.6h58.9 c6.3,0,9.6,4.7,7.3,10.6L82.4,776.4z M273.9,487.3c2.3-5.8,9.3-10.6,15.6-10.6h58.9c6.3,0,9.5,4.7,7.2,10.6L240.2,776.4 c-2.3,5.8-9.3,10.6-15.6,10.6h-58.9c-6.3,0-9.5-4.7-7.2-10.6L273.9,487.3z"/>
-            </svg>
-        </a>
-        <h1 class="delta intro">
-            <a class="title title--primary" href="{{ site.baseurl }}">Alberto Silva&nbsp;</a><span class="intro__about">is an innovative graphics and web designer obsessed with complex pattern abstraction que es fluido en español.</span>
-        </h1>
-    </div>
+    </article>
+    <article class="wrapper">
+        <p>
+            <a class="logo" href="{{ site.baseurl }}/">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 427 787" enable-background="new 0 0 427 787" xml:space="preserve">
+                    <path fill-rule="evenodd" clip-rule="evenodd" fill="#E74C3C" d="M427,305.7l-33,82c-2.3,5.8-9.2,10.6-15.5,10.6h-58.9 c-6.3,0-9.6-4.7-7.3-10.6l33-82c2.3-5.8,9.2-10.6,15.5-10.6h58.9C426,295.1,429.2,299.8,427,305.7z M230.6,387.6 c-2.3,5.8-9.2,10.6-15.5,10.6h-58.9c-6.3,0-9.6-4.7-7.3-10.6l147.6-377C298.8,4.7,305.7,0,312,0h58.9c6.3,0,9.6,4.7,7.3,10.6 L230.6,387.6z M82.4,776.4c-2.3,5.8-9.2,10.6-15.5,10.6H8c-6.3,0-9.6-4.7-7.3-10.6l33-82c2.3-5.8,9.2-10.6,15.5-10.6h58.9 c6.3,0,9.6,4.7,7.3,10.6L82.4,776.4z M273.9,487.3c2.3-5.8,9.3-10.6,15.6-10.6h58.9c6.3,0,9.5,4.7,7.2,10.6L240.2,776.4 c-2.3,5.8-9.3,10.6-15.6,10.6h-58.9c-6.3,0-9.5-4.7-7.2-10.6L273.9,487.3z"/>
+                </svg>
+            </a>
+        </p>
+        <p class="intro">
+            <a class="intro__name" href="{{ site.baseurl }}">Alberto Silva&nbsp;</a><span class="hidden--sub">is an innovative graphics and web designer obsessed with complex pattern abstraction que es fluido en español.</span>
+        </p>
+    </article>
 </header>

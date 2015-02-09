@@ -1,0 +1,40 @@
+////////////////////////////////////////////
+//
+// Media Size
+//
+@mixin media($type) {
+    @if $type == large {
+        @media screen and (min-width: $screen--large) {
+            @content;
+        }
+    }
+    @else if $type == medium {
+        @media screen and (min-width: $screen--medium) {
+            @content;
+        }
+    }
+    @else if $type == small {
+        @media screen and (min-width: $screen--small) {
+            @content;
+        }
+    }    
+}
+
+////////////////////////////////////////////
+//
+// Font Family
+//
+@mixin font($font-family) {
+    @if $font-family == regular {
+        font-family: "MarkWeb", sans-serif;
+    }
+    @else if $font-family == bold {
+        font-family: "MarkWeb-Bold", sans-serif;
+    }
+    @else if $font-family == regular--sc {
+        font-family: "MarkScWeb", sans-serif;
+    }
+    @else if $font-family == bold--sc {
+        font-family: "MarkScWeb-Bold", sans-serif;
+    }    
+}

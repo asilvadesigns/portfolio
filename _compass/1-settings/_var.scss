@@ -1,13 +1,18 @@
 ////////////////////////////////////////////
 //
+// Font
+//
+@font-face { font-family: "MarkWeb-Bold"; src: url("font/mark/MarkWeb-Bold.woff") format("woff"); }
+@font-face { font-family: "MarkWeb"; src: url("font/mark/MarkWeb.woff") format("woff"); }
+@font-face { font-family: "MarkScWeb-Bold"; src: url("font/mark/MarkScWeb-Bold.woff") format("woff"); }
+@font-face { font-family: "MarkScWeb"; src: url("font/mark/MarkScWeb.woff") format("woff"); }
+////////////////////////////////////////////
+//
 // Typography
 //
-$base-font-size: 28px;
+$base-font-size: 24px;
 $base-line-unit: 1.250;
 $base-line-height: $base-font-size * $base-line-unit;
-
-$medium-font-size: 24px;
-$small-font-size: 20px;
 
 $screen--large: 42em;
 $screen--medium: 36em;
@@ -32,6 +37,7 @@ $h6: .8;
 //
 $red: #FF3838;
 $red--actual: #EF3F3E;
+$red--orange: #E74C3C;
 $blue: #59D8E6;
 $blue--test: #105892;
 $grey: #52616D;
@@ -48,12 +54,8 @@ $neutral__color--light: $grey--light;
 //
 // Color Usage
 //
-$site--color: $neutral__color--medium;
+$site__color: $neutral__color;
 
-$title--primary--color: $primary__color;
+$nav__color: $neutral__color--light;
 
-$title--secondary--color: $neutral__color--light;
-
-$btn--primary--color: $neutral__color--light;
-
-$intro--color: $neutral__color;
+$intro__name__color: $red--orange;

@@ -1,0 +1,44 @@
+////////////////////////////////////////////
+//
+// Nav
+//
+.nav {
+
+}
+.nav--primary {
+    position: relative;
+    &:before {
+        content: "";
+        height: rhythm(.075);
+        width: 100%;
+        position: absolute;
+        background-color: $site__color;
+    }
+}
+.nav__link {
+    @include font(regular--sc);
+    text-transform: lowercase;
+    display: inline-block;    
+    padding: rhythm(1) 0;
+    // color: $nav__color;
+    // &:hover, &:active, &:focus {
+        // color: darken($nav__color, 10%);
+    // }
+    &:not(:last-child) {
+        margin-right: rhythm(1);
+    }
+}
+
+.nav__link--right {
+    float: right;
+}
+
+////////////////////////////////////////////
+//
+// Intro
+//
+.intro {
+}
+.intro__name {
+    color: $intro__name__color;
+}

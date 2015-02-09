@@ -1,10 +1,8 @@
-/**
- * Syntax highlighting styles
- */
+////////////////////////////////////////////
+//
+// Syntax Highlighting
+//
 .highlight {
-    background: $highlight--bgcolor;
-    padding: rhythm(1, $base-font-size);
-    margin: rhythm(1, $base-font-size) ( $grid__gutter * -1) 0;
     @include border-radius(.25em);
 
     .c     { color: #998; font-style: italic } // Comment

@@ -6,25 +6,23 @@
 </description>
     <link>http://asilvadesigns.com/portfolio//</link>
     <atom:link href="http://asilvadesigns.com/portfolio//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 05 Feb 2015 13:05:03 -0500</pubDate>
-    <lastBuildDate>Thu, 05 Feb 2015 13:05:03 -0500</lastBuildDate>
+    <pubDate>Mon, 09 Feb 2015 18:28:34 -0500</pubDate>
+    <lastBuildDate>Mon, 09 Feb 2015 18:28:34 -0500</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
         <title>X Games</title>
-        <description>&lt;article&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/xgames-01.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/xgames-02.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/xgames-03.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/xgames-04.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/xgames-05.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/xgames-06.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/xgames-07.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/xgames-08.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/xgames-09.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/xgames-10.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/xgames-11.jpg&quot;&gt;&lt;/p&gt;
-&lt;/article&gt;</description>
+        <description>&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/xgames-01.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/xgames-02.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/xgames-03.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/xgames-04.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/xgames-05.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/xgames-06.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/xgames-07.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/xgames-08.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/xgames-09.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/xgames-10.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/xgames-11.jpg&quot;&gt;&lt;/p&gt;</description>
         <pubDate>Wed, 28 Jan 2015 11:19:42 -0500</pubDate>
         <link>http://asilvadesigns.com/portfolio//portfolio/2015/01/28/portfolio-post-08.html</link>
         <guid isPermaLink="true">http://asilvadesigns.com/portfolio//portfolio/2015/01/28/portfolio-post-08.html</guid>
@@ -40,12 +38,10 @@
     
       <item>
         <title>Alberto &amp; Bethany</title>
-        <description>&lt;article&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/AlbertoBethany-01.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/AlbertoBethany-03.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/AlbertoBethany-02.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/AlbertoBethany-04.jpg&quot;&gt;&lt;/p&gt;
-&lt;/article&gt;</description>
+        <description>&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/AlbertoBethany-01.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/AlbertoBethany-03.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/AlbertoBethany-02.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/AlbertoBethany-04.jpg&quot;&gt;&lt;/p&gt;</description>
         <pubDate>Wed, 28 Jan 2015 09:01:42 -0500</pubDate>
         <link>http://asilvadesigns.com/portfolio//portfolio/2015/01/28/portfolio-post-07.html</link>
         <guid isPermaLink="true">http://asilvadesigns.com/portfolio//portfolio/2015/01/28/portfolio-post-07.html</guid>
@@ -61,12 +57,10 @@
     
       <item>
         <title>Toby &amp; Natalie</title>
-        <description>&lt;article&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/TobyNatalie-01.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/TobyNatalie-03.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/TobyNatalie-02.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/TobyNatalie-04.jpg&quot;&gt;&lt;/p&gt;
-&lt;/article&gt;</description>
+        <description>&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/TobyNatalie-01.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/TobyNatalie-03.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/TobyNatalie-02.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/TobyNatalie-04.jpg&quot;&gt;&lt;/p&gt;</description>
         <pubDate>Wed, 28 Jan 2015 07:17:42 -0500</pubDate>
         <link>http://asilvadesigns.com/portfolio//portfolio/2015/01/28/portfolio-post-06.html</link>
         <guid isPermaLink="true">http://asilvadesigns.com/portfolio//portfolio/2015/01/28/portfolio-post-06.html</guid>
@@ -82,12 +76,10 @@
     
       <item>
         <title>Brookdale Honda</title>
-        <description>&lt;article&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/Luther-01.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/Luther-02.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/Luther-03.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/Luther-04.jpg&quot;&gt;&lt;/p&gt;
-&lt;/article&gt;</description>
+        <description>&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/Luther-01.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/Luther-02.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/Luther-03.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/Luther-04.jpg&quot;&gt;&lt;/p&gt;</description>
         <pubDate>Wed, 28 Jan 2015 06:16:42 -0500</pubDate>
         <link>http://asilvadesigns.com/portfolio//portfolio/2015/01/28/portfolio-post-05.html</link>
         <guid isPermaLink="true">http://asilvadesigns.com/portfolio//portfolio/2015/01/28/portfolio-post-05.html</guid>
@@ -103,13 +95,11 @@
     
       <item>
         <title>Rockville Rams</title>
-        <description>&lt;article&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/Rockville-01.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/Rockville-02.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/Rockville-03.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/Rockville-04.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/Rockville-05.jpg&quot;&gt;&lt;/p&gt;
-&lt;/article&gt;</description>
+        <description>&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/Rockville-01.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/Rockville-02.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/Rockville-03.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/Rockville-04.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/Rockville-05.jpg&quot;&gt;&lt;/p&gt;</description>
         <pubDate>Tue, 27 Jan 2015 05:22:02 -0500</pubDate>
         <link>http://asilvadesigns.com/portfolio//portfolio/2015/01/27/portfolio-post-03.html</link>
         <guid isPermaLink="true">http://asilvadesigns.com/portfolio//portfolio/2015/01/27/portfolio-post-03.html</guid>
@@ -125,11 +115,9 @@
     
       <item>
         <title>Cupcakes</title>
-        <description>&lt;article&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/Cupcakes-02.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/Cupcakes-01.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/Cupcakes-03.jpg&quot;&gt;&lt;/p&gt;
-&lt;/article&gt;</description>
+        <description>&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/Cupcakes-02.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/Cupcakes-01.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/Cupcakes-03.jpg&quot;&gt;&lt;/p&gt;</description>
         <pubDate>Wed, 21 Jan 2015 10:36:02 -0500</pubDate>
         <link>http://asilvadesigns.com/portfolio//portfolio/2015/01/21/portfolio-post-02.html</link>
         <guid isPermaLink="true">http://asilvadesigns.com/portfolio//portfolio/2015/01/21/portfolio-post-02.html</guid>
@@ -145,15 +133,13 @@
     
       <item>
         <title>Eleven 11</title>
-        <description>&lt;article&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/Eleven-Eleven-01.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/Eleven-Eleven-02.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/Eleven-Eleven-03.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/Eleven-Eleven-04.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/Eleven-Eleven-05.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/Eleven-Eleven-06.jpg&quot;&gt;&lt;/p&gt;
-    &lt;p&gt;&lt;img src=&quot;/portfolio//img/Eleven-Eleven-07.jpg&quot;&gt;&lt;/p&gt;
-&lt;/article&gt;</description>
+        <description>&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/Eleven-Eleven-01.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/Eleven-Eleven-02.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/Eleven-Eleven-03.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/Eleven-Eleven-04.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/Eleven-Eleven-05.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/Eleven-Eleven-06.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/portfolio//img/Eleven-Eleven-07.jpg&quot;&gt;&lt;/p&gt;</description>
         <pubDate>Tue, 20 Jan 2015 13:20:27 -0500</pubDate>
         <link>http://asilvadesigns.com/portfolio//portfolio/2015/01/20/portfolio-post-01.html</link>
         <guid isPermaLink="true">http://asilvadesigns.com/portfolio//portfolio/2015/01/20/portfolio-post-01.html</guid>

@@ -1,20 +1,16 @@
-
 @import "compass/typography";
 @import "compass/css3";
 
-@import "base/normalize";
-@import "base/reset";
-@import "base/var";
-@import "base/mixin";
-@import "base/helper";
-@import "base/typography";
 
-@import "layout/grid";
+@import "1-settings/var";
 
-@import "module/nav";
-@import "module/btn";
-@import "module/page";
-@import "module/logo";
+@import "2-tools/mixin";
+@import "2-tools/helper";
 
-@import "theme/alegreya";
-@import "theme/mark";
+@import "3-generic/reset";
+
+@import "4-base/typography";
+
+@import "5-objects/objects";
+
+@import "6-components/components";

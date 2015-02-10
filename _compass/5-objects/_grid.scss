@@ -1,0 +1,22 @@
+////////////////////////////////////////////
+//
+// Grid
+//
+.wrapper, .grid, [class*="col--"] {
+    @include box-sizing;
+}
+.wrapper {
+    margin: 0 auto;
+    padding: 0 rhythm(1);
+    max-width: $screen--small;    
+}
+.grid {
+    margin: 0 rhythm(1)*-1;
+}
+[class*="col--"] {
+    float: left;
+    padding: 0 rhythm(1);    
+}
+.col--3 {
+    width: 50%;
+}

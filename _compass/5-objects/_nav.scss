@@ -1,0 +1,71 @@
+////////////////////////////////////////////
+//
+// Nav responsive-nav.js 1.0.34 by @viljamis
+//
+.nav--collapse {
+    margin: 0;
+}
+.js .nav--collapse {
+    clip: rect(0 0 0 0);
+    max-height: 0;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    zoom: 1;
+}
+.nav--collapse.opened {
+    max-height: 9999px;
+}
+.nav-toggle {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+@include media(large) {
+    .js .nav--collapse {
+    position: relative;
+    }
+    .js .nav--collapse.closed {
+    max-height: none;
+    }
+}
+.nav-toggle {
+    position: fixed;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+    text-indent: -999px;
+    position: relative;
+    width: 100%;
+    height: 0;
+    display: block;
+    @include media(large) {
+        display: none;
+    }
+    &:before {
+        content: "\2261";
+        display: block;
+        color: $nav__toggle__color; /* Edit this to change the icon color */
+        font-size: 28px;
+        text-transform: none;
+        position: absolute;
+        text-indent: 0;
+        text-align: right;
+        line-height: rhythm(2);
+        speak: none;
+        width: 100%;
+    }
+}
+.nav-toggle.active::before {
+    font-size: 24px;
+    content:"x";
+}

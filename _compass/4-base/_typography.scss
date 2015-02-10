@@ -1,8 +1,11 @@
 body {
     color: $site__color;
-    font-size: $base-font-size;
+    font-size: $small-font-size;
     line-height: $base-line-unit;
     @include font(regular);
+    @include media(large) {
+        font-size: $base-font-size;
+    }
 }
 h1,
 .alpha { 

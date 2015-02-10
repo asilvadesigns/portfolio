@@ -6,6 +6,16 @@
 @font-face { font-family: "MarkWeb"; src: url("font/mark/MarkWeb.woff") format("woff"); }
 @font-face { font-family: "MarkScWeb-Bold"; src: url("font/mark/MarkScWeb-Bold.woff") format("woff"); }
 @font-face { font-family: "MarkScWeb"; src: url("font/mark/MarkScWeb.woff") format("woff"); }
+@font-face {
+    font-family: "responsivenav";
+    src:url("font/icon/responsivenav.eot");
+    src:url("font/icon/responsivenav.eot?#iefix") format("embedded-opentype"),
+        url("font/icon/responsivenav.ttf") format("truetype"),
+        url("font/icon/responsivenav.woff") format("woff"),
+        url("font/icon/responsivenav.svg#responsivenav") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
 ////////////////////////////////////////////
 //
 // Typography
@@ -14,7 +24,9 @@ $base-font-size: 24px;
 $base-line-unit: 1.250;
 $base-line-height: $base-font-size * $base-line-unit;
 
-$screen--large: 42em;
+$small-font-size: 20px;
+
+$screen--large: 45em;
 $screen--medium: 36em;
 $screen--small: 30em;
 
@@ -30,7 +42,6 @@ $h3: 1.563;
 $h4: 1.25;
 $h5: 1;
 $h6: .8;
-
 ////////////////////////////////////////////
 //
 // Color Palette
@@ -42,20 +53,21 @@ $blue: #59D8E6;
 $blue--test: #105892;
 $grey: #52616D;
 $grey--medium: #737979;
-$grey--light: #D7DADB;
-
+$grey--light: #ECF0F1;
 //
-$primary__color: $red;
+$primary__color: $red--orange;
 $neutral__color: $grey;
 $neutral__color--medium: $grey--medium;
 $neutral__color--light: $grey--light;
-
 ////////////////////////////////////////////
 //
 // Color Usage
 //
 $site__color: $neutral__color;
 
-$nav__color: $neutral__color--light;
+$site__nav__bg: $neutral__color--light;
 
-$intro__name__color: $red--orange;
+$nav__color: $neutral__color--light;
+$nav__toggle__color: $primary__color;
+
+$logo__name__color: $primary__color;

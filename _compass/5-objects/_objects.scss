@@ -20,7 +20,27 @@
 .col--3 {
     width: 50%;
 }
-
+////////////////////////////////////////////
+//
+// Nav
+//
+.nav {}
+.nav__item {
+    @include media(large) {
+        float: left;
+        &:not(:last-child) {
+            margin-right: rhythm(1);
+        }
+    }
+}
+.nav__link {
+    display: block;
+    padding: rhythm(.5) 0;
+    @include media(large) {
+        display: inline-block;
+        padding: rhythm(1) 0;
+    }
+}
 ////////////////////////////////////////////
 //
 // Post / Gallery
@@ -34,23 +54,15 @@
 .post__link, .gallery__item {
     overflow: hidden;
     display: block;
-    height: rhythm(12);
+    font-size: 0;
+    @include media(large) {
+        font-size: inherit;
+        height: rhythm(12);        
+    }
 }
 .post__image {
 
 }
-
-////////////////////////////////////////////
-//
-// Logo
-//
-.logo {
-    > svg {
-        display: block;
-        height: 1.25em;
-    }
-}
-
 ////////////////////////////////////////////
 //
 // Lists

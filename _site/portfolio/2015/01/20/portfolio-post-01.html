@@ -8,37 +8,45 @@
     <meta name="description" content="">
     <title>Eleven 11</title>
     <link rel="stylesheet" href="/portfolio/css/screen.css">
+    <script src="/portfolio/js/nav.js"></script>
     <!-- <link rel="stylesheet" href="http://basehold.it/30"> -->
 </head>
 
 <body class="sub">
 
-    <header class="site__header">
+    <nav class="site__nav">
     <article class="wrapper">
-        <nav class="nav nav--primary">
-            <a class="nav__link" href="/portfolio/">Index</a>
+        <ul class="nav nav--primary nav--collapse">
+            <li class="nav__item">
+                <a class="nav__link" href="/portfolio/">Index</a>
+            </li>
             
             
             
             
             
             
-            <a class="nav__link" href="/portfolio//resume/">Resume</a>
+            <li class="nav__item">
+                <a class="nav__link" href="/portfolio//resume/">Resume</a>
+            </li>
             
             
-        </nav>
+        </ul>
     </article>
+</nav>
+<header class="site__header">
     <article class="wrapper">
         <p>
             <a class="logo" href="/portfolio//">
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                <svg class="logo__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                      viewBox="0 0 427 787" enable-background="new 0 0 427 787" xml:space="preserve">
                     <path fill-rule="evenodd" clip-rule="evenodd" fill="#E74C3C" d="M427,305.7l-33,82c-2.3,5.8-9.2,10.6-15.5,10.6h-58.9 c-6.3,0-9.6-4.7-7.3-10.6l33-82c2.3-5.8,9.2-10.6,15.5-10.6h58.9C426,295.1,429.2,299.8,427,305.7z M230.6,387.6 c-2.3,5.8-9.2,10.6-15.5,10.6h-58.9c-6.3,0-9.6-4.7-7.3-10.6l147.6-377C298.8,4.7,305.7,0,312,0h58.9c6.3,0,9.6,4.7,7.3,10.6 L230.6,387.6z M82.4,776.4c-2.3,5.8-9.2,10.6-15.5,10.6H8c-6.3,0-9.6-4.7-7.3-10.6l33-82c2.3-5.8,9.2-10.6,15.5-10.6h58.9 c6.3,0,9.6,4.7,7.3,10.6L82.4,776.4z M273.9,487.3c2.3-5.8,9.3-10.6,15.6-10.6h58.9c6.3,0,9.5,4.7,7.2,10.6L240.2,776.4 c-2.3,5.8-9.3,10.6-15.6,10.6h-58.9c-6.3,0-9.5-4.7-7.2-10.6L273.9,487.3z"/>
                 </svg>
+                <span class="logo__name">Alberto Silva</span>
             </a>
         </p>
-        <p class="intro">
-            <a class="intro__name" href="/portfolio/">Alberto Silva&nbsp;</a><span class="hidden--sub">is an innovative graphics and web designer obsessed with complex pattern abstraction que es fluido en español.</span>
+        <p class="hidden--sub">
+            Hello! I'm an innovative graphics and web designer obsessed with complex pattern abstraction que es fluido en español.</span>
         </p>
     </article>
 </header>
@@ -134,6 +142,24 @@
         <p>&copy; 2014</p>
     </div>
 </footer>
+
+    <script>
+var navigation = responsiveNav(".nav--collapse", {
+    animate: true,                    // Boolean: Use CSS3 transitions, true or false
+    transition: 284,                  // Integer: Speed of the transition, in milliseconds
+  //label: "Menu",                    // String: Label for the navigation toggle
+    insert: "after",                  // String: Insert the toggle before or after the navigation
+    customToggle: "",                 // Selector: Specify the ID of a custom toggle
+    closeOnNavClick: false,           // Boolean: Close the navigation when one of the links are clicked
+    openPos: "relative",              // String: Position of the opened nav, relative or static
+    navClass: "nav--collapse",        // String: Default CSS class. If changed, you need to edit the CSS too!
+    navActiveClass: "js-nav-active",  // String: Class that is added to <html> element when nav is active
+    jsClass: "js",                    // String: 'JS enabled' class which is added to <html> element
+    init: function(){},               // Function: Init callback
+    open: function(){},               // Function: Open callback
+    close: function(){}               // Function: Close callback
+});
+</script>
 
 </body>
 

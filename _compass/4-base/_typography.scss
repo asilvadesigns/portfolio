@@ -36,7 +36,7 @@ h6, small,
 p, ul {
     @include margin-trailer(1);
 }
-.title + ul {
+.title + .post__list {
     @include margin-leader(1);    
 }
 strong, em {

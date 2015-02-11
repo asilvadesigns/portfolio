@@ -2,7 +2,7 @@
 //
 // Grid
 //
-.wrapper, .grid, [class*="col--"] {
+.wrapper, .grid, .col {
     @include box-sizing;
 }
 .wrapper {
@@ -13,7 +13,7 @@
 .grid {
     margin: 0 rhythm(1)*-1;
 }
-[class*="col--"] {
+.col {
     float: left;
     padding: 0 rhythm(1);    
 }

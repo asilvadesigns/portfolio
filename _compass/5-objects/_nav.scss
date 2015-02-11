@@ -39,9 +39,9 @@
     position: absolute;
     display: block;
     overflow: hidden;
-    zoom: 1;
+    // zoom: 1;
 }
-.nav--collapse.opened {
+.nav--opened {
     max-height: 9999px;
 }
 .nav-toggle {
@@ -51,13 +51,13 @@
     -moz-user-select: none;
     -ms-user-select: none;
     -o-user-select: none;
-    user-select: none;
+    // user-select: none;
 }
 @include media(large) {
     .js .nav--collapse {
         position: relative;
     }
-    .js .nav--collapse.closed {
+    .js .nav--closed {
         max-height: none;
     }
 }
@@ -89,7 +89,7 @@
         width: 100%;
     }
 }
-.nav-toggle.active {
+.nav--active {
     &:before {
         // content:"\274C";
         content: "Close";

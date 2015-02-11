@@ -1,28 +1,60 @@
 ////////////////////////////////////////////
 //
-// Logo
+// Site Nav
 //
 .site__nav {
     background-color: $site__nav__bg;
     @include media(large){
         background-color: transparent;
-    }
+    }    
 }
-
+////////////////////////////////////////////
+//
+// Site Footer
+//
+.site__footer {
+    background-color: $site__footer__bg;
+    @include margin-leader(2);
+    @include padding-leader(2);  
+}
+.site__nav, .site__footer {
+    position: relative;
+}
+.site__nav:before, .site__footer:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: rhythm(.15);
+    @include linear-gradient($site__nav__bg--start, $site__nav__bg--end);
+}
 ////////////////////////////////////////////
 //
 // Logo
 //
 .logo {
-    display: block;
     @include margin-leader(1);
 }
 .logo__icon {
-    display: block;
     height: 1.25em;
 }
+.logo__path {
+    fill: $site__link__color;    
+}
 .logo__name {
-    display: block;    
-    @include margin-leader(1);    
-    color: $logo__name__color;
+
+}
+
+////////////////////////////////////////////
+//
+// Title
+//
+.title {
+}
+.title--ff {
+    @include font(regular--sc);    
+}
+.title--secondary {
+    @extend .title--ff;
+    text-transform: lowercase;
+    letter-spacing: .12em;
 }

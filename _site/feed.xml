@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Alberto Silva Portfolio</title>
+    <title>Test</title>
     <description>I'm a web designer based out of Germantown, Maryland. I love Jesus, my wife, our newborn son, and ff Mark. When I'm away from my computer I can be found preaching, hiking, or trying to dunk a basketball.
 </description>
     <link>http://asilvadesigns.com/portfolio//</link>
     <atom:link href="http://asilvadesigns.com/portfolio//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 10 Feb 2015 14:35:41 -0500</pubDate>
-    <lastBuildDate>Tue, 10 Feb 2015 14:35:41 -0500</lastBuildDate>
+    <pubDate>Wed, 11 Feb 2015 14:27:09 -0500</pubDate>
+    <lastBuildDate>Wed, 11 Feb 2015 14:27:09 -0500</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
@@ -27,9 +27,9 @@
         <link>http://asilvadesigns.com/portfolio//portfolio/2015/01/28/portfolio-post-08.html</link>
         <guid isPermaLink="true">http://asilvadesigns.com/portfolio//portfolio/2015/01/28/portfolio-post-08.html</guid>
         
-        <category>portfolio</category>
+        <category>{&quot;product&quot;=&gt;&quot;3D Model&quot;}</category>
         
-        <category>3d</category>
+        <category>{&quot;product&quot;=&gt;&quot;Texture&quot;}</category>
         
         
         <category>portfolio</category>
@@ -46,9 +46,7 @@
         <link>http://asilvadesigns.com/portfolio//portfolio/2015/01/28/portfolio-post-07.html</link>
         <guid isPermaLink="true">http://asilvadesigns.com/portfolio//portfolio/2015/01/28/portfolio-post-07.html</guid>
         
-        <category>portfolio</category>
-        
-        <category>website</category>
+        <category>{&quot;product&quot;=&gt;&quot;Wedding Inviations&quot;}</category>
         
         
         <category>portfolio</category>
@@ -65,9 +63,7 @@
         <link>http://asilvadesigns.com/portfolio//portfolio/2015/01/28/portfolio-post-06.html</link>
         <guid isPermaLink="true">http://asilvadesigns.com/portfolio//portfolio/2015/01/28/portfolio-post-06.html</guid>
         
-        <category>portfolio</category>
-        
-        <category>website</category>
+        <category>{&quot;product&quot;=&gt;&quot;Wedding Inviations&quot;}</category>
         
         
         <category>portfolio</category>
@@ -84,9 +80,7 @@
         <link>http://asilvadesigns.com/portfolio//portfolio/2015/01/28/portfolio-post-05.html</link>
         <guid isPermaLink="true">http://asilvadesigns.com/portfolio//portfolio/2015/01/28/portfolio-post-05.html</guid>
         
-        <category>portfolio</category>
-        
-        <category>website</category>
+        <category>{&quot;product&quot;=&gt;&quot;Website&quot;}</category>
         
         
         <category>portfolio</category>
@@ -104,9 +98,7 @@
         <link>http://asilvadesigns.com/portfolio//portfolio/2015/01/27/portfolio-post-03.html</link>
         <guid isPermaLink="true">http://asilvadesigns.com/portfolio//portfolio/2015/01/27/portfolio-post-03.html</guid>
         
-        <category>portfolio</category>
-        
-        <category>logo</category>
+        <category>{&quot;product&quot;=&gt;&quot;Logo&quot;}</category>
         
         
         <category>portfolio</category>
@@ -122,9 +114,7 @@
         <link>http://asilvadesigns.com/portfolio//portfolio/2015/01/21/portfolio-post-02.html</link>
         <guid isPermaLink="true">http://asilvadesigns.com/portfolio//portfolio/2015/01/21/portfolio-post-02.html</guid>
         
-        <category>portfolio</category>
-        
-        <category>logo</category>
+        <category>{&quot;product&quot;=&gt;&quot;Logo&quot;}</category>
         
         
         <category>portfolio</category>
@@ -144,11 +134,9 @@
         <link>http://asilvadesigns.com/portfolio//portfolio/2015/01/20/portfolio-post-01.html</link>
         <guid isPermaLink="true">http://asilvadesigns.com/portfolio//portfolio/2015/01/20/portfolio-post-01.html</guid>
         
-        <category>portfolio</category>
+        <category>{&quot;product&quot;=&gt;&quot;Brochure&quot;}</category>
         
-        <category>brochure</category>
-        
-        <category>print</category>
+        <category>{&quot;product&quot;=&gt;&quot;Print&quot;}</category>
         
         
         <category>portfolio</category>

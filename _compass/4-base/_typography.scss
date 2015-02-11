@@ -39,3 +39,10 @@ p, ul {
 strong, em {
     @include font(bold);
 }
+a {
+    color: $site__link__color;
+    @include transition(.25s, color, ease-in-out);
+    &:hover, &:active, &:focus {
+        color: darken($site__link__color, 20%);
+    }
+}

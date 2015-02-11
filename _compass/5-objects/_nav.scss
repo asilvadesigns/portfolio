@@ -2,13 +2,20 @@
 //
 // Nav
 //
-.nav {}
+.nav {
+    
+}
 .nav__item {
     @include media(large) {
-        float: left;
+        float: right;
         &:not(:last-child) {
             margin-right: rhythm(1);
         }
+    }
+}
+.nav__item--left {    
+    @include media(large) {
+        float:left;
     }
 }
 .nav__link {
@@ -48,21 +55,16 @@
 }
 @include media(large) {
     .js .nav--collapse {
-    position: relative;
+        position: relative;
     }
     .js .nav--collapse.closed {
-    max-height: none;
+        max-height: none;
     }
 }
 .nav-toggle {
     position: fixed;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    -moz-osx-font-smoothing: grayscale;    
     text-decoration: none;
     text-indent: -999px;
     position: relative;
@@ -73,20 +75,24 @@
         display: none;
     }
     &:before {
-        content: "\2261";
+        // content: "\2261";
+        content: "Menu"; 
+        // content: "\25B3";
         display: block;
         color: $nav__toggle__color; /* Edit this to change the icon color */
-        font-size: 28px;
-        text-transform: none;
+        // font-size: 28px;
         position: absolute;
-        text-indent: 0;
         text-align: right;
-        line-height: rhythm(2);
+        line-height: rhythm(1);
+        top: rhythm(1);
         speak: none;
         width: 100%;
     }
 }
-.nav-toggle.active::before {
-    font-size: 24px;
-    content:"x";
+.nav-toggle.active {
+    &:before {
+        // content:"\274C";
+        content: "Close";
+        // content: "\2206";
+    }
 }

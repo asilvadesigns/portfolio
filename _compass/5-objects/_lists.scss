@@ -12,3 +12,13 @@
         left: rhythm(.5)*-1;
     }
 }
+.list--inline {
+    > li {
+        display: inline-block;
+    }
+}
+.list--commas {
+    > li:not(:last-child):after {
+        content: ",";
+    }
+}

@@ -50,24 +50,32 @@ $red: #FF3838;
 $red--actual: #EF3F3E;
 $red--orange: #E74C3C;
 $blue: #59D8E6;
-$blue--test: #105892;
+$blue--grey: #2C3E50;
+$blue--light: #7191b0;
 $grey: #52616D;
 $grey--medium: #737979;
-$grey--light: #ECF0F1;
+$grey--light: #AFAFAF;
+$grey--ultra--light: #ECF0F1;
 //
 $primary__color: $red--orange;
+$secondary__color: $blue--light;
 $neutral__color: $grey;
 $neutral__color--medium: $grey--medium;
 $neutral__color--light: $grey--light;
+$neutral__color--ultra--light: $grey--ultra--light;
 ////////////////////////////////////////////
 //
 // Color Usage
 //
 $site__color: $neutral__color;
+$site__link__color: $secondary__color;
 
-$site__nav__bg: $neutral__color--light;
+$site__nav__bg: $neutral__color--ultra--light;
+$site__nav__bg--start: $secondary__color;
+$site__nav__bg--end: $primary__color;
 
-$nav__color: $neutral__color--light;
+$site__footer__bg: $neutral__color--ultra--light;
+
+$post__tags__color: $neutral__color--light;
+
 $nav__toggle__color: $primary__color;
-
-$logo__name__color: $primary__color;

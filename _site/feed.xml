@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Test</title>
-    <description>I'm a web designer based out of Germantown, Maryland. I love Jesus, my wife, our newborn son, and ff Mark. When I'm away from my computer I can be found preaching, hiking, or trying to dunk a basketball.
+    <title>Alberto Silva Portfolio</title>
+    <description>Alberto Silva is a graphics and web designer obsessed with complex pattern abstraction que es fluido en español.
 </description>
     <link>http://asilvadesigns.com/portfolio//</link>
     <atom:link href="http://asilvadesigns.com/portfolio//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 11 Feb 2015 14:37:35 -0500</pubDate>
-    <lastBuildDate>Wed, 11 Feb 2015 14:37:35 -0500</lastBuildDate>
+    <pubDate>Wed, 11 Feb 2015 14:41:03 -0500</pubDate>
+    <lastBuildDate>Wed, 11 Feb 2015 14:41:03 -0500</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>

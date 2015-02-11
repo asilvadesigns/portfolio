@@ -27,34 +27,3 @@
     height: rhythm(.15);
     @include linear-gradient($site__nav__bg--start, $site__nav__bg--end);
 }
-////////////////////////////////////////////
-//
-// Logo
-//
-.logo {
-    @include margin-leader(1);
-}
-.logo__icon {
-    height: 1.25em;
-}
-.logo__path {
-    fill: $site__link__color;    
-}
-.logo__name {
-
-}
-
-////////////////////////////////////////////
-//
-// Title
-//
-.title {
-}
-.title--ff {
-    @include font(regular--sc);    
-}
-.title--secondary {
-    @extend .title--ff;
-    text-transform: lowercase;
-    letter-spacing: .12em;
-}

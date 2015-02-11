@@ -1,0 +1,14 @@
+////////////////////////////////////////////
+//
+// Title
+//
+.title {
+}
+.title--ff {
+    @include font(regular--sc);    
+}
+.title--secondary {
+    @extend .title--ff;
+    text-transform: lowercase;
+    letter-spacing: .12em;
+}

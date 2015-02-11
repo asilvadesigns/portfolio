@@ -14,7 +14,7 @@ class: sub
         {{ content }}
     </article>
     <div class="wrapper">
-        <h5>Portfolio</h5>
+        <h5 class="title title--secondary">Portfolio</h5>
         <ul class="post__list">
             {% for post in site.posts reversed %}
             {% if post.categories contains 'portfolio' %}

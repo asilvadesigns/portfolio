@@ -36,6 +36,9 @@ h6, small,
 p, ul {
     @include margin-trailer(1);
 }
+.title + ul {
+    @include margin-leader(1);    
+}
 strong, em {
     @include font(bold);
 }

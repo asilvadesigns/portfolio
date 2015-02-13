@@ -6,14 +6,10 @@
                     <span class="hidden__small">Alberto Silva</span>
                     <span class="hidden__large">Index</span>
                 </a>
-            </li>   
-            {% for page in site.pages %}
-            {% if page.title %}
-            <li class="nav__item">
-                <a class="nav__link [ title title--secondary ]" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
             </li>
-            {% endif %}
-            {% endfor %}            
+            {% assign pages_list = site.pages %}
+            {% assign group = 'navigation' %}
+            {% include pages_list.html %}            
         </ul>
     </article>
 </nav>

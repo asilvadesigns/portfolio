@@ -7,6 +7,9 @@
 .title--ff {
     @include font(regular--sc);    
 }
+.title--primary {
+    color: $title--primary__color;
+}
 .title--secondary {
     @extend .title--ff;
     text-transform: lowercase;

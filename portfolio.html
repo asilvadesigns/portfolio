@@ -1,0 +1,21 @@
+---
+layout: page
+title: Portfolio
+permalink: /portfolio/
+group: "navigation"
+---
+<ul class="post__list">
+    {% for post in site.categories['portfolio'] %}
+    <li class="post__item">
+        <a class="post__link" href="{{ post.url | prepend: site.baseurl }}">
+            <span="title title--secondary">{{ post.title }}</span>
+            <!-- <img class="post__image" src="{{ post.feature | prepend: site.baseurl }}" alt="{{ post.title }}"> -->
+        </a>
+        <ul class="post__tags [ list--inline list--commas ]">
+            {% for item in post.tags %}
+                <li>{{ item.product }}</li>                        
+            {% endfor %}
+        </ul>
+    </li>
+    {% endfor %}
+</ul>

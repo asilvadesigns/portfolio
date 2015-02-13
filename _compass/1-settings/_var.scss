@@ -46,19 +46,25 @@ $h6: .8;
 //
 // Color Palette
 //
-$red: #FF3838;
-$red--actual: #EF3F3E;
-$red--orange: #E74C3C;
+$red: #E74C3C;
+$red--light: #B07771;
+
+//
 $blue: #59D8E6;
 $blue--grey: #2C3E50;
 $blue--light: #7191b0;
+//
+$grey--dark: #37444F;
 $grey: #52616D;
 $grey--medium: #737979;
 $grey--light: #AFAFAF;
 $grey--ultra--light: #ECF0F1;
 //
-$primary__color: $red--orange;
+$primary__color: $red;
 $secondary__color: $blue--light;
+$accent__color: $red--light;
+//
+$neutral__color--dark: $grey--dark;
 $neutral__color: $grey;
 $neutral__color--medium: $grey--medium;
 $neutral__color--light: $grey--light;
@@ -69,6 +75,7 @@ $neutral__color--ultra--light: $grey--ultra--light;
 //
 $site__color: $neutral__color;
 $site__link__color: $secondary__color;
+$site__link__color--hover: darken($site__link__color, 10%);
 
 $site__nav__bg: $neutral__color--ultra--light;
 $site__nav__bg--start: $secondary__color;
@@ -78,4 +85,6 @@ $site__footer__bg: $neutral__color--ultra--light;
 
 $post__tags__color: $neutral__color--light;
 
-$nav__toggle__color: $primary__color;
+$nav__toggle__color: $secondary__color;
+
+$title--primary__color: $accent__color;

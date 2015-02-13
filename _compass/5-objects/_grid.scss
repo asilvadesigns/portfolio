@@ -4,19 +4,39 @@
 //
 .wrapper, .grid, .col {
     @include box-sizing;
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
 }
 .wrapper {
-    margin: 0 auto;
-    padding: 0 rhythm(1);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: rhythm(1);
+    padding-right: rhythm(1);
     max-width: $screen--small;    
 }
 .grid {
-    margin: 0 rhythm(1)*-1;
+    margin-left: rhythm(1)*-1;
+    margin-right: rhythm(1)*-1;
 }
 .col {
     float: left;
-    padding: 0 rhythm(1);    
+    padding-left: rhythm(1);
+    padding-right: rhythm(1);
 }
 .col--3 {
     width: 50%;
+}
+.col--3--large {
+    &:nth-child(2n) {
+        @include margin-leader(2);
+    }
+    @include media(large) {
+        &:nth-child(2n) {
+            margin-top: 0;
+        }
+        width: 50%;
+    }
 }

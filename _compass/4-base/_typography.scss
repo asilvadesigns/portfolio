@@ -36,8 +36,11 @@ h6, small,
 p, ul {
     @include margin-trailer(1);
 }
-.title + .post__list {
+.post__title + p {
     @include margin-leader(1);    
+}
+section + section {
+    @include margin-leader(2);        
 }
 strong, em {
     @include font(bold);
@@ -45,7 +48,7 @@ strong, em {
 a {
     color: $site__link__color;
     @include transition(.25s, color, ease-in-out);
-    &:hover, &:active, &:focus {
-        color: darken($site__link__color, 20%);
+    &:hover, &:active, &:focus, &.active {
+        color: $site__link__color--hover;
     }
 }

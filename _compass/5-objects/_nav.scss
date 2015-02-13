@@ -8,14 +8,13 @@
 .nav__item {
     @include media(large) {
         float: right;
-        &:not(:last-child) {
-            margin-right: rhythm(1);
-        }
+        margin-left: rhythm(1);
     }
 }
 .nav__item--left {    
     @include media(large) {
         float:left;
+        margin-left: 0;
     }
 }
 .nav__link {

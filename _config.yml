@@ -11,6 +11,7 @@ url: "http://asilvadesigns.com"
 # github_username:  jekyll
 
 # Build settings
+permalink: :categories/:title.html
 markdown: kramdown
 
 kramdown:

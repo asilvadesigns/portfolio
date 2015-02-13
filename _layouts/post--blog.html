@@ -6,27 +6,23 @@ class: sub
 <main class="site__main">
     <article class="wrapper">
         <section>
-            <h5 class="title title--secondary">Role</h5>
-            <p>{{ page.role }}</p>
-            <h5 class="title title--secondary">Client</h5>
-            <p>{{ page.client }}</p>
-            <h5 class="title title--secondary">Project</h5>
-            <p>{{ page.project }}</p>
+            <h3 class="title title--primary">{{ page.description }}</h3>
+            <h2 class="epsilon post__title [ title title--secondary ]">{{ page.title }}</h2>
             {{ content }}
+            <p>Thanks for reading!</p>
         </section>
         <section>
-            <h5 class="title title--secondary">Portfolio</h5>
+            <h5 class="title title--secondary">Recent Posts</h5>
             <ul class="post__list">
                 {% for post in site.posts reversed %}
-                {% if post.categories contains 'portfolio' %}
+                {% if post.categories contains 'blog' %}
                 <li class="post__item">
                     <a class="post__link" href="{{ post.url | prepend: site.baseurl }}">
                         <span="title title--secondary">{{ post.title }}</span>
-                        <!-- <img class="post__image" src="{{ post.feature | prepend: site.baseurl }}" alt="{{ post.title }}"> -->
                     </a>
                     <ul class="post__tags [ list--inline list--commas ]">
                         {% for item in post.tags %}
-                            <li>{{ item.product }}</li>                        
+                            <li>{{ item.tag }}</li>                        
                         {% endfor %}
                     </ul>
                 </li>

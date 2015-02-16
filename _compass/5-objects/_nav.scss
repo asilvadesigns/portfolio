@@ -6,6 +6,12 @@
     
 }
 .nav__item {
+    &:first-child .nav__link {
+        padding-top: rhythm(1);
+    }
+    &:last-child .nav__link {
+        padding-bottom: rhythm(1);
+    }
     @include media(large) {
         float: right;
         margin-left: rhythm(1);
@@ -75,8 +81,8 @@
     }
     &:before {
         // content: "\2261";
-        content: "Menu"; 
-        // content: "\25B3";
+        // content: "Menu"; 
+        content: "\25BD";
         display: block;
         color: $nav__toggle__color; /* Edit this to change the icon color */
         // font-size: 28px;
@@ -91,7 +97,8 @@
 .nav--active {
     &:before {
         // content:"\274C";
-        content: "Close";
+        // content: "Close";
         // content: "\2206";
+        content: "\25B3";        
     }
 }

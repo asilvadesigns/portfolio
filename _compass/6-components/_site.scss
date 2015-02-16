@@ -1,3 +1,8 @@
+%site__pseudo {
+    content: "";
+    display: block;
+    width: 100%;
+}
 ////////////////////////////////////////////
 //
 // Site Nav
@@ -20,10 +25,13 @@
 .site__nav, .site__footer {
     position: relative;
 }
-.site__nav:before, .site__footer:after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: rhythm(.15);
+.site__nav:before {
+    @extend %site__pseudo;
+    height: rhythm(.05);
     @include linear-gradient($site__nav__bg--start, $site__nav__bg--end);
+}
+.site__footer:after {    
+    @extend %site__pseudo;
+    height: rhythm(.15);
+    @include linear-gradient($site__footer__bg--start, $site__footer__bg--end);
 }

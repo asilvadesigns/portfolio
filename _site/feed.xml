@@ -6,8 +6,8 @@
 </description>
     <link>http://asilvadesigns.com/portfolio//</link>
     <atom:link href="http://asilvadesigns.com/portfolio//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 13 Feb 2015 15:26:14 -0500</pubDate>
-    <lastBuildDate>Fri, 13 Feb 2015 15:26:14 -0500</lastBuildDate>
+    <pubDate>Mon, 16 Feb 2015 09:33:56 -0500</pubDate>
+    <lastBuildDate>Mon, 16 Feb 2015 09:33:56 -0500</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
@@ -44,7 +44,7 @@
       <item>
         <title>VIM Adventure Day 1</title>
         <description>&lt;p&gt;I've recently made the decision to go VIM &amp;hellip; or at least try. The first time I've heard it mentioned was on &lt;a href=&quot;http://csswizardry.com/2014/06/vim-for-people-who-think-things-like-vim-are-weird-and-hard/&quot;&gt;CSS Wizardry.&lt;/a&gt; Being a fan of Harry Robert's recent talks I decided to &lt;a href=&quot;http://www.vim.org/download.php&quot;&gt;download it&lt;/a&gt; and see what the hype is about.&lt;/p&gt;
-&lt;p&gt;I won't lie, upon first opening it up I immediately felt the same way I did about SASS, overwhelmed and horrified that this might require use of the command line, which sure enough, it did.&lt;/p&gt;
+&lt;p&gt;Upon first opening it up I immediately felt the same way I did about SASS, overwhelmed and horrified that this might require use of the command line, which sure enough, it did.&lt;/p&gt;
 &lt;p&gt;The next several days should be interesting, but as I want to continue growing as an artist, for some strange reason, this just feels right. I'll continue to document my experience via this blog.&lt;/p&gt;</description>
         <pubDate>Thu, 12 Feb 2015 09:11:42 -0500</pubDate>
         <link>http://asilvadesigns.com/portfolio//blog/vim-adventure.html</link>

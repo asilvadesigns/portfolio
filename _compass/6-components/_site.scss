@@ -9,9 +9,9 @@
 //
 .site__nav {
     background-color: $site__nav__bg;
-    @include media(large){
-        background-color: transparent;
-    }    
+    .nav__link {
+        color: white;
+    } 
 }
 ////////////////////////////////////////////
 //

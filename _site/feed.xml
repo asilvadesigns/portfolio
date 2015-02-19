@@ -4,10 +4,10 @@
     <title>Alberto Silva Portfolio</title>
     <description>Alberto Silva is a graphics and web designer obsessed with complex pattern abstraction que es fluido en español.
 </description>
-    <link>http://asilvadesigns.com//</link>
-    <atom:link href="http://asilvadesigns.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 19 Feb 2015 11:53:54 -0500</pubDate>
-    <lastBuildDate>Thu, 19 Feb 2015 11:53:54 -0500</lastBuildDate>
+    <link>http://asilvadesigns.com/</link>
+    <atom:link href="http://asilvadesigns.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 19 Feb 2015 11:58:03 -0500</pubDate>
+    <lastBuildDate>Thu, 19 Feb 2015 11:58:03 -0500</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
@@ -27,8 +27,8 @@
 &lt;p&gt;The headaches came in when I began to read the GitHub repositories that contained plug-ins I wanted, the most basic of which is a different colorscheme. All repositories mentioned Pathogen and Bundle, as well as Git(which I didn't know was separate from GitHub).&lt;/p&gt;
 &lt;p&gt;So I began my search and downloaded the appropriate files, all found on &lt;a href=&quot;http://www.vim.org&quot;&gt;www.vim.org.&lt;/a&gt; A couple of installs, corrupted files, un-installs and successful re-installs later, I now finally have VIM working. Soon I'll post a thorough step-by-step install.&lt;/p&gt;</description>
         <pubDate>Fri, 13 Feb 2015 07:45:42 -0500</pubDate>
-        <link>http://asilvadesigns.com//blog/vim-adventure-installation.html</link>
-        <guid isPermaLink="true">http://asilvadesigns.com//blog/vim-adventure-installation.html</guid>
+        <link>http://asilvadesigns.com/blog/vim-adventure-installation.html</link>
+        <guid isPermaLink="true">http://asilvadesigns.com/blog/vim-adventure-installation.html</guid>
         
         <category>{&quot;tag&quot;=&gt;&quot;Git&quot;}</category>
         
@@ -47,8 +47,8 @@
 &lt;p&gt;Upon first opening it up I immediately felt the same way I did about SASS, overwhelmed and horrified that this might require use of the command line, which sure enough, it did.&lt;/p&gt;
 &lt;p&gt;The next several days should be interesting, but as I want to continue growing as an artist, for some strange reason, this just feels right. I'll continue to document my experience via this blog.&lt;/p&gt;</description>
         <pubDate>Thu, 12 Feb 2015 09:11:42 -0500</pubDate>
-        <link>http://asilvadesigns.com//blog/vim-adventure.html</link>
-        <guid isPermaLink="true">http://asilvadesigns.com//blog/vim-adventure.html</guid>
+        <link>http://asilvadesigns.com/blog/vim-adventure.html</link>
+        <guid isPermaLink="true">http://asilvadesigns.com/blog/vim-adventure.html</guid>
         
         <category>{&quot;tag&quot;=&gt;&quot;Text Editor&quot;}</category>
         
@@ -63,20 +63,20 @@
     
       <item>
         <title>X Games</title>
-        <description>&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/xgames-01.jpg&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/xgames-02.jpg&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/xgames-03.jpg&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/xgames-04.jpg&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/xgames-05.jpg&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/xgames-06.jpg&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/xgames-07.jpg&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/xgames-08.jpg&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/xgames-09.jpg&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/xgames-10.jpg&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/xgames-11.jpg&quot;&gt;&lt;/p&gt;</description>
+        <description>&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/xgames-01.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/xgames-02.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/xgames-03.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/xgames-04.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/xgames-05.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/xgames-06.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/xgames-07.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/xgames-08.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/xgames-09.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/xgames-10.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/xgames-11.jpg&quot;&gt;&lt;/p&gt;</description>
         <pubDate>Wed, 28 Jan 2015 11:19:42 -0500</pubDate>
-        <link>http://asilvadesigns.com//portfolio/x-games.html</link>
-        <guid isPermaLink="true">http://asilvadesigns.com//portfolio/x-games.html</guid>
+        <link>http://asilvadesigns.com/portfolio/x-games.html</link>
+        <guid isPermaLink="true">http://asilvadesigns.com/portfolio/x-games.html</guid>
         
         <category>{&quot;product&quot;=&gt;&quot;3D Model&quot;}</category>
         
@@ -89,13 +89,13 @@
     
       <item>
         <title>Alberto &amp; Bethany</title>
-        <description>&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/AlbertoBethany-01.jpg&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/AlbertoBethany-03.jpg&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/AlbertoBethany-02.jpg&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/AlbertoBethany-04.jpg&quot;&gt;&lt;/p&gt;</description>
+        <description>&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/AlbertoBethany-01.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/AlbertoBethany-03.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/AlbertoBethany-02.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/AlbertoBethany-04.jpg&quot;&gt;&lt;/p&gt;</description>
         <pubDate>Wed, 28 Jan 2015 09:01:42 -0500</pubDate>
-        <link>http://asilvadesigns.com//portfolio/alberto-and-bethany.html</link>
-        <guid isPermaLink="true">http://asilvadesigns.com//portfolio/alberto-and-bethany.html</guid>
+        <link>http://asilvadesigns.com/portfolio/alberto-and-bethany.html</link>
+        <guid isPermaLink="true">http://asilvadesigns.com/portfolio/alberto-and-bethany.html</guid>
         
         <category>{&quot;product&quot;=&gt;&quot;Wedding Inviations&quot;}</category>
         
@@ -106,13 +106,13 @@
     
       <item>
         <title>Toby &amp; Natalie</title>
-        <description>&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/TobyNatalie-01.jpg&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/TobyNatalie-03.jpg&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/TobyNatalie-02.jpg&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/TobyNatalie-04.jpg&quot;&gt;&lt;/p&gt;</description>
+        <description>&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/TobyNatalie-01.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/TobyNatalie-03.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/TobyNatalie-02.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/TobyNatalie-04.jpg&quot;&gt;&lt;/p&gt;</description>
         <pubDate>Wed, 28 Jan 2015 07:17:42 -0500</pubDate>
-        <link>http://asilvadesigns.com//portfolio/toby-and-natalie.html</link>
-        <guid isPermaLink="true">http://asilvadesigns.com//portfolio/toby-and-natalie.html</guid>
+        <link>http://asilvadesigns.com/portfolio/toby-and-natalie.html</link>
+        <guid isPermaLink="true">http://asilvadesigns.com/portfolio/toby-and-natalie.html</guid>
         
         <category>{&quot;product&quot;=&gt;&quot;Wedding Inviations&quot;}</category>
         
@@ -123,13 +123,13 @@
     
       <item>
         <title>Brookdale Honda</title>
-        <description>&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/Luther-01.jpg&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/Luther-02.jpg&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/Luther-03.jpg&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/Luther-04.jpg&quot;&gt;&lt;/p&gt;</description>
+        <description>&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/Luther-01.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/Luther-02.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/Luther-03.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/Luther-04.jpg&quot;&gt;&lt;/p&gt;</description>
         <pubDate>Wed, 28 Jan 2015 06:16:42 -0500</pubDate>
-        <link>http://asilvadesigns.com//portfolio/brookedale-honda.html</link>
-        <guid isPermaLink="true">http://asilvadesigns.com//portfolio/brookedale-honda.html</guid>
+        <link>http://asilvadesigns.com/portfolio/brookedale-honda.html</link>
+        <guid isPermaLink="true">http://asilvadesigns.com/portfolio/brookedale-honda.html</guid>
         
         <category>{&quot;product&quot;=&gt;&quot;Website&quot;}</category>
         
@@ -140,14 +140,14 @@
     
       <item>
         <title>Rockville Rams</title>
-        <description>&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/Rockville-01.jpg&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/Rockville-02.jpg&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/Rockville-03.jpg&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/Rockville-04.jpg&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/Rockville-05.jpg&quot;&gt;&lt;/p&gt;</description>
+        <description>&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/Rockville-01.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/Rockville-02.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/Rockville-03.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/Rockville-04.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/Rockville-05.jpg&quot;&gt;&lt;/p&gt;</description>
         <pubDate>Tue, 27 Jan 2015 05:22:02 -0500</pubDate>
-        <link>http://asilvadesigns.com//portfolio/rockville-rams.html</link>
-        <guid isPermaLink="true">http://asilvadesigns.com//portfolio/rockville-rams.html</guid>
+        <link>http://asilvadesigns.com/portfolio/rockville-rams.html</link>
+        <guid isPermaLink="true">http://asilvadesigns.com/portfolio/rockville-rams.html</guid>
         
         <category>{&quot;product&quot;=&gt;&quot;Logo&quot;}</category>
         
@@ -158,12 +158,12 @@
     
       <item>
         <title>Cupcakes</title>
-        <description>&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/Cupcakes-02.jpg&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/Cupcakes-01.jpg&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/Cupcakes-03.jpg&quot;&gt;&lt;/p&gt;</description>
+        <description>&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/Cupcakes-02.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/Cupcakes-01.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/Cupcakes-03.jpg&quot;&gt;&lt;/p&gt;</description>
         <pubDate>Wed, 21 Jan 2015 10:36:02 -0500</pubDate>
-        <link>http://asilvadesigns.com//portfolio/cupcakes.html</link>
-        <guid isPermaLink="true">http://asilvadesigns.com//portfolio/cupcakes.html</guid>
+        <link>http://asilvadesigns.com/portfolio/cupcakes.html</link>
+        <guid isPermaLink="true">http://asilvadesigns.com/portfolio/cupcakes.html</guid>
         
         <category>{&quot;product&quot;=&gt;&quot;Logo&quot;}</category>
         
@@ -174,16 +174,16 @@
     
       <item>
         <title>Eleven 11</title>
-        <description>&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/Eleven-Eleven-01.jpg&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/Eleven-Eleven-02.jpg&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/Eleven-Eleven-03.jpg&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/Eleven-Eleven-04.jpg&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/Eleven-Eleven-05.jpg&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/Eleven-Eleven-06.jpg&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;//img/Eleven-Eleven-07.jpg&quot;&gt;&lt;/p&gt;</description>
+        <description>&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/Eleven-Eleven-01.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/Eleven-Eleven-02.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/Eleven-Eleven-03.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/Eleven-Eleven-04.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/Eleven-Eleven-05.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/Eleven-Eleven-06.jpg&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;gallery__item&quot;&gt;&lt;img src=&quot;/img/Eleven-Eleven-07.jpg&quot;&gt;&lt;/p&gt;</description>
         <pubDate>Tue, 20 Jan 2015 13:20:27 -0500</pubDate>
-        <link>http://asilvadesigns.com//portfolio/eleven-eleven.html</link>
-        <guid isPermaLink="true">http://asilvadesigns.com//portfolio/eleven-eleven.html</guid>
+        <link>http://asilvadesigns.com/portfolio/eleven-eleven.html</link>
+        <guid isPermaLink="true">http://asilvadesigns.com/portfolio/eleven-eleven.html</guid>
         
         <category>{&quot;product&quot;=&gt;&quot;Brochure&quot;}</category>
         

@@ -1,0 +1,10 @@
+////////////////////////////////////////////
+//
+// Site Footer
+//
+.site__footer {
+    background-color: $site__footer__bg;
+    @include margin-leader(2);
+    @include padding-leader(2);  
+    @include padding-trailer(2);
+}

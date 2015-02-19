@@ -36,6 +36,18 @@
     }
     @else if $font-family == bold--sc {
         font-family: "MarkScWeb-Bold", sans-serif;
+    }
+    @else if $font-family == regular--serif {
+        font-family: "AlegreyaRegular", sans-serif;
+    }
+    @else if $font-family == regular--serif--italic {
+        font-family: "AlegreyaItalic", sans-serif;
+    }
+    @else if $font-family == bold--serif {
+        font-family: "AlegreyaBold", sans-serif;
+    }
+    @else if $font-family == bold--serif--italic {
+        font-family: "AlegreyaBoldItalic", sans-serif;
     }    
 }
 ////////////////////////////////////////////

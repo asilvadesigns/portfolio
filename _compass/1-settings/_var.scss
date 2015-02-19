@@ -6,15 +6,37 @@
 @font-face { font-family: "MarkWeb"; src: url("font/mark/MarkWeb.woff") format("woff"); }
 @font-face { font-family: "MarkScWeb-Bold"; src: url("font/mark/MarkScWeb-Bold.woff") format("woff"); }
 @font-face { font-family: "MarkScWeb"; src: url("font/mark/MarkScWeb.woff") format("woff"); }
-@font-face {
-    font-family: "responsivenav";
-    src:url("font/icon/responsivenav.eot");
-    src:url("font/icon/responsivenav.eot?#iefix") format("embedded-opentype"),
-        url("font/icon/responsivenav.ttf") format("truetype"),
-        url("font/icon/responsivenav.woff") format("woff"),
-        url("font/icon/responsivenav.svg#responsivenav") format("svg");
-    font-weight: normal;
-    font-style: normal;
+@font-face { font-family: "AlegreyaRegular";
+    src: url("font/alegreya/AlegreyaRegular.eot");
+    src: url("font/alegreya/AlegreyaRegular.eot") format("embedded-opentype"),
+         url("font/alegreya/AlegreyaRegular.woff2") format("woff2"),
+         url("font/alegreya/AlegreyaRegular.woff") format("woff"),
+         url("font/alegreya/AlegreyaRegular.ttf") format("truetype"),
+         url("font/alegreya/AlegreyaRegular.svg#AlegreyaRegular") format("svg");
+}
+@font-face { font-family: "AlegreyaItalic";
+    src: url("font/alegreya/AlegreyaItalic.eot");
+    src: url("font/alegreya/AlegreyaItalic.eot") format("embedded-opentype"),
+         url("font/alegreya/AlegreyaItalic.woff2") format("woff2"),
+         url("font/alegreya/AlegreyaItalic.woff") format("woff"),
+         url("font/alegreya/AlegreyaItalic.ttf") format("truetype"),
+         url("font/alegreya/AlegreyaItalic.svg#AlegreyaItalic") format("svg");
+}
+@font-face { font-family: "AlegreyaBold";
+    src: url("font/alegreya/AlegreyaBold.eot");
+    src: url("font/alegreya/AlegreyaBold.eot") format("embedded-opentype"),
+         url("font/alegreya/AlegreyaBold.woff2") format("woff2"),
+         url("font/alegreya/AlegreyaBold.woff") format("woff"),
+         url("font/alegreya/AlegreyaBold.ttf") format("truetype"),
+         url("font/alegreya/AlegreyaBold.svg#AlegreyaBold") format("svg");
+}
+@font-face { font-family: "AlegreyaBoldItalic";
+    src: url("font/alegreya/AlegreyaBoldItalic.eot");
+    src: url("font/alegreya/AlegreyaBoldItalic.eot") format("embedded-opentype"),
+         url("font/alegreya/AlegreyaBoldItalic.woff2") format("woff2"),
+         url("font/alegreya/AlegreyaBoldItalic.woff") format("woff"),
+         url("font/alegreya/AlegreyaBoldItalic.ttf") format("truetype"),
+         url("font/alegreya/AlegreyaBoldItalic.svg#AlegreyaBoldItalic") format("svg");
 }
 ////////////////////////////////////////////
 //
@@ -50,7 +72,6 @@ $red: #E74C3C;
 $red--light: #B07771;
 
 //
-$blue: #59D8E6;
 $blue--grey: #2C3E50;
 $blue--light: #7191b0;
 //

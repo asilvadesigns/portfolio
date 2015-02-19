@@ -1,0 +1,14 @@
+////////////////////////////////////////////
+//
+// Site Nav
+//
+.site__nav {
+    background-color: $site__nav__bg;
+    .nav__link {
+        color: white;
+        text-transform: lowercase;
+    }
+    .logo {        
+        text-transform: capitalize;        
+    }
+}

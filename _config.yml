@@ -7,7 +7,7 @@ my_skill: Designer
 description: > # this means to ignore newlines until "baseurl:"
   Alberto Silva is a graphics and web designer obsessed with complex pattern abstraction que es fluido en español.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://asilvadesigns.com"
+url: "http://albertosilva.me/"
 # twitter_username: jekyllrb
 # github_username:  jekyll
 

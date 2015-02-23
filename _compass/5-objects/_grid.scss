@@ -23,6 +23,7 @@
 }
 .col {
     float: left;
+    width: 100%;
     padding-left: rhythm(1);
     padding-right: rhythm(1);
 }
@@ -30,9 +31,6 @@
     width: 50%;
 }
 .col--3--large {
-    &:nth-child(2n) {
-        @include margin-leader(2);
-    }
     @include media(large) {
         &:nth-child(2n) {
             margin-top: 0;

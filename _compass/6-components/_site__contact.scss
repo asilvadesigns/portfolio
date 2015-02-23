@@ -1,0 +1,14 @@
+////////////////////////////////////////////
+//
+// Site Contact
+//
+.site__contact {
+    margin: rhythm(1) 0;
+    a {
+        color: $site__contact__color;
+        @include transition(.25s, color, ease-in-out);
+        &:hover, &:active, &:focus, &.active {
+            color: $site__contact__color;
+        }
+    }
+}

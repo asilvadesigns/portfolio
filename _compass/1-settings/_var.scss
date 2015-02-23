@@ -43,7 +43,7 @@
 // Typography
 //
 $base-font-size: 24px;
-$base-line-unit: 1.250;
+$base-line-unit: 1.3333333333;
 $base-line-height: $base-font-size * $base-line-unit;
 
 $small-font-size: 20px;
@@ -69,46 +69,25 @@ $h6: .8;
 // Color Palette
 //
 $red: #E74C3C;
-$red--light: #B07771;
-
-//
-$blue--grey: #2C3E50;
-$blue--light: #7191b0;
-//
-$grey--dark: #37444F;
-$grey: #52616D;
-$grey--medium: #737979;
-$grey--light: #AFAFAF;
-$grey--ultra--light: #ECF0F1;
+$blue: #2C3E50;
+$grey: #AFB3B8;
 //
 $primary__color: $red;
-$secondary__color: $blue--light;
-$accent__color: $red--light;
-//
-$neutral__color--dark: $grey--dark;
+$secondary__color: $blue;
 $neutral__color: $grey;
-$neutral__color--medium: $grey--medium;
-$neutral__color--light: $grey--light;
-$neutral__color--ultra--light: $grey--ultra--light;
+
 ////////////////////////////////////////////
 //
 // Color Usage
 //
-$site__color: $neutral__color;
+$site__color: $secondary__color;
 $site__link__color: $primary__color;
 $site__link__color--hover: darken($site__link__color, 10%);
 
-$site__nav__bg: $primary__color;
-$site__nav__link__bg: white;
-$site__nav__bg--start: $primary__color;
-$site__nav__bg--end: $primary__color;
-
-$site__footer__bg: $neutral__color--ultra--light;
-$site__footer__bg--start: $neutral__color;
-$site__footer__bg--end: $neutral__color;
-
-$post__tags__color: $neutral__color--light;
+$site__contact__color: $neutral__color;
 
 $nav__toggle__color: $primary__color;
 
-$title--primary__color: $secondary__color;
+$title--primary__color: $primary__color;
+$title--secondary__color: $secondary__color;
+$title--neutral__color: $neutral__color;

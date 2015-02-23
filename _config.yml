@@ -1,11 +1,12 @@
 # Site settings
 title: Alberto Silva Portfolio
 email: asilvadesigns@gmail.com
-my_name: Alberto Silva Jr.
-my_skill: Web Designer
+phone: (301) 275-0678
+my_name: Alberto Silva
+my_skill: Designer
 description: > # this means to ignore newlines until "baseurl:"
   Alberto Silva is a graphics and web designer obsessed with complex pattern abstraction que es fluido en español.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/portfolio/" # the subpath of your site, e.g. /blog/
 url: "http://asilvadesigns.com"
 # twitter_username: jekyllrb
 # github_username:  jekyll

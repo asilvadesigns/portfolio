@@ -4,12 +4,12 @@ title: Blog
 permalink: /blog/
 group: "navigation"
 ---
-<ul class="post__list">    
+<h5 class="gamma [ title title--primary ]">On my mind</h5>
+<ul class="post__list">
     {% for post in site.categories['blog'] %}
     <li class="post__item">
-        <a class="post__link" href="{{ post.url | prepend: site.baseurl }}">
-            <span="title title--secondary">{{ post.title }}</span>
-            <!-- <img class="post__image" src="{{ post.feature | prepend: site.baseurl }}" alt="{{ post.title }}"> -->
+        <a class="post__link [ title title--small-cap ]" href="{{ post.url | prepend: site.baseurl }}">
+            {{ post.title }}
         </a>
         <ul class="post__tags [ list--inline list--commas ]">
             {% for item in post.tags %}

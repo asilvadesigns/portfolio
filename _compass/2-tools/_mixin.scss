@@ -50,16 +50,3 @@
         font-family: "AlegreyaBoldItalic", sans-serif;
     }    
 }
-////////////////////////////////////////////
-//
-// Linear Gradient
-//
-@mixin linear-gradient( $start, $stop ) {
-    background: $start;
-    background: -moz-linear-gradient(left,  $start 0%, $stop 100%);
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%,$start), color-stop(100%,$stop));
-    background: -webkit-linear-gradient(left,  $start 0%,$stop 100%);
-    background: -o-linear-gradient(left,  $start 0%,$stop 100%);
-    background: -ms-linear-gradient(left,  $start 0%,$stop 100%);
-    background: linear-gradient(to right,  $start 0%,$stop 100%);
-}

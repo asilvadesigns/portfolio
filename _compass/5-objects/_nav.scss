@@ -5,30 +5,20 @@
 .nav {
 }
 .nav__item {
-    &:first-child .nav__link {
-        padding-top: rhythm(1);
-    }
-    &:last-child .nav__link {
-        padding-bottom: rhythm(1);
-    }
+    display: block;
     @include media(large) {
-        float: right;
-        margin-left: rhythm(1);
-    }
-}
-.nav__item--left {    
-    @include media(large) {
-        float:left;
-        margin-left: 0;
+        display: inline-block;
     }
 }
 .nav__link {
-    display: block;
-    padding: rhythm(.5) 0;
+    padding: 0 rhythm(.5);
     @include media(large) {
         display: inline-block;
-        padding: rhythm(1) 0;
-    }
+    }    
+}
+.nav__item--logo {
+    display: block;
+    @include margin-trailer(1.5);
 }
 ////////////////////////////////////////////
 //

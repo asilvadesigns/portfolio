@@ -1,25 +1,27 @@
-<nav class="site__nav">
-    <article class="wrapper">
-        <ul class="nav nav--primary nav--collapse">
-            <li class="nav__item nav__item--left">
-                <a class="nav__link" href="{{ site.baseurl | prepend: site.baseurl }}">
-                    <span class="hidden__small logo">Alberto Silva</span>
-                    <span class="hidden__large">Index</span>
-                </a>
-            </li>
-            {% assign pages_list = site.pages %}
-            {% assign group = 'navigation' %}
-            {% include pages_list.html %}            
-        </ul>
-    </article>
-</nav>
 <header class="site__header">
-    <article class="wrapper">
-        <p class="logo">
-            <a class="hidden__large" href="{{ site.baseurl | prepend: site.baseurl }}">Alberto Silva</a>
-        </p>
-        <p class="hidden--sub">
-            Hello! I'm a graphics and web designer obsessed with complex pattern abstraction que es fluido en español.</span>
-        </p>
-    </article>
+    <div class="site__contact">
+        <div class="wrapper">
+            <ul class="list--inline list--center">
+                <li>
+                    <a class="title title--neutral title--small-cap" href="{{ site.email | prepend: 'mailto:' }}">{{ site.email }}</a></li>
+                <li>
+                    <a class="title title--neutral title--small-cap" href="{{ site.phone | prepend: 'tel:' }}">{{ site.phone }}</a></li>
+            </ul>
+        </div>    
+    </div>
+    <nav class="site__nav">
+        <div class="wrapper">
+            <ul class="list--center [ nav nav--primary nav--collapse ]">            
+                <li class="nav__item nav__item--logo">
+                    <a class="nav__link" href="{{ site.baseurl }}">
+                        <h1 class="gamma [ title title--primary ]">{{ site.my_name }}</h1>
+                        <h2 class="epsilon [ title title--secondary title--small-cap ]">{{ site.my_skill }}</h2>
+                    </a>
+                </li>
+                {% assign pages_list = site.pages %}
+                {% assign group = 'navigation' %}
+                {% include pages_list.html %}            
+            </ul>
+        </div>
+    </nav>
 </header>

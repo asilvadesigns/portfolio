@@ -3,15 +3,26 @@
 // Title
 //
 .title {
+    text-transform: capitalize;
+    & + p, & + .post__list, & + .indent {
+        @include margin-leader(1);
+    }
 }
 .title--ff {
-    @include font(regular--sc);    
+    @include font(regular--sc);
 }
-.title--primary {
-    color: $title--primary__color;
-}
-.title--secondary {
+.title--small-cap {
     @extend .title--ff;
     text-transform: lowercase;
     letter-spacing: .12em;
+}
+.title--primary {    
+    @include font(bold);
+    color: $title--primary__color;
+}
+.title--secondary {
+    color: $title--secondary__color;    
+}
+.title--neutral {
+    color: $title--neutral__color;    
 }

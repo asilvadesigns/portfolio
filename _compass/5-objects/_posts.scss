@@ -6,7 +6,7 @@
 
 }
 .post__item {
-    @include margin-trailer(1);
+    
 }
 .post__link, .gallery__item {
     
@@ -15,5 +15,4 @@
 
 }
 .post__tags, .post__title {
-    color: $post__tags__color;
 }

@@ -4,45 +4,41 @@ class: home
 ---
 <main class="site__main">
     <article class="wrapper">
+        <h5 class="gamma [ title title--primary ]">Hello</h5>
+        <p>I'm a graphics and web designer obsessed with complex pattern abstraction que es fluido en español. When I'm away from my computer I can be found preaching, hiking, changing diapers, or trying to dunk a basketball.</p>
         <section>
-            <p>When I'm away from my computer I can be found preaching, hiking, changing diapers, or trying to dunk a basketball.</p>
-        </section>    
-        <section class="grid">
-            <div class="col col--3--large">
-                <h5 class="title title--secondary">Portfolio</h5>
-                <ul class="post__list">
-                    {% for post in site.categories['portfolio'] limit: 3 %}
-                    <li class="post__item">
-                        <a class="post__link" href="{{ post.url | prepend: site.baseurl }}">
-                            <span="title title--secondary">{{ post.title }}</span>
-                            <!-- <img class="post__image" src="{{ post.feature | prepend: site.baseurl }}" alt="{{ post.title }}"> -->
-                        </a>
-                        <ul class="post__tags [ list--inline list--commas ]">
-                            {% for item in post.tags %}
-                                <li>{{ item.product }}</li>                        
-                            {% endfor %}
-                        </ul>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
-            <div class="col col--3--large">
-                <h5 class="title title--secondary">Blog</h5>
-                <ul class="post__list">
-                    {% for post in site.categories['blog'] limit: 3 %}
-                    <li class="post__item">
-                        <a class="post__link" href="{{ post.url | prepend: site.baseurl }}">
-                            <span="title title--secondary">{{ post.title }}</span>
-                        </a>
-                        <ul class="post__tags [ list--inline list--commas ]">
-                            {% for item in post.tags %}
-                                <li>{{ item.tag }}</li>                        
-                            {% endfor %}
-                        </ul>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
+            <h5 class="gamma [ title title--primary ]">Portfolio</h5>
+            <ul class="post__list">
+                {% for post in site.categories['portfolio'] limit: 3 %}
+                <li class="post__item">
+                    <a class="post__link [ title title--small-cap ]" href="{{ post.url | prepend: site.baseurl }}">
+                        {{ post.title }}
+                    </a>
+                    <ul class="post__tags [ list--inline list--commas ]">
+                        {% for item in post.tags %}
+                            <li>{{ item.product }}</li>                        
+                        {% endfor %}
+                    </ul>
+                </li>
+                {% endfor %}
+            </ul>
+        </section>
+        <section>
+            <h5 class="gamma [ title title--primary ]">Blog</h5>
+            <ul class="post__list">
+                {% for post in site.categories['blog'] limit: 3 %}
+                <li class="post__item">
+                    <a class="post__link [ title title--small-cap ]" href="{{ post.url | prepend: site.baseurl }}">
+                        {{ post.title }}
+                    </a>
+                    <ul class="post__tags [ list--inline list--commas ]">
+                        {% for item in post.tags %}
+                            <li>{{ item.tag }}</li>                        
+                        {% endfor %}
+                    </ul>
+                </li>
+                {% endfor %}
+            </ul>
         </section>
     </article>
 </main>

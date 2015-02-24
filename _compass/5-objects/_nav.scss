@@ -5,20 +5,31 @@
 .nav {
 }
 .nav__item {
-    display: block;
+    display: block;    
     @include media(large) {
-        display: inline-block;
+        display: inline-block;        
     }
 }
 .nav__link {
-    padding: 0 rhythm(.5);
+    display: block;
+    padding: rhythm(.5);    
     @include media(large) {
+        padding: 0 rhythm(.5);
         display: inline-block;
     }    
 }
 .nav__item--logo {
     display: block;
-    @include margin-trailer(1.5);
+    @include media(large) {    
+        @include margin-trailer(1.5);
+    }
+}
+.logo--mobile {
+    display: inline-block;
+    @include margin-leader(1);
+    @include media(large) {
+        display: none;
+    }
 }
 ////////////////////////////////////////////
 //

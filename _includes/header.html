@@ -1,19 +1,20 @@
 <header class="site__header">
-    <div class="site__contact">
+    <div class="site__contact hidden__small">
         <div class="wrapper">
             <ul class="list--inline list--center">
                 <li>
-                    <a class="title title--neutral title--small-cap" href="{{ site.email | prepend: 'mailto:' }}">{{ site.email }}</a></li>
+                    <a class="title title--neutral title--small-cap" href="{{ site.email | prepend: 'mailto:' }}">email</a></li>
+                <li>&nbsp;<span class="title title--neutral title--small-cap">/</span>&nbsp;</li>
                 <li>
-                    <a class="title title--neutral title--small-cap" href="{{ site.phone | prepend: 'tel:' }}">{{ site.phone }}</a></li>
+                    <a class="title title--neutral title--small-cap" href="{{ site.phone | prepend: 'tel:' }}">call</a></li>
             </ul>
         </div>    
     </div>
     <nav class="site__nav">
         <div class="wrapper">
             <ul class="list--center [ nav nav--primary nav--collapse ]">            
-                <li class="nav__item nav__item--logo">
-                    <a class="nav__link" href="{{ site.url }}">
+                <li class="nav__item--logo">
+                    <a class="hidden__small" href="{{ site.url }}">
                         <h1 class="gamma [ title title--primary ]">{{ site.my_name }}</h1>
                         <h2 class="epsilon [ title title--secondary title--small-cap ]">{{ site.my_skill }}</h2>
                     </a>
@@ -24,4 +25,17 @@
             </ul>
         </div>
     </nav>
+    <div class="wrapper">
+        <a class="logo--mobile" href="{{ site.url }}">
+            <h1 class="gamma [ title title--primary ]">{{ site.my_name }}</h1>
+            <h2 class="epsilon [ title title--secondary title--small-cap ]">{{ site.my_skill }}</h2>
+        </a>
+        <ul class="hidden__large list--inline">
+            <li>
+                <a class="title title--neutral title--small-cap" href="{{ site.email | prepend: 'mailto:' }}">email</a></li>
+            <li>&nbsp;<span class="title title--neutral title--small-cap">/</span>&nbsp;</li>
+            <li>
+                <a class="title title--neutral title--small-cap" href="{{ site.phone | prepend: 'tel:' }}">call</a></li>
+        </ul>
+    </div>
 </header>

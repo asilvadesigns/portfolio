@@ -31,6 +31,9 @@ h5, .epsilon {
 h6, small, .zeta { 
     @include adjust-font-size-to($h6 * $base-font-size);
 }
+a + ul {
+    @include margin-leader(.15);
+}
 p, ul {
     @include margin-trailer(1);    
 }

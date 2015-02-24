@@ -4,7 +4,7 @@
 .hidden__small {
     display: none;
     @include media(large) {
-        display: inline;
+        display: block;
     }
 }
 .hidden__large {

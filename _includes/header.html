@@ -19,6 +19,9 @@
                         <h2 class="epsilon [ title title--secondary title--small-cap ]">{{ site.my_skill }}</h2>
                     </a>
                 </li>
+                <li class="nav__item hidden__large">
+                    <a class="nav__link" href="{{ site.url }}">Index</a>
+                </li>
                 {% assign pages_list = site.pages %}
                 {% assign group = 'navigation' %}
                 {% include pages_list.html %}            

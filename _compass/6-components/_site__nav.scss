@@ -5,12 +5,13 @@
 .site__nav {
     background-color: $site__nav__bg;
     .nav__link {
-        text-transform: lowercase;
-        color: white;        
+        text-transform: capitalize;
+        color: white;     
     }
     @include media(large) {
         background-color: transparent;
         .nav__link {
+            text-transform: lowercase;
             color: $site__link__color;
         }
     }

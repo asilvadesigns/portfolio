@@ -1,26 +1,21 @@
 @import "compass/typography";
 @import "compass/css3";
 
-
 @import "1-settings/var";
-
 
 @import "2-tools/mixin";
 @import "2-tools/helper";
 
-
 @import "3-generic/reset";
 
-
 @import "4-base/typography";
-
 
 @import "5-objects/grid";
 @import "5-objects/lists";
 @import "5-objects/nav";
 @import "5-objects/posts";
 
-
+@import "6-components/logo";
 @import "6-components/site__contact";
 @import "6-components/site__header";
 @import "6-components/site__nav";

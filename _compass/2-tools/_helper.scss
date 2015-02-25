@@ -9,6 +9,6 @@
 }
 .hidden__large {
     @include media(large) {
-        display: none;
+        display: none!important;
     }
 }

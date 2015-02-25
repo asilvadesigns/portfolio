@@ -2,6 +2,10 @@
 //
 // Logo
 //
-// .logo {
-//     @include font(bold--serif);
-// }
+.logo--mobile {
+    display: inline-block;
+    @include margin-leader(1);
+    @include media(large) {
+        display: none;
+    }
+}

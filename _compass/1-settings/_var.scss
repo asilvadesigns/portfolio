@@ -60,3 +60,6 @@ $nav__toggle__color: $primary__color;
 $title--primary__color: $primary__color;
 $title--secondary__color: $secondary__color;
 $title--neutral__color: $neutral__color;
+
+$btn--external__bg: $primary__color;
+$btn--external__bg--hover: darken($btn--external__bg, 10%);

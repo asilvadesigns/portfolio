@@ -5,6 +5,16 @@
 .btn {
     display: inline-block;
 }
+.btn--internal {
+    @include transition(.25s, color, ease-in-out);
+    color: $btn--internal__color;
+    &:hover, &:active, &:focus, &.active {
+        color: $btn--internal__color--hover;
+    }
+    &:before {
+        content: "\2014";
+    }
+}
 .btn--external {
     background-color: $btn--external__bg;
     color: white;

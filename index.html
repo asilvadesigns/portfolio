@@ -5,9 +5,12 @@ class: home
 <main class="site__main">
     <article class="wrapper">
         <h5 class="gamma [ title title--primary ]">Hello</h5>
-        <p>I'm a graphics and web designer obsessed with complex pattern abstraction que es fluido en español. When I'm away from my computer I can be found preaching, hiking, changing diapers, or trying to dunk a basketball.</p>
+        <p>I'm a graphics and web designer obsessed with complex pattern abstraction que es fluido en español. When I'm away from my computer I can be found preaching, hiking, changing diapers, or trying to dunk a basketball.</p>            
+        <p>
+            <a class="title--small-cap [ btn btn--internal ]" href="{{ '/resume' | prepend: site.baseurl }}" target="blank">View my resume</a>
+        </p>
         <section>
-            <h5 class="gamma [ title title--primary ]">Portfolio</h5>
+            <h5 class="gamma [ title title--primary ]">Recent Works</h5>
             <ul class="post__list">
                 {% for post in site.categories['portfolio'] limit: 3 %}
                 <li class="post__item">
@@ -21,7 +24,10 @@ class: home
                     </ul>
                 </li>
                 {% endfor %}
-            </ul>
+            </ul>            
+            <p>
+                <a class="title--small-cap [ btn btn--internal ]" href="{{ '/portfolio' | prepend: site.baseurl }}" target="blank">See All</a>
+            </p>
         </section>
         <section>
             <h5 class="gamma [ title title--primary ]">On my mind</h5>
@@ -38,7 +44,10 @@ class: home
                     </ul>
                 </li>
                 {% endfor %}
-            </ul>
+            </ul>            
+            <p>
+                <a class="title--small-cap [ btn btn--internal ]" href="{{ '/blog' | prepend: site.baseurl }}" target="blank">View Archive</a>
+            </p>
         </section>
     </article>
 </main>

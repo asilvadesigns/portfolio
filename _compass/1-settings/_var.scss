@@ -43,6 +43,7 @@ $grey: #AFB3B8;
 $primary__color: $red;
 $secondary__color: $blue;
 $neutral__color: $grey;
+$neutral__color--dark: darken($neutral__color, 60%);
 
 ////////////////////////////////////////////
 //
@@ -66,3 +67,5 @@ $btn--external__bg--hover: darken($btn--external__bg, 10%);
 
 $btn--internal__color: $neutral__color;
 $btn--internal__color--hover: darken($btn--internal__color, 10%);
+
+$gallery__bg: $neutral__color--dark;

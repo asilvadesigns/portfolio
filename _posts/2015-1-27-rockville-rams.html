@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post--portfolio
 title:  "Rockville Rams"
 date:   2015-1-27 10:22:02
 categories: portfolio
@@ -10,8 +10,10 @@ feature: "/img/Rockville-01.jpg"
 tags:
   - product: Logo
 ---
-<p class="gallery__item"><img src="{{ "/img/Rockville-01.jpg" | prepend: site.baseurl }}"></p>
-<p class="gallery__item"><img src="{{ "/img/Rockville-02.jpg" | prepend: site.baseurl }}"></p>
-<p class="gallery__item"><img src="{{ "/img/Rockville-03.jpg" | prepend: site.baseurl }}"></p>
-<p class="gallery__item"><img src="{{ "/img/Rockville-04.jpg" | prepend: site.baseurl }}"></p>
-<p class="gallery__item"><img src="{{ "/img/Rockville-05.jpg" | prepend: site.baseurl }}"></p>
+<div id="portfolio__gallery" class="royalSlider rsDefault visibleNearby">
+    <a class="rsImg" href="{{ "/img/Rockville-01.jpg" | prepend: site.baseurl }}" data-rsw="1280" data-rsh="720"></a>
+    <a class="rsImg" href="{{ "/img/Rockville-02.jpg" | prepend: site.baseurl }}" data-rsw="1280" data-rsh="720"></a>
+    <a class="rsImg" href="{{ "/img/Rockville-03.jpg" | prepend: site.baseurl }}" data-rsw="1280" data-rsh="720"></a>
+    <a class="rsImg" href="{{ "/img/Rockville-04.jpg" | prepend: site.baseurl }}" data-rsw="1280" data-rsh="720"></a>
+    <a class="rsImg" href="{{ "/img/Rockville-05.jpg" | prepend: site.baseurl }}" data-rsw="1280" data-rsh="720"></a>
+</div>

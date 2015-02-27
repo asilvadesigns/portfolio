@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post--portfolio
 title:  "Cupcakes"
 date:   2015-1-21 15:36:02
 categories: portfolio
@@ -10,6 +10,8 @@ feature: "/img/Cupcakes-01.jpg"
 tags:
   - product: Logo
 ---
-<p class="gallery__item"><img src="{{ "/img/Cupcakes-02.jpg" | prepend: site.baseurl }}"></p>
-<p class="gallery__item"><img src="{{ "/img/Cupcakes-01.jpg" | prepend: site.baseurl }}"></p>
-<p class="gallery__item"><img src="{{ "/img/Cupcakes-03.jpg" | prepend: site.baseurl }}"></p>
+<div id="portfolio__gallery" class="royalSlider rsDefault visibleNearby">
+    <a class="rsImg" href="{{ "/img/Cupcakes-01.jpg" | prepend: site.baseurl }}" data-rsw="1280" data-rsh="720"></a>
+    <a class="rsImg" href="{{ "/img/Cupcakes-02.jpg" | prepend: site.baseurl }}" data-rsw="1280" data-rsh="720"></a>
+    <a class="rsImg" href="{{ "/img/Cupcakes-03.jpg" | prepend: site.baseurl }}" data-rsw="1280" data-rsh="720"></a>
+</div>

@@ -68,23 +68,7 @@
     height: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-.rsArrow,
-.rsThumbsArrow {
-    cursor: pointer;
-}
-.rsThumb {
-    float: left;
-    position: relative;
-}
-.rsArrow,
-.rsNav,
-.rsThumbsArrow {
-    opacity: 1;
-    -webkit-transition: opacity 0.3s linear;
-    -moz-transition: opacity 0.3s linear;
-    -o-transition: opacity 0.3s linear;
-    transition: opacity 0.3s linear;
-}
+
 .rsHidden {
     opacity: 0;
     visibility: hidden;
@@ -92,11 +76,6 @@
     -moz-transition: visibility 0s linear 0.3s, opacity 0.3s linear;
     -o-transition: visibility 0s linear 0.3s, opacity 0.3s linear;
     transition: visibility 0s linear 0.3s, opacity 0.3s linear;
-}
-.rsGCaption {
-    width: 100%;
-    float: left;
-    text-align: center;
 }
 .royalSlider .rsSlide.rsFakePreloader {
     opacity: 1 !important;
@@ -127,66 +106,6 @@
 .rsPreloader {
     position: absolute;
     z-index: 0;
-}
-.rsNav {
-    -moz-user-select: -moz-none;
-    -webkit-user-select: none;
-    user-select: none;
-}
-.rsNavItem {
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.25);
-}
-.rsThumbs {
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    float: left;
-    z-index: 22;
-}
-.rsTabs {
-    float: left;
-    background: none !important;
-}
-.rsTabs,
-.rsThumbs {
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-.rsVideoContainer {    
-    width: auto;
-    height: auto;
-    line-height: 0;
-    position: relative;
-}
-.rsVideoFrameHolder {
-    position: absolute;
-    left: 0;
-    top: 0;
-    background: #141414;
-    opacity: 0;
-    -webkit-transition: .3s;
-}
-.rsVideoFrameHolder.rsVideoActive {
-    opacity: 1;
-}
-.rsVideoContainer iframe,
-.rsVideoContainer video,
-.rsVideoContainer embed,
-.rsVideoContainer .rsVideoObj {
-    position: absolute;
-    z-index: 50;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-}
-/* ios controls over video bug, shifting video */
-
-.rsVideoContainer.rsIOSVideo iframe,
-.rsVideoContainer.rsIOSVideo video,
-.rsVideoContainer.rsIOSVideo embed {
-   @include box-sizing(border-box);
-    padding-right: 44px;
 }
 .rsABlock {
     left: 0;
@@ -241,18 +160,3 @@ img.rsImg {
     -o-transform: scale(1);
     transform: scale(1);
 }
-// @media screen and (min-width: 0px) and (max-width: 900px) {
-//     #portfolio__gallery {
-//         padding: 12px 0 12px;
-//     }
-//     #portfolio__gallery .rsOverflow,
-//     .royalSlider#portfolio__gallery {
-//         height: 400px !important;
-//     }
-// }
-// @media screen and (min-width: 0px) and (max-width: 500px) {
-//     #portfolio__gallery .rsOverflow,
-//     .royalSlider#portfolio__gallery {
-//         height: 300px !important;
-//     }
-// }

@@ -20,3 +20,4 @@ kramdown:
 
 gems:
 - jekyll-compass
+- octopress-minify-html

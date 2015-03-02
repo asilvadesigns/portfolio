@@ -5,8 +5,12 @@ class: sub
 
 <main class="site__main">
     <article>
-        <section class="gallery">
-            {{ content }}
+        <section id="portfolio__gallery" class="swiper-container">
+            <div class="swiper-wrapper">
+                {{ content }}
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </section>
         <section class="wrapper">        
             {% if page.link %}

@@ -11,7 +11,35 @@ link: "http://www.lutherbrookdalehonda.com/"
 tags:
   - product: Website
 ---
-<div class="swiper-slide"><img src="{{ "/img/Luther-01.jpg" | prepend: site.baseurl }}"></div>
-<div class="swiper-slide"><img src="{{ "/img/Luther-02.jpg" | prepend: site.baseurl }}"></div>
-<div class="swiper-slide"><img src="{{ "/img/Luther-03.jpg" | prepend: site.baseurl }}"></div>
-<div class="swiper-slide"><img src="{{ "/img/Luther-04.jpg" | prepend: site.baseurl }}"></div>
+<div class="swiper-slide">
+    <picture>
+        <!--[if IE 9]><video style="display: none;"><![endif]-->
+        <source srcset="{{ "/img/Luther-01--large.jpg" | prepend: site.baseurl }}" media="(min-width: 45em)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="{{ "/img/Luther-01.jpg" | prepend: site.baseurl }}">
+    </picture>
+</div>
+<div class="swiper-slide">
+    <picture>
+        <!--[if IE 9]><video style="display: none;"><![endif]-->
+        <source srcset="{{ "/img/Luther-02--large.jpg" | prepend: site.baseurl }}" media="(min-width: 45em)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="{{ "/img/Luther-02.jpg" | prepend: site.baseurl }}">
+    </picture>
+</div>
+<div class="swiper-slide">
+    <picture>
+        <!--[if IE 9]><video style="display: none;"><![endif]-->
+        <source srcset="{{ "/img/Luther-03--large.jpg" | prepend: site.baseurl }}" media="(min-width: 45em)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="{{ "/img/Luther-03.jpg" | prepend: site.baseurl }}">
+    </picture>
+</div>
+<div class="swiper-slide">
+    <picture>
+        <!--[if IE 9]><video style="display: none;"><![endif]-->
+        <source srcset="{{ "/img/Luther-04--large.jpg" | prepend: site.baseurl }}" media="(min-width: 45em)">
+        <!--[if IE 9]></video><![endif]-->
+        <img srcset="{{ "/img/Luther-04.jpg" | prepend: site.baseurl }}">
+    </picture>
+</div>

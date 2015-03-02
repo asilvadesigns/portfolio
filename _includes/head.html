@@ -5,5 +5,5 @@
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <link rel="stylesheet" href="{{ "/css/screen.css" | prepend: site.baseurl }}">
-    <script src="{{ "/js/nav.js" | prepend: site.baseurl }}"></script>
+    <script async src="{{ "/js/nav.js" | prepend: site.baseurl }}"></script>
 </head>

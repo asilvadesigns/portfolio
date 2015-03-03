@@ -20,6 +20,7 @@
 .list--commas {
     > li:not(:last-child):after {
         content: ",";
+        padding-right: rhythm(.15);
     }
 }
 .list--center {

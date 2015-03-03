@@ -1,9 +1,19 @@
 <footer class="site__footer">
     <div class="wrapper">        
-        <h5 class="gamma title">
+        <h5 class="gamma [ title ]">
             <strong>Colophon</strong>
         </h5>
         <p>Designed, developed, and maintained by yours truly. Built on Jekyll, hosted on GitHub. Typeset in <span class="title--ff">ff</span> Mark. CSS is written in SASS and COMPASS. View the code <a href="https://github.com/asilvadesigns/portfolio" target="_blank">here</a>.</p>
         <p>&copy; 2014</p>
     </div>
+    <nav class="wrapper">
+        <ul class="indent [ nav--primary ]">
+            <li class="nav__item">
+                <a class="nav__link nav__link--first" href="{{ site.url }}">Index</a>
+            </li>
+            {% assign pages_list = site.pages %}
+            {% assign group = 'navigation' %}
+            {% include pages_list.html %}            
+        </ul>
+    </nav>
 </footer>

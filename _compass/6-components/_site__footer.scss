@@ -3,5 +3,7 @@
 // Site Footer
 //
 .site__footer {
-    @include margin-trailer(3);
+    @include media(large) {
+        @include margin-trailer(3);
+    }
 }

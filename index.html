@@ -14,7 +14,7 @@ class: home
             <ul class="post__list">
                 {% for post in site.categories['portfolio'] limit: 3 %}
                 <li class="post__item">
-                    <a class="post__link [ title title--small-cap ]" href="{{ post.url | prepend: site.baseurl }}">
+                    <a class="post__link [ title title--small-cap ]" href="{{ post.url | append: '#portfolio__gallery' | prepend: site.baseurl }}">
                         {{ post.title }}
                     </a>
                     <ul class="post__tags [ list--inline list--commas ]">

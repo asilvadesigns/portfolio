@@ -3,5 +3,7 @@
 // Site Header
 //
 .site__header {
-    @include margin-trailer(3);
+    @include media(large) {
+        @include margin-trailer(3);
+    }
 }

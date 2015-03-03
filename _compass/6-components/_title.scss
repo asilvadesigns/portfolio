@@ -16,7 +16,7 @@
     text-transform: lowercase;
     letter-spacing: .12em;
 }
-.title--primary {    
+.title--primary {
     @include font(bold);
     color: $title--primary__color;
 }

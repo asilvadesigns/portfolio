@@ -334,7 +334,10 @@
 .swiper-container {
     cursor: grab;
     max-width: 1280px;
-    @include margin-trailer(3);
+    @include margin-trailer(1);
+    @include media(large) {
+        @include margin-trailer(3);
+    }
 }
 .swiper-wrapper {
 

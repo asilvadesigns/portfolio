@@ -8,7 +8,7 @@ group: "navigation"
 <ul class="post__list grid">
     {% for post in site.categories['portfolio'] %}
     <li class="post__item [ col col--3--large ]">
-        <a class="post__link" href="{{ post.url | prepend: site.baseurl }}">
+        <a class="post__link" href="{{ post.url | append: '#portfolio__gallery' | prepend: site.baseurl }}">
             <span="title title--secondary">{{ post.title }}</span>
         </a>
         <ul class="post__tags [ list--inline list--commas ]">

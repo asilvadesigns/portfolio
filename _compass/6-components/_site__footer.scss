@@ -3,7 +3,17 @@
 // Site Footer
 //
 .site__footer {
-    @include media(large) {
-        @include margin-trailer(3);
+}
+
+.footer__nav {
+    @include margin-leader(1);
+    @include rhythm-padding(2,3);
+    background-color: $footer__nav__bg;
+    .nav__link {
+        color: $footer__nav__color;
+        @include transition(.25s, color, ease-in-out);
+        &:hover, &:active, &:focus, &.active {
+            color: darken($footer__nav__color, 10%);
+        }
     }
 }

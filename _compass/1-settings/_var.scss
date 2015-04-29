@@ -56,6 +56,9 @@ $site__link__color--hover: darken($site__link__color, 10%);
 $site__nav__bg: $secondary__color;
 $site__contact__color: $neutral__color;
 
+$footer__nav__bg: lighten($neutral__color, 22%);
+$footer__nav__color: $neutral__color;
+
 $nav__toggle__color: $primary__color;
 
 $title--primary__color: $primary__color;

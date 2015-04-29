@@ -1,0 +1,24 @@
+---
+layout: page
+title: Experiments
+permalink: /experiments/
+group: "navigation"
+---
+<h5 class="gamma [ title title--primary ]">Experiments</h5>
+<ul class="post__list">
+    {% for post in site.categories['experiments'] %}
+    <li class="post__item">
+        <a class="post__link [ title title--small-cap ]" href="{{ post.url | prepend: site.baseurl }}">
+            {{ post.title }}
+        </a>
+        <ul class="post__tags [ list--inline list--commas ]">
+            {% for item in post.tags %}
+                <li>{{ item.tag }}</li>
+            {% endfor %}
+        </ul>
+        {% if post.link %}
+        <a class="title--small-cap [ btn btn--internal ]" href="{{ post.link }}" target="blank">View Site</a>
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>

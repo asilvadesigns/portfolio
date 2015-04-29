@@ -3,15 +3,15 @@
   <channel>
     <title>Alberto Silva Portfolio</title>
     <description>Alberto Silva is a graphics and web designer obsessed with complex pattern abstraction que es fluido en español</description>
-    <link>http://albertosilva.me//portfolio/</link>
-    <atom:link href="http://albertosilva.me//portfolio/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 03 Mar 2015 14:42:49 -0500</pubDate>
-    <lastBuildDate>Tue, 03 Mar 2015 14:42:49 -0500</lastBuildDate>
-    <generator>Jekyll v2.5.2</generator>
+    <link>http://albertosilva.me//</link>
+    <atom:link href="http://albertosilva.me//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 29 Apr 2015 17:26:29 -0400</pubDate>
+    <lastBuildDate>Wed, 29 Apr 2015 17:26:29 -0400</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>VIM Adventure Day 2</title>
-        <description>&lt;p&gt;I won't lie I've struggled a bit with simply the installation, thus the headaches. A couple of tutorials I found online were very useful, the following proved invaluable.&lt;/p&gt;
+        <description>&lt;p&gt;I won&#39;t lie I&#39;ve struggled a bit with simply the installation, thus the headaches. A couple of tutorials I found online were very useful, the following proved invaluable.&lt;/p&gt;
 &lt;ul class=&quot;indent list--bulleted&quot;&gt;
     &lt;li&gt;
         &lt;a href=&quot;http://www.vim.org/ugrankar.pdf&quot;&gt;Installing Vim for Windows&lt;/a&gt;
@@ -23,11 +23,11 @@
         &lt;a href=&quot;http://vim-adventures.com/&quot;&gt;VIM Adventures Games(Awesome)&lt;/a&gt;
     &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;The headaches came in when I began to read the GitHub repositories that contained plug-ins I wanted, the most basic of which is a different colorscheme. All repositories mentioned Pathogen and Bundle, as well as Git(which I didn't know was separate from GitHub).&lt;/p&gt;
-&lt;p&gt;So I began my search and downloaded the appropriate files, all found on &lt;a href=&quot;http://www.vim.org&quot;&gt;www.vim.org.&lt;/a&gt; A couple of installs, corrupted files, un-installs and successful re-installs later, I now finally have VIM working. Soon I'll post a thorough step-by-step install.&lt;/p&gt;</description>
+&lt;p&gt;The headaches came in when I began to read the GitHub repositories that contained plug-ins I wanted, the most basic of which is a different colorscheme. All repositories mentioned Pathogen and Bundle, as well as Git(which I didn&#39;t know was separate from GitHub).&lt;/p&gt;
+&lt;p&gt;So I began my search and downloaded the appropriate files, all found on &lt;a href=&quot;http://www.vim.org&quot;&gt;www.vim.org.&lt;/a&gt; A couple of installs, corrupted files, un-installs and successful re-installs later, I now finally have VIM working. Soon I&#39;ll post a thorough step-by-step install.&lt;/p&gt;</description>
         <pubDate>Fri, 13 Feb 2015 07:45:42 -0500</pubDate>
-        <link>http://albertosilva.me//portfolio/blog/vim-adventure-installation.html</link>
-        <guid isPermaLink="true">http://albertosilva.me//portfolio/blog/vim-adventure-installation.html</guid>
+        <link>http://albertosilva.me//blog/vim-adventure-installation.html</link>
+        <guid isPermaLink="true">http://albertosilva.me//blog/vim-adventure-installation.html</guid>
         
         <category>{&quot;tag&quot;=&gt;&quot;Git&quot;}</category>
         
@@ -42,12 +42,12 @@
     
       <item>
         <title>VIM Adventure Day 1</title>
-        <description>&lt;p&gt;I've recently made the decision to go VIM &amp;hellip; or at least try. The first time I've heard it mentioned was on &lt;a href=&quot;http://csswizardry.com/2014/06/vim-for-people-who-think-things-like-vim-are-weird-and-hard/&quot;&gt;CSS Wizardry.&lt;/a&gt; Being a fan of Harry Robert's recent talks I decided to &lt;a href=&quot;http://www.vim.org/download.php&quot;&gt;download it&lt;/a&gt; and see what the hype is about.&lt;/p&gt;
+        <description>&lt;p&gt;I&#39;ve recently made the decision to go VIM &amp;hellip; or at least try. The first time I&#39;ve heard it mentioned was on &lt;a href=&quot;http://csswizardry.com/2014/06/vim-for-people-who-think-things-like-vim-are-weird-and-hard/&quot;&gt;CSS Wizardry.&lt;/a&gt; Being a fan of Harry Robert&#39;s recent talks I decided to &lt;a href=&quot;http://www.vim.org/download.php&quot;&gt;download it&lt;/a&gt; and see what the hype is about.&lt;/p&gt;
 &lt;p&gt;Upon first opening it up I immediately felt the same way I did about SASS, overwhelmed and horrified that this might require use of the command line, which sure enough, it did.&lt;/p&gt;
-&lt;p&gt;The next several days should be interesting, but as I want to continue growing as an artist, for some strange reason, this just feels right. I'll continue to document my experience via this blog.&lt;/p&gt;</description>
+&lt;p&gt;The next several days should be interesting, but as I want to continue growing as an artist, for some strange reason, this just feels right. I&#39;ll continue to document my experience via this blog.&lt;/p&gt;</description>
         <pubDate>Thu, 12 Feb 2015 09:11:42 -0500</pubDate>
-        <link>http://albertosilva.me//portfolio/blog/vim-adventure.html</link>
-        <guid isPermaLink="true">http://albertosilva.me//portfolio/blog/vim-adventure.html</guid>
+        <link>http://albertosilva.me//blog/vim-adventure.html</link>
+        <guid isPermaLink="true">http://albertosilva.me//blog/vim-adventure.html</guid>
         
         <category>{&quot;tag&quot;=&gt;&quot;Text Editor&quot;}</category>
         
@@ -61,98 +61,125 @@
       </item>
     
       <item>
+        <title>Flexbox and Colors</title>
+        <description>&lt;p&gt;Looking at an article recently on CodePen inspired a bit of curiosity. I saw the color declaration &quot;deepskyblue&quot; and I thought man that&#39;s a nice blue.&lt;/p&gt;
+
+&lt;p&gt;Lo and behold, there are several other color names available. A bit of research revealed approximately &lt;strong&gt;140!&lt;/strong&gt;. I say approximately because who knows, the interwebs may be wrong and there may be more. But I found it on &lt;a href=&quot;http://www.w3schools.com/cssref/css_colornames.asp&quot; target=&quot;_blank&quot;&gt;w3schools.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Pretty cool to say the least.&lt;/p&gt;
+&lt;p&gt;This inspired me to create a personal guide. I&#39;ve needed an excuse to use flexbox&amp;hellip; well here it is:&lt;/p&gt;
+&lt;p&gt;
+    &lt;a class=&quot;btn btn--external&quot; href=&quot;http://asilvadesigns.github.io/tools__colors/&quot; target=&quot;blank&quot;&gt;View Site&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;One last thing, if you take a look at the &lt;a href=&quot;https://github.com/asilvadesigns/tools__colors&quot; target=&quot;blank&quot;&gt;source code&lt;/a&gt;, you&#39;ll notice no SASS partials. This is because of a faulty clone on my part where I overrode my local repo with an empty remote folder. Nice.&lt;/p&gt;
+&lt;p&gt;As a result I lost all my work minus what was open in Firefox and Chrome. Thank God for the console. I restored what I had and decided I&#39;d leave it as it. I&#39;ll remake the source files if needed in the near future.&lt;/p&gt;</description>
+        <pubDate>Thu, 12 Feb 2015 09:11:42 -0500</pubDate>
+        <link>http://albertosilva.me//experiments/flexbox-and-colors.html</link>
+        <guid isPermaLink="true">http://albertosilva.me//experiments/flexbox-and-colors.html</guid>
+        
+        <category>{&quot;tag&quot;=&gt;&quot;Flexbox&quot;}</category>
+        
+        <category>{&quot;tag&quot;=&gt;&quot;Colornames&quot;}</category>
+        
+        <category>{&quot;tag&quot;=&gt;&quot;Troubleshooting&quot;}</category>
+        
+        
+        <category>experiments</category>
+        
+      </item>
+    
+      <item>
         <title>X Games</title>
         <description>&lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/xgames-01--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/xgames-01--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/xgames-01.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/xgames-01.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;
 &lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/xgames-02--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/xgames-02--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/xgames-02.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/xgames-02.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;
 &lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/xgames-03--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/xgames-03--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/xgames-03.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/xgames-03.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;
 &lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/xgames-04--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/xgames-04--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/xgames-04.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/xgames-04.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;
 &lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/xgames-05--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/xgames-05--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/xgames-05.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/xgames-05.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;
 &lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/xgames-06--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/xgames-06--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/xgames-06.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/xgames-06.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;
 &lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/xgames-07--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/xgames-07--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/xgames-07.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/xgames-07.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;
 &lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/xgames-08--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/xgames-08--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/xgames-08.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/xgames-08.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;
 &lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/xgames-09--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/xgames-09--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/xgames-09.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/xgames-09.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;
 &lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/xgames-10--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/xgames-10--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/xgames-10.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/xgames-10.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;
 &lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/xgames-11--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/xgames-11--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/xgames-11.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/xgames-11.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;</description>
         <pubDate>Wed, 28 Jan 2015 11:19:42 -0500</pubDate>
-        <link>http://albertosilva.me//portfolio/portfolio/x-games.html</link>
-        <guid isPermaLink="true">http://albertosilva.me//portfolio/portfolio/x-games.html</guid>
+        <link>http://albertosilva.me//portfolio/x-games.html</link>
+        <guid isPermaLink="true">http://albertosilva.me//portfolio/x-games.html</guid>
         
         <category>{&quot;product&quot;=&gt;&quot;3D Model&quot;}</category>
         
@@ -168,38 +195,38 @@
         <description>&lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/AlbertoBethany-01--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/AlbertoBethany-01--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/AlbertoBethany-01.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/AlbertoBethany-01.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;
 &lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/AlbertoBethany-03--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/AlbertoBethany-03--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/AlbertoBethany-03.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/AlbertoBethany-03.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;
 &lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/AlbertoBethany-02--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/AlbertoBethany-02--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/AlbertoBethany-02.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/AlbertoBethany-02.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;
 &lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/AlbertoBethany-04--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/AlbertoBethany-04--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/AlbertoBethany-04.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/AlbertoBethany-04.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;</description>
         <pubDate>Wed, 28 Jan 2015 09:01:42 -0500</pubDate>
-        <link>http://albertosilva.me//portfolio/portfolio/alberto-and-bethany.html</link>
-        <guid isPermaLink="true">http://albertosilva.me//portfolio/portfolio/alberto-and-bethany.html</guid>
+        <link>http://albertosilva.me//portfolio/alberto-and-bethany.html</link>
+        <guid isPermaLink="true">http://albertosilva.me//portfolio/alberto-and-bethany.html</guid>
         
         <category>{&quot;product&quot;=&gt;&quot;Wedding Inviations&quot;}</category>
         
@@ -213,38 +240,38 @@
         <description>&lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/TobyNatalie-01--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/TobyNatalie-01--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/TobyNatalie-01.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/TobyNatalie-01.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;
 &lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/TobyNatalie-03--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/TobyNatalie-03--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/TobyNatalie-03.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/TobyNatalie-03.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;
 &lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/TobyNatalie-02--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/TobyNatalie-02--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/TobyNatalie-02.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/TobyNatalie-02.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;
 &lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/TobyNatalie-04--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/TobyNatalie-04--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/TobyNatalie-04.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/TobyNatalie-04.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;</description>
         <pubDate>Wed, 28 Jan 2015 07:17:42 -0500</pubDate>
-        <link>http://albertosilva.me//portfolio/portfolio/toby-and-natalie.html</link>
-        <guid isPermaLink="true">http://albertosilva.me//portfolio/portfolio/toby-and-natalie.html</guid>
+        <link>http://albertosilva.me//portfolio/toby-and-natalie.html</link>
+        <guid isPermaLink="true">http://albertosilva.me//portfolio/toby-and-natalie.html</guid>
         
         <category>{&quot;product&quot;=&gt;&quot;Wedding Inviations&quot;}</category>
         
@@ -258,38 +285,38 @@
         <description>&lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/Luther-01--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/Luther-01--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/Luther-01.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/Luther-01.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;
 &lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/Luther-02--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/Luther-02--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/Luther-02.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/Luther-02.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;
 &lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/Luther-03--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/Luther-03--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/Luther-03.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/Luther-03.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;
 &lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/Luther-04--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/Luther-04--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/Luther-04.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/Luther-04.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;</description>
         <pubDate>Wed, 28 Jan 2015 06:16:42 -0500</pubDate>
-        <link>http://albertosilva.me//portfolio/portfolio/brookedale-honda.html</link>
-        <guid isPermaLink="true">http://albertosilva.me//portfolio/portfolio/brookedale-honda.html</guid>
+        <link>http://albertosilva.me//portfolio/brookedale-honda.html</link>
+        <guid isPermaLink="true">http://albertosilva.me//portfolio/brookedale-honda.html</guid>
         
         <category>{&quot;product&quot;=&gt;&quot;Website&quot;}</category>
         
@@ -303,46 +330,46 @@
         <description>&lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/Rockville-01--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/Rockville-01--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/Rockville-01.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/Rockville-01.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;
 &lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/Rockville-02--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/Rockville-02--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/Rockville-02.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/Rockville-02.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;
 &lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/Rockville-03--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/Rockville-03--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/Rockville-03.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/Rockville-03.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;
 &lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/Rockville-04--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/Rockville-04--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/Rockville-04.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/Rockville-04.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;
 &lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/Rockville-05--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/Rockville-05--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/Rockville-05.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/Rockville-05.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;</description>
         <pubDate>Tue, 27 Jan 2015 05:22:02 -0500</pubDate>
-        <link>http://albertosilva.me//portfolio/portfolio/rockville-rams.html</link>
-        <guid isPermaLink="true">http://albertosilva.me//portfolio/portfolio/rockville-rams.html</guid>
+        <link>http://albertosilva.me//portfolio/rockville-rams.html</link>
+        <guid isPermaLink="true">http://albertosilva.me//portfolio/rockville-rams.html</guid>
         
         <category>{&quot;product&quot;=&gt;&quot;Logo&quot;}</category>
         
@@ -356,30 +383,30 @@
         <description>&lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/Cupcakes-01--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/Cupcakes-01--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/Cupcakes-01.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/Cupcakes-01.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;
 &lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/Cupcakes-02--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/Cupcakes-02--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/Cupcakes-02.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/Cupcakes-02.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;
 &lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/Cupcakes-03--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/Cupcakes-03--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/Cupcakes-03.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/Cupcakes-03.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;</description>
         <pubDate>Wed, 21 Jan 2015 10:36:02 -0500</pubDate>
-        <link>http://albertosilva.me//portfolio/portfolio/cupcakes.html</link>
-        <guid isPermaLink="true">http://albertosilva.me//portfolio/portfolio/cupcakes.html</guid>
+        <link>http://albertosilva.me//portfolio/cupcakes.html</link>
+        <guid isPermaLink="true">http://albertosilva.me//portfolio/cupcakes.html</guid>
         
         <category>{&quot;product&quot;=&gt;&quot;Logo&quot;}</category>
         
@@ -393,62 +420,62 @@
         <description>&lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/Eleven-Eleven-02--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/Eleven-Eleven-02--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/Eleven-Eleven-02.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/Eleven-Eleven-02.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;
 &lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/Eleven-Eleven-03--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/Eleven-Eleven-03--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/Eleven-Eleven-03.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/Eleven-Eleven-03.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;
 &lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/Eleven-Eleven-04--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/Eleven-Eleven-04--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/Eleven-Eleven-04.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/Eleven-Eleven-04.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;
 &lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/Eleven-Eleven-05--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/Eleven-Eleven-05--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/Eleven-Eleven-05.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/Eleven-Eleven-05.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;
 &lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/Eleven-Eleven-06--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/Eleven-Eleven-06--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/Eleven-Eleven-06.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/Eleven-Eleven-06.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;
 &lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/Eleven-Eleven-07--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/Eleven-Eleven-07--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/Eleven-Eleven-07.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/Eleven-Eleven-07.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;
 &lt;div class=&quot;swiper-slide&quot;&gt;
     &lt;picture&gt;
         &lt;!--[if IE 9]&gt;&lt;video style=&quot;display: none;&quot;&gt;&lt;![endif]--&gt;
-        &lt;source srcset=&quot;/portfolio/img/Eleven-Eleven-01--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
+        &lt;source srcset=&quot;/img/Eleven-Eleven-01--large.jpg&quot; media=&quot;(min-width: 45em)&quot;&gt;
         &lt;!--[if IE 9]&gt;&lt;/video&gt;&lt;![endif]--&gt;
-        &lt;img srcset=&quot;/portfolio/img/Eleven-Eleven-01.jpg&quot;&gt;
+        &lt;img srcset=&quot;/img/Eleven-Eleven-01.jpg&quot;&gt;
     &lt;/picture&gt;
 &lt;/div&gt;</description>
         <pubDate>Tue, 20 Jan 2015 13:20:27 -0500</pubDate>
-        <link>http://albertosilva.me//portfolio/portfolio/eleven-eleven.html</link>
-        <guid isPermaLink="true">http://albertosilva.me//portfolio/portfolio/eleven-eleven.html</guid>
+        <link>http://albertosilva.me//portfolio/eleven-eleven.html</link>
+        <guid isPermaLink="true">http://albertosilva.me//portfolio/eleven-eleven.html</guid>
         
         <category>{&quot;product&quot;=&gt;&quot;Brochure&quot;}</category>
         

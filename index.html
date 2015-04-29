@@ -4,11 +4,13 @@ class: home
 ---
 <main class="site__main">
     <article class="wrapper">
-        <h5 class="gamma [ title title--primary ]">Hello</h5>
-        <p>I'm a graphics and web designer obsessed with complex pattern abstraction que es fluido en español. When I'm away from my computer I can be found preaching, hiking, changing diapers, or trying to dunk a basketball.</p>            
-        <p>
-            <a class="title--small-cap [ btn btn--internal ]" href="{{ '/resume' | prepend: site.baseurl }}">View my resume</a>
-        </p>
+        <section>
+            <h5 class="gamma [ title title--primary ]">Hello</h5>
+            <p>I'm a graphics and web designer obsessed with complex pattern abstraction que es fluido en español. When I'm away from my computer I can be found preaching, hiking, changing diapers, or trying to dunk a basketball.</p>            
+            <p>
+                <a class="title--small-cap [ btn btn--internal ]" href="{{ '/resume' | prepend: site.baseurl }}">View my resume</a>
+            </p>
+        </section>
         <section>
             <h5 class="gamma [ title title--primary ]">Recent Works</h5>
             <ul class="post__list">
@@ -27,6 +29,26 @@ class: home
             </ul>            
             <p>
                 <a class="title--small-cap [ btn btn--internal ]" href="{{ '/portfolio' | prepend: site.baseurl }}">See All</a>
+            </p>
+        </section>
+        <section>
+            <h5 class="gamma [ title title--primary ]">Fun with Code</h5>
+            <ul class="post__list">
+                {% for post in site.categories['experiments'] limit: 3 %}
+                <li class="post__item">
+                    <a class="post__link [ title title--small-cap ]" href="{{ post.url | prepend: site.baseurl }}">
+                        {{ post.title }}
+                    </a>
+                    <ul class="post__tags [ list--inline list--commas ]">
+                        {% for item in post.tags %}
+                            <li>{{ item.tag }}</li>                        
+                        {% endfor %}
+                    </ul>
+                </li>
+                {% endfor %}
+            </ul>            
+            <p>
+                <a class="title--small-cap [ btn btn--internal ]" href="{{ '/experiments' | prepend: site.baseurl }}">View Archive</a>
             </p>
         </section>
         <section>

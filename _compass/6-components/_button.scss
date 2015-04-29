@@ -6,7 +6,6 @@
     display: inline-block;
 }
 .btn--internal {
-    @include transition(.25s, color, ease-in-out);
     color: $btn--internal__color;
     &:hover, &:active, &:focus, &.active {
         color: $btn--internal__color--hover;
